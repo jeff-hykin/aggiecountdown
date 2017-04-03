@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+#footer {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#timerText, #timerNumber {
+  font-weight: 200;
+  text-align: center;
+}
+
+#timerNumber {
+  font-size: 96px;
+}
+
+#edit {
+  bottom: 20px;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
+
+#scheduleEditor {
+  height: 90% !important;
+  max-height: 90% !important;
+  max-width: 90%;
+  top: 5% !important;
+  width: 90%;
+}
+
+#schedule {
+  table-layout: fixed;
+}
+
+#addClass {
+  bottom: 76px;
+  position: absolute;
+  right: 20px;
+  z-index: 9999;
+}
+
+#days {
+  height: 0;
+}
+
+.timeLabel {
+  height: 54px;
+  line-height: 54px;
+}
+
+#schedule td {
+  padding: 0;
+  position: relative;
+}
+
+#schedule td p {
+  margin: 0;
+}
+
+.activity {
+  font-size: 12px;
+  left: 0;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: nowrap;
+}
