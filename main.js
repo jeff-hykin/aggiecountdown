@@ -11,7 +11,11 @@ $(document).ready(function() {
       renderSchedule();
     }
   });
-  $('#activityEditor').modal();
+  $('#activityEditor').modal({
+    ready: function() {
+      $('#activityName').focus();
+    }
+  });
   $('#howdyImporter').modal({
     ready: function() {
       $('#howdyImport').focus();
@@ -178,7 +182,6 @@ function editActivity(day, activityNumber) {
   }
   $('#activityDay').material_select();
   Materialize.updateTextFields();
-  $('#activityName').focus();
   $('#saveActivity').unbind('click');
   $('#saveActivity').click(function() {
     saveActivity(day, activityNumber);
