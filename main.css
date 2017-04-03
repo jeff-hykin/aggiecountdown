@@ -47,6 +47,13 @@ html, body {
   z-index: 9999;
 }
 
+#schedule th {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
 #days {
   height: 0;
 }
@@ -54,6 +61,10 @@ html, body {
 .timeLabel {
   height: 54px;
   line-height: 54px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 #schedule td {

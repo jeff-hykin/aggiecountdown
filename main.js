@@ -18,7 +18,7 @@ $(document).ready(function() {
     }
   });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
-  if(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length == 0) $('.tap-target').tapTarget('open');
+  if(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length == 0) $('#scheduleEditor').modal('open');
   refreshTimer();
   setInterval(function() {
     refreshTimer();
