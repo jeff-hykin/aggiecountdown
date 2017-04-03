@@ -36,6 +36,10 @@ html, body {
   width: 90%;
 }
 
+.modal-overlay {
+  top: 0;
+}
+
 #schedule {
   table-layout: fixed;
 }

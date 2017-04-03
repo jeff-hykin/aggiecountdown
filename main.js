@@ -151,12 +151,11 @@ function renderSchedule() {
       daysHtml += '<td>';
       for(var j = 0; j < schedule[i].length; j++) {
         var potentialHeight = (schedule[i][j][2] - schedule[i][j][1]) * .015;
-        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light teal tooltipped" data-delay=0 data-tooltip="' + convertTo12hour(schedule[i][j][1]) + ' to ' + convertTo12hour(schedule[i][j][2]) + '" onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j][1] - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j][0];
+        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light teal" onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j][1] - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j][0];
       }
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
-    $('.activity').tooltip();
   }
 }
 
