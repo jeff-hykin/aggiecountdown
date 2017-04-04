@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 function refreshTimer() {
   var output = timerOutput();
-  document.title = (output[1]) ? output[1] : 'Aggie Schedule Countdown';
+  document.title = (output[1]) ? output[1] : 'Aggie Countdown';
   $('#timerText').text(output[0]);
   $('#timerNumber').text(output[1]);
 }
