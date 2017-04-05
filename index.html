@@ -3,6 +3,11 @@
   <head>
     <meta charset=utf-8>
     <meta name=viewport content=width=device-width,initial-scale=1>
+    <meta name=description content='Aggie Countdown makes it easy to keep track of your classes and other activities.'>
+    <meta name=keywords content='texas, a&m, aggie, aggies, schedule, countdown, class, activity, clock, timer'>
+    <title>Aggie Countdown</title>
+    <link href=icon.png rel=apple-touch-icon>
+    <link href=icon.png rel=icon type=image/png>
     <script src=https://code.jquery.com/jquery-3.2.1.min.js integrity=sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4= crossorigin=anonymous></script>
     <script src=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js></script>
     <script src=main.js></script>
@@ -15,8 +20,8 @@
     <h1 id=timerText></h1>
     <h1 id=timerNumber></h1>
     <p id=footer>Aggie Countdown<br><a href=mailto:rickshaw@tamu.edu>rickshaw@tamu.edu</a></p>
-    <a href=#scheduleEditor id=edit class="btn-floating btn-large waves-effect waves-light teal"><i class="material-icons left">edit</i></a>
-    <div id=scheduleEditor class="modal modal-fixed-footer">
+    <a href=#scheduleEditor id=edit class='btn-floating btn-large waves-effect waves-light teal'><i class='material-icons left'>edit</i></a>
+    <div id=scheduleEditor class='modal modal-fixed-footer'>
       <div class=modal-content>
         <table id=schedule class=centered>
           <thead>
@@ -36,22 +41,22 @@
         </table>
       </div>
       <div class=modal-footer>
-        <a href=# class="modal-action modal-close waves-effect waves-teal btn-flat">done</a>
-        <a href=#howdyImporter class="waves-effect waves-teal btn-flat">import howdy schedule</a>
-        <a href=#activityEditor id=addClass class="btn-floating btn-large waves-effect waves-light teal"><i class="material-icons">add</i></a>
+        <a href=# class='modal-action modal-close waves-effect waves-teal btn-flat'>done</a>
+        <a href=#howdyImporter class='waves-effect waves-teal btn-flat'>import howdy schedule</a>
+        <a href=#activityEditor id=addClass class='btn-floating btn-large waves-effect waves-light teal'><i class='material-icons'>add</i></a>
       </div>
     </div>
-    <div id=activityEditor class="modal modal-fixed-footer">
+    <div id=activityEditor class='modal modal-fixed-footer'>
       <div class=modal-content>
         <h4></h4>
         <br>
         <div class=input-field>
-          <i class="material-icons prefix">info_outline</i>
+          <i class='material-icons prefix'>info_outline</i>
           <input id=activityName type=text>
           <label for=activityName>Activity Name</label>
         </div>
         <div class=input-field>
-          <i class="material-icons prefix">today</i>
+          <i class='material-icons prefix'>today</i>
           <select id=activityDay>
             <option value=0>Sunday</option>
             <option value=1>Monday</option>
@@ -64,35 +69,35 @@
           <label>Activity Day</label>
         </div>
         <div class=input-field>
-          <i class="material-icons prefix">alarm</i>
+          <i class='material-icons prefix'>alarm</i>
           <input id=activityStart type=text>
           <label for=activityStart>Activity Start Time</label>
         </div>
         <div class=input-field>
-          <i class="material-icons prefix">alarm_on</i>
+          <i class='material-icons prefix'>alarm_on</i>
           <input id=activityEnd type=text>
           <label for=activityEnd>Activity End Time</label>
         </div>
       </div>
       <div class=modal-footer>
-        <a href=# id=saveActivity class="modal-action modal-close waves-effect waves-teal btn-flat">save</a>
-        <a href=# id=deleteActivity class="modal-action modal-close waves-effect waves-teal btn-flat">delete</a>
-        <a href=# id=cancelActivity class="modal-action modal-close waves-effect waves-teal btn-flat">cancel</a>
+        <a href=# id=saveActivity class='modal-action modal-close waves-effect waves-teal btn-flat'>save</a>
+        <a href=# id=deleteActivity class='modal-action modal-close waves-effect waves-teal btn-flat'>delete</a>
+        <a href=# id=cancelActivity class='modal-action modal-close waves-effect waves-teal btn-flat'>cancel</a>
       </div>
     </div>
-    <div id=howdyImporter class="modal modal-fixed-footer">
+    <div id=howdyImporter class='modal modal-fixed-footer'>
       <div class=modal-content>
         <h4>Import Howdy Schedule</h4>
         <p>To import your schedule from Howdy:<br>1. Log into <a target=_blank href=https://howdy.tamu.edu/uPortal/f/my-record/normal/render.uP>Howdy.</a><br>2. Click on "My Schedule" (under the "My Record" tab).<br>3. Choose the appropriate term.<br>4. Click on "Detailed Schedule".<br>5. Copy all of the text on the page.<br>6. Paste the text in the box below.</p>
         <br>
         <div class=input-field>
-          <i class="material-icons prefix">code</i>
+          <i class='material-icons prefix'>code</i>
           <textarea id=howdyImport oninput=importFromHowdy() class=materialize-textarea></textarea>
           <label for=howdyImport>Howdy Schedule</label>
         </div>
       </div>
       <div class=modal-footer>
-        <a href=# class="modal-action modal-close waves-effect waves-teal btn-flat">cancel</a>
+        <a href=# class='modal-action modal-close waves-effect waves-teal btn-flat'>cancel</a>
       </div>
     </div>
   </body>
