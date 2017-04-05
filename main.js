@@ -20,6 +20,7 @@ $(document).ready(function() {
   });
   $('#howdyImporter').modal({
     ready: function() {
+      $('#howdyImport').val('');
       $('#howdyImport').focus();
     }
   });
