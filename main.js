@@ -2,6 +2,8 @@
 
 var schedule = [[], [], [], [], [], [], []];
 
+var colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'light-blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'grey', 'blue-grey']
+
 $(document).ready(function() {
   $('#addClass').click(function() {
     editActivity();
@@ -154,8 +156,13 @@ function renderSchedule() {
     for(var i = 0; i < schedule.length; i++) {
       daysHtml += '<td>';
       for(var j = 0; j < schedule[i].length; j++) {
+        var randomSeed = 0;
+        for(var k = 0; k < schedule[i][j][0].length; k++) {
+          randomSeed += schedule[i][j][0].charCodeAt(k);
+        }
+        var color = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(6)) * colors.length)];
         var potentialHeight = (schedule[i][j][2] - schedule[i][j][1]) * .015;
-        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light teal" onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j][1] - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j][0];
+        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '" onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j][1] - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j][0] + '</a>';
       }
       daysHtml += '</td>';
     }
