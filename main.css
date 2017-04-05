@@ -52,7 +52,7 @@ html, body {
   table-layout: fixed;
 }
 
-#addClass {
+#addActivity {
   bottom: 76px;
   position: absolute;
   right: 20px;
@@ -91,10 +91,14 @@ html, body {
 .activity {
   font-size: 12px;
   left: 0;
+  margin: 0 5px;
   padding: 0 10px;
   position: absolute;
   right: 0;
   text-overflow: ellipsis;
   text-transform: none;
   white-space: nowrap;
+}
+
+.activity:hover {
 }

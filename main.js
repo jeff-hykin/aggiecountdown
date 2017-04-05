@@ -5,7 +5,7 @@ var schedule = [[], [], [], [], [], [], []];
 var colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'light-blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'grey', 'blue-grey']
 
 $(document).ready(function() {
-  $('#addClass').click(function() {
+  $('#addActivity').click(function() {
     editActivity();
   })
   $('#scheduleEditor').modal({
@@ -195,7 +195,7 @@ function editActivity(day, activityNumber) {
   });
   $('#deleteActivity').unbind('click');
   $('#deleteActivity').click(function() {
-    deleteClass(day, activityNumber);
+    deleteActivity(day, activityNumber);
   });
 }
 
@@ -210,7 +210,7 @@ function saveActivity(day, activityNumber) {
   renderSchedule();
 }
 
-function deleteClass(day, activityNumber) {
+function deleteActivity(day, activityNumber) {
   schedule[day].splice(activityNumber, 1);
   saveSchedule();
   renderSchedule();
