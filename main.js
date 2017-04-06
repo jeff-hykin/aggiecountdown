@@ -21,6 +21,7 @@ $(document).ready(function() {
   $('#howdyImporter').modal({
     ready: function() {
       $('#howdyImport').val('');
+      $('#howdyImport').trigger('autoresize');
       $('#howdyImport').focus();
     }
   });
@@ -94,7 +95,7 @@ function importFromHowdy() {
     var sections = text.split('\n\n');
     sections = sections.filter(function(a) {
       return (a.length > 0);
-    })
+    });
     for(var i = 3; i < sections.length - 1; i++) {
       var name = sections[i].split(' - ')[1].trim();
       var timeText = sections[i].substr(sections[i].lastIndexOf('Scheduled Meeting Times')).split('\n').slice(1);
