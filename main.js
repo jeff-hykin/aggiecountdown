@@ -41,42 +41,53 @@ function refreshTimer() {
 }
 
 function timerOutput() {
-  var date = new Date();
-  var day = date.getDay();
-  var c = date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds();
-  var activities = false;
-  var label = '';
-  var d = 0;
-  var inActivity = false;
-  var daySchedule = schedule[day];
-  for(var i = 0; i < daySchedule.length; i++) {
-    if(i == 0 && c < daySchedule[i][1]) {
-      label = daySchedule[i][0];
-      d = daySchedule[i][1] - c;
-      activities = true;
+  if(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length > 0) {
+    var date = new Date();
+    var day = date.getDay();
+    var c = date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds();
+    var activitiesLeft = false;
+    var label = '';
+    var difference = 0;
+    var inActivity = false;
+    for(var i = 0; i < schedule[day].length; i++) {
+      if(i == 0 && c < schedule[day][i][1]) {
+        label = schedule[day][i][0];
+        difference = schedule[day][i][1] - c;
+        activitiesLeft = true;
+      }
+      else if(i + 1 < schedule[day].length && c < schedule[day][i + 1][1] && c >= schedule[day][i][2]) {
+        label = schedule[day][i + 1][0];
+        difference = schedule[day][i + 1][1] - c;
+        activitiesLeft = true;
+      }
+      else if(c < schedule[day][i][2] && c >= schedule[day][i][1]) {
+        label = schedule[day][i][0];
+        difference = schedule[day][i][2] - c;
+        inActivity = true;
+        activitiesLeft = true;
+      }
     }
-    else if(i + 1 < daySchedule.length && c < daySchedule[i + 1][1] && c >= daySchedule[i][2]) {
-      label = daySchedule[i + 1][0];
-      d = daySchedule[i + 1][1] - c;
-      activities = true;
+    if(!activitiesLeft) {
+      var i = 1;
+      while(!schedule[(day + i) % 7].length) i++;
+      label = schedule[(day + i) % 7][0][0];
+      difference = (86400 * i - c) + schedule[(day + i) % 7][0][1];
     }
-    else if(c < daySchedule[i][2] && c >= daySchedule[i][1]) {
-      label = daySchedule[i][0];
-      d = daySchedule[i][2] - c;
-      inActivity = true;
-      activities = true;
+    var d = Math.floor(difference / 86400)
+    var h = Math.floor((difference - d * 86400) / 3600);
+    var m = Math.floor((difference - h * 3600) / 60);
+    var s = difference - d * 86400 - h * 3600 - m * 60;
+    if(!d) {
+      if(!h) {
+        if(!m) var timer = s;
+        else var timer = m + ':' + zero(s);
+      }
+      else var timer = h + ':' + zero(m) + ':' + zero(s);
     }
-  }
-  if(activities) {
-    var h = Math.floor(d / 3600);
-    var m = Math.floor((d - h * 3600) / 60);
-    var s = d - h * 3600 - m * 60;
-    if(h + m == 0) var timer = s;
-    else if(h == 0) var timer = m + ':' + zero(s);
-    else var timer = h + ':' + zero(m) + ':' + zero(s);
+    else var timer = d + ':' + zero(h) + ':' + zero(m) + ':' + zero(s);
     return [label + (inActivity ? ' ends in:' : ' starts in:'), timer];
   }
-  return ['no more activities today', ''];
+  return ['no schedule', ''];
 }
 
 function saveSchedule() {
