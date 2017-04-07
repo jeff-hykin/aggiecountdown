@@ -73,10 +73,10 @@ function timerOutput() {
       label = schedule[(day + i) % 7][0][0];
       difference = (86400 * i - c) + schedule[(day + i) % 7][0][1];
     }
-    var d = Math.floor(difference / 86400)
-    var h = Math.floor((difference - d * 86400) / 3600);
-    var m = Math.floor((difference - h * 3600) / 60);
-    var s = difference - d * 86400 - h * 3600 - m * 60;
+    var d = Math.floor(difference / 86400);
+    var h = Math.floor((difference - (d * 86400)) / 3600);
+    var m = Math.floor((difference - (d * 86400) - (h * 3600)) / 60);
+    var s = difference - (d * 86400) - (h * 3600) - (m * 60);
     if(!d) {
       if(!h) {
         if(!m) var timer = s;
