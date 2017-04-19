@@ -20,9 +20,7 @@ $(document).ready(function() {
   });
   $('#howdyImporter').modal({
     ready: function() {
-      $('#howdyImport').val('');
-      $('#howdyImport').trigger('autoresize');
-      $('#howdyImport').focus();
+      $('#howdyImport').val('').trigger('autoresize').focus();
     }
   });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
@@ -138,8 +136,7 @@ function importFromHowdy() {
     if(trySchedule[0].length + trySchedule[1].length + trySchedule[2].length + trySchedule[3].length + trySchedule[4].length + trySchedule[5].length + trySchedule[6].length) {
       schedule = trySchedule;
       saveSchedule();
-      $('#howdyImport').val('');
-      $('#howdyImport').trigger('autoresize');
+      $('#howdyImport').val('').trigger('autoresize');
       $('#howdyImporter').modal('close');
       renderSchedule();
     }
@@ -202,12 +199,10 @@ function editActivity(day, activityNumber) {
   }
   $('#activityDay').material_select();
   Materialize.updateTextFields();
-  $('#saveActivity').unbind('click');
-  $('#saveActivity').click(function() {
+  $('#saveActivity').unbind('click').click(function() {
     saveActivity(day, activityNumber);
   });
-  $('#deleteActivity').unbind('click');
-  $('#deleteActivity').click(function() {
+  $('#deleteActivity').unbind('click').click(function() {
     deleteActivity(day, activityNumber);
   });
 }
@@ -215,8 +210,7 @@ function editActivity(day, activityNumber) {
 function saveActivity(day, activityNumber) {
   if(day != undefined && activityNumber != undefined) schedule[day].splice(activityNumber, 1);
   schedule[$('#activityDay').val()].push([($('#activityName').val() ? $('#activityName').val() : 'untitled'), convertToSeconds($('#activityStart').val()), convertToSeconds($('#activityEnd').val())]);
-  $('#activityName').val(0);
-  $('#activityName').val('');
+  $('#activityName').val(0).val('');
   $('#activityStart').val('');
   $('#activityEnd').val('');
   saveSchedule();
