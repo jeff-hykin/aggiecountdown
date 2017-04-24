@@ -168,7 +168,7 @@ function renderSchedule() {
       for(var j = 0; j < schedule[i].length; j++) {
         var randomSeed = 0;
         for(var k = 0; k < schedule[i][j][0].length; k++) {
-          randomSeed += schedule[i][j][0].charCodeAt(k);
+          randomSeed += schedule[i][j][0].charCodeAt(k) / 2;
         }
         var color = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(10)) * colors.length)];
         var potentialHeight = (schedule[i][j][2] - schedule[i][j][1]) * .015;
@@ -224,8 +224,6 @@ function deleteActivity(day, activityNumber) {
 }
 
 function convertToSeconds(t) {
-  var a = (t.toLowerCase()).includes('a');
-  var p = (t.toLowerCase()).includes('p');
   t = t.replace(/[^0-9:]/g, '');
   t = t.split(':');
   if(t.length == 2 || t.length == 1) {
@@ -234,8 +232,8 @@ function convertToSeconds(t) {
   }
   else return 0;
   if(h > 23 || m > 59) return 0;
-  if(a && h == 12) h = 0;
-  else if(p && h < 12) h += 12;
+  if((t.toLowerCase()).includes('a') && h == 12) h = 0;
+  else if((t.toLowerCase()).includes('p') && h < 12) h += 12;
   if(h == 24) h = 0;
   return h * 3600 + m * 60;
 }
