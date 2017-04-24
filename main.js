@@ -75,15 +75,16 @@ function timerOutput() {
     var h = Math.floor((difference - (d * 86400)) / 3600);
     var m = Math.floor((difference - (d * 86400) - (h * 3600)) / 60);
     var s = difference - (d * 86400) - (h * 3600) - (m * 60);
+    var t;
     if(!d) {
       if(!h) {
-        if(!m) var timer = s;
-        else var timer = m + ':' + zero(s);
+        if(!m) t = s;
+        else t = m + ':' + zero(s);
       }
-      else var timer = h + ':' + zero(m) + ':' + zero(s);
+      else t = h + ':' + zero(m) + ':' + zero(s);
     }
-    else var timer = d + ':' + zero(h) + ':' + zero(m) + ':' + zero(s);
-    return [label + (inActivity ? ' ends in:' : ' starts in:'), timer];
+    else t = d + ':' + zero(h) + ':' + zero(m) + ':' + zero(s);
+    return [label + (inActivity ? ' ends in:' : ' starts in:'), t];
   }
   return ['no schedule', ''];
 }
@@ -224,16 +225,17 @@ function deleteActivity(day, activityNumber) {
 }
 
 function convertToSeconds(t) {
-  t = t.replace(/[^0-9:]/g, '');
-  t = t.split(':');
+  var a = (t.toLowerCase()).includes('a');
+  var p = (t.toLowerCase()).includes('p');
+  t = t.replace(/[^0-9:]/g, '').split(':');
   if(t.length == 2 || t.length == 1) {
     var h = ((t[0] * 1) + '').substring(0, 2) * 1;
     var m = (t.length == 2) ? ((t[1] * 1) + '').substring(0, 2) * 1 : 0;
   }
   else return 0;
   if(h > 23 || m > 59) return 0;
-  if((t.toLowerCase()).includes('a') && h == 12) h = 0;
-  else if((t.toLowerCase()).includes('p') && h < 12) h += 12;
+  if(a && h == 12) h = 0;
+  else if(p && h < 12) h += 12;
   if(h == 24) h = 0;
   return h * 3600 + m * 60;
 }
