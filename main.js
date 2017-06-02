@@ -15,13 +15,19 @@ $(document).ready(function() {
   });
   $('#activityEditor').modal({
     ready: function() {
-      $('.material-tooltip').css({'opacity': '0', 'visibility': 'hidden'});
+      $('.tooltipped').tooltip('remove');
       $('#activityName').focus();
+    },
+    complete: function() {
+      $('.tooltipped').tooltip({delay: 50});
     }
   });
   $('#howdyImporter').modal({
     ready: function() {
       $('#howdyImport').val('').trigger('autoresize').focus();
+    },
+    complete: function() {
+      $('.tooltipped').tooltip({delay: 50});
     }
   });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
@@ -184,7 +190,7 @@ function renderSchedule() {
 }
 
 function editActivity(day, activityNumber) {
-  $('.material-tooltip').css({'opacity': '0', 'visibility': 'hidden'});
+  $('.tooltipped').tooltip('remove');
   if(day != undefined && activityNumber != undefined) {
     $('#activityEditor h4').text('Edit Activity');
     $('#deleteActivity').show();
