@@ -15,19 +15,12 @@ $(document).ready(function() {
   });
   $('#activityEditor').modal({
     ready: function() {
-      $('.tooltipped').tooltip('remove');
       $('#activityName').focus();
-    },
-    complete: function() {
-      $('.tooltipped').tooltip();
     }
   });
   $('#howdyImporter').modal({
     ready: function() {
       $('#howdyImport').val('').trigger('autoresize').focus();
-    },
-    complete: function() {
-      $('.tooltipped').tooltip();
     }
   });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
@@ -180,17 +173,15 @@ function renderSchedule() {
         }
         var color = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(10)) * colors.length)];
         var potentialHeight = (schedule[i][j][2] - schedule[i][j][1]) * .015;
-        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn tooltipped waves-effect waves-light ' + color + '"data-position=bottom data-tooltip="' + convertTo12hour(schedule[i][j][1]) + ' - ' + convertTo12hour(schedule[i][j][2]) + '" onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j][1] - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j][0] + '</a>';
+        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '"data-position=bottom onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j][1] - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j][0] + '</a>';
       }
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
-    $('.tooltipped').tooltip();
   }
 }
 
 function editActivity(day, activityNumber) {
-  $('.tooltipped').tooltip('remove');
   if(day != undefined && activityNumber != undefined) {
     $('#activityEditor h4').text('Edit Activity');
     $('#deleteActivity').show();
