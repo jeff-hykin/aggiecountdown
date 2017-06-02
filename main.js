@@ -15,7 +15,6 @@ $(document).ready(function() {
   });
   $('#activityEditor').modal({
     ready: function() {
-      $('.material-tooltip').css('visibility', 'hidden');
       $('#activityName').focus();
     }
   });
@@ -184,6 +183,7 @@ function renderSchedule() {
 }
 
 function editActivity(day, activityNumber) {
+  $('.material-tooltip').css('opacity', '0');
   if(day != undefined && activityNumber != undefined) {
     $('#activityEditor h4').text('Edit Activity');
     $('#deleteActivity').show();
