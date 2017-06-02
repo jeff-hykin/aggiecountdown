@@ -15,6 +15,7 @@ $(document).ready(function() {
   });
   $('#activityEditor').modal({
     ready: function() {
+      $('.material-tooltip').css('visibility', 'hidden');
       $('#activityName').focus();
     }
   });
@@ -178,7 +179,7 @@ function renderSchedule() {
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
-    $('.tooltipped').tooltip({delay: 50});
+    $('.tooltipped').tooltip();
   }
 }
 
