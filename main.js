@@ -178,7 +178,7 @@ function renderSchedule() {
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
-    $('.tooltipped').tooltip();
+    $('.tooltipped').tooltip({delay: 50});
   }
 }
 
