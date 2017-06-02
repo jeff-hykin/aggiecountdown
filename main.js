@@ -19,7 +19,7 @@ $(document).ready(function() {
       $('#activityName').focus();
     },
     complete: function() {
-      $('.tooltipped').tooltip({delay: 50});
+      $('.tooltipped').tooltip();
     }
   });
   $('#howdyImporter').modal({
@@ -27,7 +27,7 @@ $(document).ready(function() {
       $('#howdyImport').val('').trigger('autoresize').focus();
     },
     complete: function() {
-      $('.tooltipped').tooltip({delay: 50});
+      $('.tooltipped').tooltip();
     }
   });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
@@ -185,7 +185,7 @@ function renderSchedule() {
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
-    $('.tooltipped').tooltip({delay: 50});
+    $('.tooltipped').tooltip();
   }
 }
 
