@@ -15,6 +15,7 @@ $(document).ready(function() {
   });
   $('#activityEditor').modal({
     ready: function() {
+      $('.material-tooltip').css({'opacity': '0', 'visibility': 'hidden'});
       $('#activityName').focus();
     }
   });
@@ -178,12 +179,12 @@ function renderSchedule() {
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
-    $('.tooltipped').tooltip({delay: 100});
+    $('.tooltipped').tooltip({delay: 50});
   }
 }
 
 function editActivity(day, activityNumber) {
-  $('.material-tooltip').css('opacity', '0');
+  $('.material-tooltip').css({'opacity': '0', 'visibility': 'hidden'});
   if(day != undefined && activityNumber != undefined) {
     $('#activityEditor h4').text('Edit Activity');
     $('#deleteActivity').show();
