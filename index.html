@@ -9,11 +9,11 @@
     <link href=icon.png rel=apple-touch-icon>
     <link href=icon.png rel=icon type=image/png>
     <script src=https://code.jquery.com/jquery-3.2.1.min.js integrity=sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4= crossorigin=anonymous></script>
-    <script src=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js></script>
     <script src=main.js></script>
     <link href=https://fonts.googleapis.com/css?family=Roboto rel=stylesheet>
     <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel=stylesheet>
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css>
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css>
     <link href=main.css rel=stylesheet>
   </head>
   <body>
@@ -57,13 +57,11 @@
         </div>
         <div class=input-field>
           <i class='material-icons prefix'>alarm</i>
-          <input id=activityStart type=text>
-          <label for=activityStart>Activity Start Time</label>
+          <input id=activityStart type=date class=timepicker placeholder='Activity Start Time'>
         </div>
         <div class=input-field>
           <i class='material-icons prefix'>alarm_on</i>
-          <input id=activityEnd type=text>
-          <label for=activityEnd>Activity End Time</label>
+          <input id=activityEnd type=date class=timepicker placeholder='Activity End Time'>
         </div>
         <div class=input-field>
           <i class='material-icons prefix'>today</i>

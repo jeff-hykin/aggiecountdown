@@ -15,6 +15,9 @@ $(() => {
   $('#howdyImporter').modal({
     ready: () => $('#howdyImport').val('').trigger('autoresize').focus()
   });
+  $('.timepicker').pickatime({
+    default: 'now'
+  });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
   if(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length == 0) $('#scheduleEditor').modal('open');
   refreshTimer();
@@ -179,7 +182,7 @@ function editActivity(day, activityNumber) {
   else {
     $('#activityEditor h4').text('Add Activity');
     $('#deleteActivity').hide();
-    $('#activityDay').val(0);
+    $('#activityDay').val((new Date).getDay());
     $('#activityName').val('');
     $('#activityStart').val('');
     $('#activityEnd').val('');
@@ -207,15 +210,12 @@ function deleteActivity(day, activityNumber) {
 }
 
 function convertToSeconds(t) {
-  var a = (t.toLowerCase()).includes('a');
-  var p = (t.toLowerCase()).includes('p');
+  if(!t) return 0;
+  var a = /[aA]/.test(t);
+  var p = /[pP]/.test(t);
   t = t.replace(/[^0-9:]/g, '').split(':');
-  if(t.length == 2 || t.length == 1) {
-    var h = ((t[0] * 1) + '').substring(0, 2) * 1;
-    var m = (t.length == 2) ? ((t[1] * 1) + '').substring(0, 2) * 1 : 0;
-  }
-  else return 0;
-  if(h > 23 || m > 59) return 0;
+  var h = t[0] * 1;
+  var m = t[1] * 1;
   if(a && h == 12) h = 0;
   else if(p && h < 12) h += 12;
   if(h == 24) h = 0;
@@ -226,16 +226,16 @@ function convertTo12hour(t) {
   var h = Math.floor(t / 3600);
   var m = Math.floor((t - h * 3600) / 60);
   if(h > 12) {
-    h = h - 12;
-    var p = 'pm';
+    h -= 12;
+    var p = 'PM';
   }
-  else if(h == 12) var p = 'pm';
+  else if(h == 12) var p = 'PM';
   else if(h == 0) {
     h = 12;
-    var p = 'am';
+    var p = 'AM';
   }
-  else var p = 'am';
-  return h + ':' + zero(m) + ' ' + p;
+  else var p = 'AM';
+  return zero(h) + ':' + zero(m) + p;
 }
 
 var zero = (n) => ('0' + n).slice(-2);
