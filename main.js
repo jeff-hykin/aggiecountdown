@@ -5,30 +5,20 @@ var schedule = [[], [], [], [], [], [], []];
 const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'blue-grey'];
 
 $(document).ready(function() {
-  $('#addActivity').click(function() {
-    editActivity();
-  })
+  $('#addActivity').click(() => editActivity());
   $('#scheduleEditor').modal({
-    ready: function() {
-      renderSchedule();
-    }
+    ready: () => renderSchedule()
   });
   $('#activityEditor').modal({
-    ready: function() {
-      $('#activityName').focus();
-    }
+    ready: () => $('#activityName').focus()
   });
   $('#howdyImporter').modal({
-    ready: function() {
-      $('#howdyImport').val('').trigger('autoresize').focus();
-    }
+    ready: () => $('#howdyImport').val('').trigger('autoresize').focus()
   });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
   if(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length == 0) $('#scheduleEditor').modal('open');
   refreshTimer();
-  setInterval(function() {
-    refreshTimer();
-  }, 1000);
+  setInterval(() => refreshTimer(), 1000);
 });
 
 function refreshTimer() {
@@ -91,9 +81,7 @@ function timerOutput() {
 
 function saveSchedule() {
   for(var i = 0; i < schedule.length; i++) {
-    schedule[i].sort(function(a, b) {
-      return a[1] > b[1];
-    });
+    schedule[i].sort((a, b) =>  a[1] > b[1]);
   }
   localStorage.setItem('schedule', JSON.stringify(schedule));
 }
@@ -103,9 +91,7 @@ function importFromHowdy() {
     var text = $('#howdyImport').val();
     var trySchedule = [[], [], [], [], [], [], []];
     var sections = text.split('\n\n');
-    sections = sections.filter(function(a) {
-      return (a.length > 0);
-    });
+    sections = sections.filter((a) => (a.length > 0));
     for(var i = 3; i < sections.length - 1; i++) {
       var name = sections[i].split(' - ')[1].trim();
       var timeText = sections[i].substr(sections[i].lastIndexOf('Scheduled Meeting Times')).split('\n').slice(1);
@@ -200,12 +186,8 @@ function editActivity(day, activityNumber) {
   }
   $('#activityDay').material_select();
   Materialize.updateTextFields();
-  $('#saveActivity').unbind('click').click(function() {
-    saveActivity(day, activityNumber);
-  });
-  $('#deleteActivity').unbind('click').click(function() {
-    deleteActivity(day, activityNumber);
-  });
+  $('#saveActivity').unbind('click').click(() => saveActivity(day, activityNumber));
+  $('#deleteActivity').unbind('click').click(() => deleteActivity(day, activityNumber));
 }
 
 function saveActivity(day, activityNumber) {
@@ -256,6 +238,4 @@ function convertTo12hour(t) {
   return h + ':' + zero(m) + ' ' + p;
 }
 
-function zero(n) {
-  return ('0' + n).slice(-2);
-}
+var zero = (n) => ('0' + n).slice(-2);
