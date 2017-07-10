@@ -4,7 +4,7 @@ var schedule = [[], [], [], [], [], [], []];
 
 const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'blue-grey'];
 
-$(document).ready(function() {
+$(() => {
   $('#addActivity').click(() => editActivity());
   $('#scheduleEditor').modal({
     ready: () => renderSchedule()
@@ -18,7 +18,7 @@ $(document).ready(function() {
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
   if(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length == 0) $('#scheduleEditor').modal('open');
   refreshTimer();
-  setInterval(() => refreshTimer(), 1000);
+  setInterval(refreshTimer, 1000);
 });
 
 function refreshTimer() {
@@ -91,7 +91,7 @@ function importFromHowdy() {
     var text = $('#howdyImport').val();
     var trySchedule = [[], [], [], [], [], [], []];
     var sections = text.split('\n\n');
-    sections = sections.filter((a) => (a.length > 0));
+    sections = sections.filter(a => (a.length > 0));
     for(var i = 3; i < sections.length - 1; i++) {
       var name = sections[i].split(' - ')[1].trim();
       var timeText = sections[i].substr(sections[i].lastIndexOf('Scheduled Meeting Times')).split('\n').slice(1);
