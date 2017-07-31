@@ -19,7 +19,7 @@ $(() => {
     default: 'now'
   });
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
-  if(!schedule.reduce((a, b) => 1 * (a + b.length))) $('#scheduleEditor').modal('open');
+  if(!schedule.reduce((a, b) => a + b)) $('#scheduleEditor').modal('open');
   refreshTimer();
   setInterval(refreshTimer, 1000);
 });
@@ -32,7 +32,7 @@ function refreshTimer() {
 }
 
 function timerOutput() {
-  if(schedule.reduce((a, b) => 1 * (a + b.length))) {
+  if(schedule.reduce((a, b) => a + b)) {
     var date = new Date();
     var day = date.getDay();
     var c = date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds();
@@ -123,7 +123,7 @@ function importFromHowdy() {
         }
       }
     }
-    if(trySchedule.reduce((a, b) => 1 * (a + b.length))) {
+    if(trySchedule.reduce((a, b) => a + b)) {
       schedule = trySchedule;
       saveSchedule();
       $('#howdyImport').val('').trigger('autoresize');
