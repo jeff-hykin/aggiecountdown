@@ -20,13 +20,20 @@ html, body {
   width: 100%;
 }
 
-#timerText, #timerNumber {
+#timerText {
   font-weight: 200;
   text-align: center;
 }
 
 #timerNumber {
   font-size: 96px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#timerLocation {
+  font-weight: 300;
+  text-align: center;
 }
 
 #edit {

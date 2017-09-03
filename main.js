@@ -1,13 +1,22 @@
 'use strict';
 
+class activity {
+  constructor(name, start, end, location) {
+    this.name = name;
+    this.start = start;
+    this.end = end;
+    this.location = location;
+  }
+}
+
 var schedule = [[], [], [], [], [], [], []];
 
 const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'blue-grey'];
 
 $(() => {
-  $('#addActivity').click(() => editActivity());
+  $('#addActivity').click(editActivity);
   $('#scheduleEditor').modal({
-    ready: () => renderSchedule()
+    ready: renderSchedule
   });
   $('#activityEditor').modal({
     ready: () => $('#activityName').focus()
@@ -15,9 +24,7 @@ $(() => {
   $('#howdyImporter').modal({
     ready: () => $('#howdyImport').val('').trigger('autoresize').focus()
   });
-  $('.timepicker').pickatime({
-    default: 'now'
-  });
+  $('.timepicker').pickatime();
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
   if(!schedule.reduce((a, b) => a + b)) $('#scheduleEditor').modal('open');
   refreshTimer();
@@ -29,6 +36,7 @@ function refreshTimer() {
   document.title = (output[1]) ? output[1] : 'Aggie Countdown';
   $('#timerText').text(output[0]);
   $('#timerNumber').text(output[1]);
+  $('#timerLocation').text(output[2]);
 }
 
 function timerOutput() {
@@ -38,22 +46,26 @@ function timerOutput() {
     var c = date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds();
     var activitiesLeft = false;
     var label = '';
+    var location = '';
     var difference = 0;
     var inActivity = false;
     for(var i = 0; i < schedule[day].length; i++) {
-      if(i == 0 && c < schedule[day][i][1]) {
-        label = schedule[day][i][0];
-        difference = schedule[day][i][1] - c;
+      if(i == 0 && c < schedule[day][i].start) {
+        label = schedule[day][i].name;
+        location = schedule[day][i].location;
+        difference = schedule[day][i].start - c;
         activitiesLeft = true;
       }
-      else if(i + 1 < schedule[day].length && c < schedule[day][i + 1][1] && c >= schedule[day][i][2]) {
-        label = schedule[day][i + 1][0];
-        difference = schedule[day][i + 1][1] - c;
+      else if(i + 1 < schedule[day].length && c < schedule[day][i + 1].start && c >= schedule[day][i].end) {
+        label = schedule[day][i + 1].name;
+        label = schedule[day][i + 1].location;
+        difference = schedule[day][i + 1].start - c;
         activitiesLeft = true;
       }
-      else if(c < schedule[day][i][2] && c >= schedule[day][i][1]) {
-        label = schedule[day][i][0];
-        difference = schedule[day][i][2] - c;
+      else if(c < schedule[day][i].end && c >= schedule[day][i].start) {
+        label = schedule[day][i].name;
+        location = schedule[day][i].location;
+        difference = schedule[day][i].end - c;
         inActivity = true;
         activitiesLeft = true;
       }
@@ -61,8 +73,9 @@ function timerOutput() {
     if(!activitiesLeft) {
       var i = 1;
       while(!schedule[(day + i) % 7].length) i++;
-      label = schedule[(day + i) % 7][0][0];
-      difference = (86400 * i - c) + schedule[(day + i) % 7][0][1];
+      label = schedule[(day + i) % 7][0].name;
+      location = schedule[(day + i) % 7][0].location;
+      difference = (86400 * i - c) + schedule[(day + i) % 7][0].start;
     }
     var d = Math.floor(difference / 86400);
     var h = Math.floor((difference - (d * 86400)) / 3600);
@@ -77,9 +90,9 @@ function timerOutput() {
       else t = h + ':' + zero(m) + ':' + zero(s);
     }
     else t = d + ':' + zero(h) + ':' + zero(m) + ':' + zero(s);
-    return [label + (inActivity ? ' ends in:' : ' starts in:'), t];
+    return [label + (inActivity ? ' ends in:' : ' starts in:'), t, location];
   }
-  return ['no schedule', ''];
+  return ['no schedule', '', ''];
 }
 
 function saveSchedule() {
@@ -96,29 +109,25 @@ function importFromHowdy() {
     var sections = text.split('\n\n');
     sections = sections.filter(a => (a.length > 0));
     for(var i = 3; i < sections.length - 1; i++) {
-      var name = sections[i].split(' - ')[1].trim();
+      var title = sections[i].split(' - ')[1].trim();
       var timeText = sections[i].substr(sections[i].lastIndexOf('Scheduled Meeting Times')).split('\n').slice(1);
       var times = [];
       for(var j = 0; j < timeText.length; j++) {
         var timeObjects = timeText[j].split('\t');
         if(timeObjects[1].includes(' - ')) {
           var type = timeObjects[0].trim();
-          var start = convertToSeconds(timeObjects[1].split(' - ')[0]);
-          var end = convertToSeconds(timeObjects[1].split(' - ')[1]);
-          var day = timeObjects[2].toLowerCase();
-          var days = [];
-          if(day.includes('m')) days.push(1);
-          if(day.includes('t')) days.push(2);
-          if(day.includes('w')) days.push(3);
-          if(day.includes('r')) days.push(4);
-          if(day.includes('f')) days.push(5);
-          if(JSON.stringify(times[times.length - 1]) != JSON.stringify([start, end, days, type])) times.push([start, end, days, type]);
-        }
-      }
-      for(var j = 0; j < times.length; j++) {
-        if(times[j] != undefined) {
-          for(var k = 0; k < times[j][2].length; k++) {
-            trySchedule[times[j][2][k]].push([name + ' ' + times[j][3], times[j][0], times[j][1]]);
+          if(type.indexOf('Examination') == -1) {
+            var start = convertToSeconds(timeObjects[1].split(' - ')[0]);
+            var end = convertToSeconds(timeObjects[1].split(' - ')[1]);
+            var location = timeObjects[3];
+            var day = timeObjects[2].toLowerCase();
+            var days = [];
+            if(day.includes('m')) days.push(1);
+            if(day.includes('t')) days.push(2);
+            if(day.includes('w')) days.push(3);
+            if(day.includes('r')) days.push(4);
+            if(day.includes('f')) days.push(5);
+            days.forEach(day => trySchedule[day].push(new activity(title + ' ' + type, start, end, location)));
           }
         }
       }
@@ -141,8 +150,8 @@ function renderSchedule() {
     var latestActivityTime = 0;
     for(var i = 0; i < schedule.length; i++) {
       for(var j = 0; j < schedule[i].length; j++) {
-        if(schedule[i][j][1] < earliestActivityTime) earliestActivityTime = schedule[i][j][1];
-        if(schedule[i][j][2] > latestActivityTime) latestActivityTime = schedule[i][j][2];
+        if(schedule[i][j].start < earliestActivityTime) earliestActivityTime = schedule[i][j].start;
+        if(schedule[i][j].end > latestActivityTime) latestActivityTime = schedule[i][j].end;
       }
     }
     earliestActivityTime = Math.floor(earliestActivityTime / 3600);
@@ -157,12 +166,12 @@ function renderSchedule() {
       daysHtml += '<td>';
       for(var j = 0; j < schedule[i].length; j++) {
         var randomSeed = 0;
-        for(var k = 0; k < schedule[i][j][0].length; k++) {
-          randomSeed += schedule[i][j][0].charCodeAt(k) / 2;
+        for(var k = 0; k < schedule[i][j].name.length; k++) {
+          randomSeed += schedule[i][j].name.charCodeAt(k) / 2;
         }
         var color = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(10)) * colors.length)];
-        var potentialHeight = (schedule[i][j][2] - schedule[i][j][1]) * .015;
-        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '"data-position=bottom onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j][1] - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j][0] + '</a>';
+        var potentialHeight = (schedule[i][j].end - schedule[i][j].start) * .015;
+        daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '"data-position=bottom onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j].start - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j].name + '</a>';
       }
       daysHtml += '</td>';
     }
@@ -175,15 +184,17 @@ function editActivity(day, activityNumber) {
     $('#activityEditor h4').text('Edit Activity');
     $('#deleteActivity').show();
     $('#activityDay').val(day);
-    $('#activityName').val(schedule[day][activityNumber][0]);
-    $('#activityStart').val(convertTo12hour(schedule[day][activityNumber][1]));
-    $('#activityEnd').val(convertTo12hour(schedule[day][activityNumber][2]));
+    $('#activityName').val(schedule[day][activityNumber].name);
+    $('#activityLocation').val(schedule[day][activityNumber].location);
+    $('#activityStart').val(convertTo12hour(schedule[day][activityNumber].start));
+    $('#activityEnd').val(convertTo12hour(schedule[day][activityNumber].end));
   }
   else {
     $('#activityEditor h4').text('Add Activity');
     $('#deleteActivity').hide();
     $('#activityDay').val((new Date).getDay());
     $('#activityName').val('');
+    $('#activityLocation').val('');
     $('#activityStart').val('');
     $('#activityEnd').val('');
   }
@@ -195,8 +206,9 @@ function editActivity(day, activityNumber) {
 
 function saveActivity(day, activityNumber) {
   if(day != undefined && activityNumber != undefined) schedule[day].splice(activityNumber, 1);
-  schedule[$('#activityDay').val()].push([($('#activityName').val() ? $('#activityName').val() : 'untitled'), convertToSeconds($('#activityStart').val()), convertToSeconds($('#activityEnd').val())]);
-  $('#activityName').val(0).val('');
+  schedule[$('#activityDay').val()].push(new activity(($('#activityName').val() ? $('#activityName').val() : 'untitled'), convertToSeconds($('#activityStart').val()), convertToSeconds($('#activityEnd').val()), $('#activityLocation').val()));
+  $('#activityName').val('');
+  $('#activityLocation').val('');
   $('#activityStart').val('');
   $('#activityEnd').val('');
   saveSchedule();

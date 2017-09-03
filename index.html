@@ -17,8 +17,9 @@
     <link href=main.css rel=stylesheet>
   </head>
   <body>
-    <h1 id=timerText></h1>
+    <h2 id=timerText></h2>
     <h1 id=timerNumber></h1>
+    <h4 id=timerLocation></h4>
     <p id=footer>Aggie Countdown<br><a href=mailto:rickshaw@tamu.edu>rickshaw@tamu.edu</a></p>
     <a href=#scheduleEditor id=edit class='btn-floating btn-large waves-effect waves-light teal'><i class='material-icons left'>edit</i></a>
     <div id=scheduleEditor class='modal modal-fixed-footer'>
@@ -54,6 +55,11 @@
           <i class='material-icons prefix'>info_outline</i>
           <input id=activityName type=text>
           <label for=activityName>Activity Name</label>
+        </div>
+        <div class=input-field>
+          <i class='material-icons prefix'>location_on</i>
+          <input id=activityLocation type=text>
+          <label for=activityLocation>Activity Location</label>
         </div>
         <div class=input-field>
           <i class='material-icons prefix'>alarm</i>
