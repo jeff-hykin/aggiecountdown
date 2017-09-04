@@ -58,7 +58,7 @@ function timerOutput() {
       }
       else if(i + 1 < schedule[day].length && c < schedule[day][i + 1].start && c >= schedule[day][i].end) {
         label = schedule[day][i + 1].name;
-        label = schedule[day][i + 1].location;
+        location = schedule[day][i + 1].location;
         difference = schedule[day][i + 1].start - c;
         activitiesLeft = true;
       }
