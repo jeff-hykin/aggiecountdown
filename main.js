@@ -97,7 +97,7 @@ function timerOutput() {
 
 function saveSchedule() {
   for(var i = 0; i < schedule.length; i++) {
-    schedule[i].sort((a, b) => a[1] > b[1]);
+    schedule[i].sort((a, b) => a.start > b.start);
   }
   localStorage.setItem('schedule', JSON.stringify(schedule));
 }
