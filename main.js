@@ -10,10 +10,14 @@ class activity {
 }
 
 var schedule = [[], [], [], [], [], [], []];
+var buildings = [];
+var tempMap = '';
 
 const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'blue-grey'];
 
 $(() => {
+  $('#map').hide();
+  $.getJSON('https://rsrickshaw.github.io/aggiecountdown/buildings.json', data => buildings = data);
   $('#addActivity').click(editActivity);
   $('#scheduleEditor').modal({
     ready: renderSchedule
@@ -37,6 +41,7 @@ function refreshTimer() {
   $('#timerText').text(output[0]);
   $('#timerNumber').text(output[1]);
   $('#timerLocation').text(output[2]);
+  map(output[2]);
 }
 
 function timerOutput() {
@@ -95,6 +100,21 @@ function timerOutput() {
   return ['no schedule', '', ''];
 }
 
+function map(input) {
+  if(input.length) {
+    if(input != tempMap && buildings.length) {
+      tempMap = input;
+      var number = '';
+      buildings.forEach(building => {
+        if(input.trim().toLowerCase().indexOf(building['abbr'].toLowerCase()) != -1) number = building['number'];
+      });
+      if(number.length) $('#map').show().prop('src', 'http://aggiemap.tamu.edu?bldg=' + number);
+      else $('#map').hide();
+    }
+  }
+  else $('#map').hide();
+}
+
 function saveSchedule() {
   for(var i = 0; i < schedule.length; i++) {
     schedule[i].sort((a, b) => a.start > b.start);
@@ -103,6 +123,53 @@ function saveSchedule() {
 }
 
 function importFromHowdy() {
+  try {
+    var raw = $('#howdyImport').val();
+    var trySchedule = [[], [], [], [], [], [], []];
+    raw = raw.toLowerCase().substring(0, raw.lastIndexOf('\n\n'));
+    var titles = raw.match(/[a-z]{4}-[0-9]{3}-[0-9]{3}/g);
+    var sections = raw.split(/[a-z]{4}-[0-9]{3}-[0-9]{3}/g);
+    sections.shift();
+    for(var i = 0; i < titles.length; i++) {
+      var title = titles[i].trim().toUpperCase().replace(/-/g, ' ');
+      title = title.substring(0, title.length - 3);
+      var classesText = sections[i].trim();
+      if(/[0-9]{2}:[0-9]{2} (p|a)m - [0-9]{2}:[0-9]{2} (p|a)m/.test(classesText)) {
+        var classes = classesText.split('\n');
+        classes.shift();
+        for(var j = 0; j < classes.length / 3; j++) {
+          var time = classes[j * 3 + 1];
+          var start = convertToSeconds(time.split(' - ')[0]);
+          var end = convertToSeconds(time.split(' - ')[1]);
+          var other = classes[j * 3 + 2];
+          var otherParts = other.split(' ');
+          var day = otherParts[0];
+          var days = [];
+          if(day.includes('mo')) days.push(1);
+          if(day.includes('tu')) days.push(2);
+          if(day.includes('we')) days.push(3);
+          if(day.includes('th')) days.push(4);
+          if(day.includes('fr')) days.push(5);
+          var type = otherParts[otherParts.length - 1].trim().toUpperCase();
+          var location = otherParts[otherParts.length - 4].trim().toUpperCase() + ' ' + otherParts[otherParts.length - 3].trim().toUpperCase();
+          var name = title + ' (' + type + ')';
+          if(type != 'EXAM') days.forEach(day => trySchedule[day].push(new activity(name, start, end, location)));
+        }
+      }
+    }
+    if(trySchedule.reduce((a, b) => a + b)) {
+      schedule = trySchedule;
+      saveSchedule();
+      $('#howdyImport').val('').trigger('autoresize');
+      $('#howdyImporter').modal('close');
+      renderSchedule();
+    }
+    else console.log('shortie');
+  }
+  catch(e) {console.log(e);}
+}
+
+/*function importFromHowdy() {
   try {
     var text = $('#howdyImport').val();
     var trySchedule = [[], [], [], [], [], [], []];
@@ -141,7 +208,7 @@ function importFromHowdy() {
     }
   }
   catch(e) {}
-}
+}*/
 
 function renderSchedule() {
   $('#schedule > tbody').empty();
