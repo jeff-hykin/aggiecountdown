@@ -164,9 +164,8 @@ function importFromHowdy() {
       $('#howdyImporter').modal('close');
       renderSchedule();
     }
-    else console.log('shortie');
   }
-  catch(e) {console.log(e);}
+  catch(e) {}
 }
 
 /*function importFromHowdy() {
