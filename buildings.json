@@ -1,0 +1,10437 @@
+[
+ {
+   "number": "0007",
+   "abbr": "",
+   "name": "Maintenance Machine Shed"
+ },
+ {
+   "number": "0010",
+   "abbr": "",
+   "name": "Implement Barn"
+ },
+ {
+   "number": "0014",
+   "abbr": "",
+   "name": "Implement Storage Shed"
+ },
+ {
+   "number": "0039",
+   "abbr": "ARTF",
+   "name": "Aquaculture Research Teaching Facility"
+ },
+ {
+   "number": "0040",
+   "abbr": "",
+   "name": "Farm Service Office Bldg"
+ },
+ {
+   "number": "0041",
+   "abbr": "",
+   "name": "Farm Service Lab & Office"
+ },
+ {
+   "number": "0042",
+   "abbr": "",
+   "name": "Farm Service East Wing"
+ },
+ {
+   "number": "0043",
+   "abbr": "",
+   "name": "Farm Service Maint Shed"
+ },
+ {
+   "number": "0044",
+   "abbr": "",
+   "name": "Farm Service Chemical Storage"
+ },
+ {
+   "number": "0045",
+   "abbr": "",
+   "name": "Farm Service West Wing Shed"
+ },
+ {
+   "number": "0046",
+   "abbr": "",
+   "name": "Farm Service Northwest Shed"
+ },
+ {
+   "number": "0047",
+   "abbr": "",
+   "name": "Aquatic Research Center"
+ },
+ {
+   "number": "0050",
+   "abbr": "",
+   "name": "FIELD LAB EQUIPMENT SHED"
+ },
+ {
+   "number": "0051",
+   "abbr": "",
+   "name": "Field Lab Implement Shed"
+ },
+ {
+   "number": "0052",
+   "abbr": "",
+   "name": "Pump House"
+ },
+ {
+   "number": "0053",
+   "abbr": "",
+   "name": "Hatchery"
+ },
+ {
+   "number": "0054",
+   "abbr": "",
+   "name": "Sample Processing Laboratory"
+ },
+ {
+   "number": "0055",
+   "abbr": "",
+   "name": "Storage Shed"
+ },
+ {
+   "number": "0056",
+   "abbr": "",
+   "name": "PHYSICAL PLANT UTILITIES (deleted 2013)"
+ },
+ {
+   "number": "0057",
+   "abbr": "",
+   "name": "Hatchery Bldg"
+ },
+ {
+   "number": "0060",
+   "abbr": "",
+   "name": "Rainwater Restroom"
+ },
+ {
+   "number": "0062",
+   "abbr": "DSB",
+   "name": "Disability Services Bldg"
+ },
+ {
+   "number": "0063",
+   "abbr": "CB2",
+   "name": "Conference Building #2"
+ },
+ {
+   "number": "0064",
+   "abbr": "RES",
+   "name": "Residence Life Bldg"
+ },
+ {
+   "number": "0065",
+   "abbr": "SCSRB",
+   "name": "Student Counseling Service Reception Bldg"
+ },
+ {
+   "number": "0066",
+   "abbr": "SCSB1",
+   "name": "Student Counseling Service Bldg #1"
+ },
+ {
+   "number": "0067",
+   "abbr": "SCSB2",
+   "name": "Student Counseling Service Bldg #2"
+ },
+ {
+   "number": "0068",
+   "abbr": "SL2",
+   "name": "Student Life Bldg #2"
+ },
+ {
+   "number": "0069",
+   "abbr": "CB1",
+   "name": "Conference Building #1"
+ },
+ {
+   "number": "0070",
+   "abbr": "SL1",
+   "name": "Student Life Bldg #1"
+ },
+ {
+   "number": "0071",
+   "abbr": "SCO",
+   "name": "Student Conduct Office"
+ },
+ {
+   "number": "0072",
+   "abbr": "SL3",
+   "name": "Student Life Bldg #3"
+ },
+ {
+   "number": "0080",
+   "abbr": "",
+   "name": "Over Winter Building"
+ },
+ {
+   "number": "0081",
+   "abbr": "",
+   "name": "Marine Hatchery"
+ },
+ {
+   "number": "0082",
+   "abbr": "",
+   "name": "Feed Shed"
+ },
+ {
+   "number": "0103",
+   "abbr": "",
+   "name": "AVIARY CENTER OFFICE(SOLD)"
+ },
+ {
+   "number": "0106",
+   "abbr": "",
+   "name": "Trailer House @ Tereco (Sold)"
+ },
+ {
+   "number": "0107",
+   "abbr": "",
+   "name": "Trailer House @ Tereco (Sold)"
+ },
+ {
+   "number": "0113",
+   "abbr": "",
+   "name": "Farm Superintendent House"
+ },
+ {
+   "number": "0114",
+   "abbr": "",
+   "name": "Office Metal Building"
+ },
+ {
+   "number": "0116",
+   "abbr": "",
+   "name": "TVMC-WILDLIFE & EXOTIC ANIMALS A (Sold 2013)"
+ },
+ {
+   "number": "0138",
+   "abbr": "",
+   "name": "HAZ MAT - STORAGE"
+ },
+ {
+   "number": "0139",
+   "abbr": "",
+   "name": "ESTI Private Sector Office"
+ },
+ {
+   "number": "0141",
+   "abbr": "",
+   "name": "Hay Barn (NULL)"
+ },
+ {
+   "number": "0142",
+   "abbr": "",
+   "name": "Morgan Industrial Instructor Office"
+ },
+ {
+   "number": "0143",
+   "abbr": "",
+   "name": "Morgan Pump  House-Hazmat"
+ },
+ {
+   "number": "0144",
+   "abbr": "",
+   "name": "HAZ MAT - MORGAN #2"
+ },
+ {
+   "number": "0145",
+   "abbr": "",
+   "name": "ESTI Technical Equipment Storage"
+ },
+ {
+   "number": "0146",
+   "abbr": "",
+   "name": "FTS-CLASSROOM (Sold)"
+ },
+ {
+   "number": "0147",
+   "abbr": "",
+   "name": "Haz Mat CLASSROOM (Sold)"
+ },
+ {
+   "number": "0148",
+   "abbr": "",
+   "name": "ESTI Haz Mat Classroom"
+ },
+ {
+   "number": "0149",
+   "abbr": "",
+   "name": "ESTI Haz Mat Office"
+ },
+ {
+   "number": "0150",
+   "abbr": "",
+   "name": "HAZ MAT OFFICE (SOLD)"
+ },
+ {
+   "number": "0165",
+   "abbr": "",
+   "name": "Schubot Exotic Bird Health Center"
+ },
+ {
+   "number": "0171",
+   "abbr": "",
+   "name": "Equine Initiative Barn"
+ },
+ {
+   "number": "0173",
+   "abbr": "",
+   "name": "Houston Livestock Show & Rodeo Western Arena"
+ },
+ {
+   "number": "0174",
+   "abbr": "",
+   "name": "Equine Initiative Concessions/Locker Bldg"
+ },
+ {
+   "number": "0175",
+   "abbr": "",
+   "name": "Equine Initiative Equestrian/Locker Bldg"
+ },
+ {
+   "number": "0176",
+   "abbr": "",
+   "name": "Hunt Seat Arena"
+ },
+ {
+   "number": "0177",
+   "abbr": "EQEB",
+   "name": "Equine Initiative Education Bldg"
+ },
+ {
+   "number": "0178",
+   "abbr": "EQOB",
+   "name": "Equine Initiative Outreach Bldg"
+ },
+ {
+   "number": "0181",
+   "abbr": "",
+   "name": "Equine Initiative Equipment Shed"
+ },
+ {
+   "number": "0183",
+   "abbr": "",
+   "name": "Cross Country Track Storage Building"
+ },
+ {
+   "number": "0200",
+   "abbr": "",
+   "name": "Dr. David E. Schob Military Appreciation Home"
+ },
+ {
+   "number": "0270",
+   "abbr": "ETB",
+   "name": "Emerging Technologies Building"
+ },
+ {
+   "number": "0275",
+   "abbr": "LAAH",
+   "name": "Liberal Arts and Arts & Humanities Building"
+ },
+ {
+   "number": "0276",
+   "abbr": "",
+   "name": "TX Forest Service Greenhouse"
+ },
+ {
+   "number": "0278",
+   "abbr": "",
+   "name": "TX Forest Service Greenhouse"
+ },
+ {
+   "number": "0279",
+   "abbr": "",
+   "name": "TX Forest Service GH Headhouse"
+ },
+ {
+   "number": "0289",
+   "abbr": "",
+   "name": "Central Utility Plant Electrical Building"
+ },
+ {
+   "number": "0290",
+   "abbr": "WELL",
+   "name": "Wells Residence Hall"
+ },
+ {
+   "number": "0291",
+   "abbr": "RUDD",
+   "name": "Rudder Residence Hall"
+ },
+ {
+   "number": "0292",
+   "abbr": "EPPR",
+   "name": "Eppright Residence Hall"
+ },
+ {
+   "number": "0293",
+   "abbr": "APPE",
+   "name": "Appelt Residence Hall"
+ },
+ {
+   "number": "0294",
+   "abbr": "LECH",
+   "name": "Lechner Residence Hall"
+ },
+ {
+   "number": "0296",
+   "abbr": "MIST",
+   "name": "Mitchell Inst for Fundamental Phys & Astronomy"
+ },
+ {
+   "number": "0297",
+   "abbr": "MPHY",
+   "name": "Mitchell Physics Building"
+ },
+ {
+   "number": "0298",
+   "abbr": "",
+   "name": "ESTI Electrical Building"
+ },
+ {
+   "number": "0299",
+   "abbr": "",
+   "name": "ESTI Control Building"
+ },
+ {
+   "number": "0301",
+   "abbr": "",
+   "name": "ESTI Pump Operations Building"
+ },
+ {
+   "number": "0302",
+   "abbr": "",
+   "name": "ESTI Pump Operations Building"
+ },
+ {
+   "number": "0303",
+   "abbr": "",
+   "name": "ESTI Pump Operations Building"
+ },
+ {
+   "number": "0304",
+   "abbr": "",
+   "name": "ESTI Pump Operations Building"
+ },
+ {
+   "number": "0308",
+   "abbr": "",
+   "name": "ESTI Breathing Apparatus Maze"
+ },
+ {
+   "number": "0314",
+   "abbr": "",
+   "name": "ESTI Breathing Apparatus Storage"
+ },
+ {
+   "number": "0315",
+   "abbr": "",
+   "name": "ESTI Pump Maintence Building"
+ },
+ {
+   "number": "0323",
+   "abbr": "",
+   "name": "ESTI Hay Barn"
+ },
+ {
+   "number": "0325",
+   "abbr": "CVLB",
+   "name": "CVE Lab Building"
+ },
+ {
+   "number": "0341",
+   "abbr": "",
+   "name": "FTS CLASSROOM BUILDING (SOLD)"
+ },
+ {
+   "number": "0342",
+   "abbr": "",
+   "name": "ESTI Field Maintenance Office"
+ },
+ {
+   "number": "0344",
+   "abbr": "",
+   "name": "ESTI Recruit Classroom/Fire Station"
+ },
+ {
+   "number": "0345",
+   "abbr": "",
+   "name": "ESTI Breathing Apparatus Storage"
+ },
+ {
+   "number": "0347",
+   "abbr": "",
+   "name": "ESTI Annual School/Extension Offices/Gym"
+ },
+ {
+   "number": "0348",
+   "abbr": "",
+   "name": "ESTI Pump/Vehicle Maintenance"
+ },
+ {
+   "number": "0350",
+   "abbr": "",
+   "name": "Albritton Bell Tower"
+ },
+ {
+   "number": "0353",
+   "abbr": "HRBB",
+   "name": "Bright Building"
+ },
+ {
+   "number": "0354",
+   "abbr": "",
+   "name": "ESTI Hazardous Material Classroom"
+ },
+ {
+   "number": "0356",
+   "abbr": "",
+   "name": "Parking Booth At PA35"
+ },
+ {
+   "number": "0357",
+   "abbr": "",
+   "name": "Vending Machine Booth"
+ },
+ {
+   "number": "0358",
+   "abbr": "DPDC",
+   "name": "Davis Football Player Development Center"
+ },
+ {
+   "number": "0359",
+   "abbr": "ARCB",
+   "name": "Architecture Building B"
+ },
+ {
+   "number": "0361",
+   "abbr": "BFC",
+   "name": "Bright Football Complex"
+ },
+ {
+   "number": "0363",
+   "abbr": "",
+   "name": "Shed-VP Student Services"
+ },
+ {
+   "number": "0367",
+   "abbr": "KYLE",
+   "name": "Kyle Field"
+ },
+ {
+   "number": "0375",
+   "abbr": "CLAC",
+   "name": "Williams Alumni Center"
+ },
+ {
+   "number": "0376",
+   "abbr": "CHAN",
+   "name": "Chemistry"
+ },
+ {
+   "number": "0377",
+   "abbr": "SUP3",
+   "name": "Satellite Utility Plant No. 3"
+ },
+ {
+   "number": "0378",
+   "abbr": "SSPG",
+   "name": "South Side Parking Garage"
+ },
+ {
+   "number": "0379",
+   "abbr": "UCPG",
+   "name": "University Center Parking Garage"
+ },
+ {
+   "number": "0383",
+   "abbr": "JJKB",
+   "name": "Koldus Building"
+ },
+ {
+   "number": "0384",
+   "abbr": "SCCT",
+   "name": "Sam Houston Sanders Corps of Cadets Center"
+ },
+ {
+   "number": "0385",
+   "abbr": "DLEB",
+   "name": "Dwight Look Engineering Building"
+ },
+ {
+   "number": "0386",
+   "abbr": "CHEN",
+   "name": "Jack E. Brown Chemical Engineering Building"
+ },
+ {
+   "number": "0387",
+   "abbr": "RICH",
+   "name": "Joe C. Richardson Petroleum Engineering Building"
+ },
+ {
+   "number": "0388",
+   "abbr": "NSPG",
+   "name": "Northside Parking Garage"
+ },
+ {
+   "number": "0389",
+   "abbr": "",
+   "name": "Grounds Maintenance Potting Shed"
+ },
+ {
+   "number": "0391",
+   "abbr": "ENPH",
+   "name": "James J. Cain '51 Building"
+ },
+ {
+   "number": "0392",
+   "abbr": "MEOB",
+   "name": "Mechanical Engineering Office Building"
+ },
+ {
+   "number": "0393",
+   "abbr": "LIND",
+   "name": "John H. Lindsey Building"
+ },
+ {
+   "number": "0394",
+   "abbr": "UNDE",
+   "name": "Underwood Residence Hall"
+ },
+ {
+   "number": "0398",
+   "abbr": "ARCA",
+   "name": "Langford Architecture Center Building A"
+ },
+ {
+   "number": "0400",
+   "abbr": "SPEN",
+   "name": "Spence Hall - Dorm 1"
+ },
+ {
+   "number": "0401",
+   "abbr": "KIES",
+   "name": "Kiest Hall - Dorm 2"
+ },
+ {
+   "number": "0402",
+   "abbr": "BRIG",
+   "name": "Briggs Hall - Dorm 3"
+ },
+ {
+   "number": "0403",
+   "abbr": "FOUN",
+   "name": "Fountain Hall - Dorm 4"
+ },
+ {
+   "number": "0404",
+   "abbr": "GAIN",
+   "name": "Gainer Hall - Dorm 5"
+ },
+ {
+   "number": "0405",
+   "abbr": "LACY",
+   "name": "Lacy Hall - Dorm 6"
+ },
+ {
+   "number": "0406",
+   "abbr": "LEON",
+   "name": "Leonard Hall - Dorm 7"
+ },
+ {
+   "number": "0407",
+   "abbr": "HARL",
+   "name": "Harrell Hall - Dorm 8"
+ },
+ {
+   "number": "0408",
+   "abbr": "WHTE",
+   "name": "Whitely Hall - Dorm 9"
+ },
+ {
+   "number": "0409",
+   "abbr": "WHIT",
+   "name": "White Hall - Dorm 10"
+ },
+ {
+   "number": "0410",
+   "abbr": "HARR",
+   "name": "Harrington Hall - Dorm 11"
+ },
+ {
+   "number": "0411",
+   "abbr": "UTAY",
+   "name": "Utay Hall - Dorm 12"
+ },
+ {
+   "number": "0412",
+   "abbr": "MOSE",
+   "name": "Moses Residence Hall"
+ },
+ {
+   "number": "0415",
+   "abbr": "DAVI",
+   "name": "Davis-Gary Residence Hall"
+ },
+ {
+   "number": "0416",
+   "abbr": "BIZL",
+   "name": "Bizzell Hall (Demolished 2017)"
+ },
+ {
+   "number": "0417",
+   "abbr": "HART",
+   "name": "Hart Residence Hall"
+ },
+ {
+   "number": "0419",
+   "abbr": "LEGE",
+   "name": "Legett Residence Hall"
+ },
+ {
+   "number": "0420",
+   "abbr": "MILN",
+   "name": "Milner Hall"
+ },
+ {
+   "number": "0422",
+   "abbr": "WALT",
+   "name": "Walton Residence Hall"
+ },
+ {
+   "number": "0424",
+   "abbr": "HOTA",
+   "name": "Hotard Hall"
+ },
+ {
+   "number": "0425",
+   "abbr": "HEND",
+   "name": "Henderson Hall"
+ },
+ {
+   "number": "0426",
+   "abbr": "HUGH",
+   "name": "Hughes Residence Hall"
+ },
+ {
+   "number": "0427",
+   "abbr": "FOWL",
+   "name": "Fowler Residence Hall"
+ },
+ {
+   "number": "0428",
+   "abbr": "KEAT",
+   "name": "Keathley Residence Hall"
+ },
+ {
+   "number": "0430",
+   "abbr": "SCHU",
+   "name": "Schuhmacher Residence Hall"
+ },
+ {
+   "number": "0432",
+   "abbr": "ARCC",
+   "name": "Architecture Building C"
+ },
+ {
+   "number": "0433",
+   "abbr": "MOSH",
+   "name": "Mosher Residence Hall"
+ },
+ {
+   "number": "0434",
+   "abbr": "CYCL",
+   "name": "Luedecke Building (Cyclotron)"
+ },
+ {
+   "number": "0435",
+   "abbr": "EDCT",
+   "name": "Harrington Education Center Office Tower"
+ },
+ {
+   "number": "0436",
+   "abbr": "RDMC",
+   "name": "Reed-McDonald Building"
+ },
+ {
+   "number": "0438",
+   "abbr": "HECC",
+   "name": "Harrington Education Center Classroom Building"
+ },
+ {
+   "number": "0440",
+   "abbr": "COMM",
+   "name": "Commons"
+ },
+ {
+   "number": "0441",
+   "abbr": "KRUE",
+   "name": "Krueger Residence Hall"
+ },
+ {
+   "number": "0442",
+   "abbr": "DUNN",
+   "name": "Dunn Residence Hall"
+ },
+ {
+   "number": "0443",
+   "abbr": "OMB",
+   "name": "Eller Oceanography & Meteorology Building"
+ },
+ {
+   "number": "0444",
+   "abbr": "PETR",
+   "name": "Peterson Building"
+ },
+ {
+   "number": "0445",
+   "abbr": "TEAG",
+   "name": "Teague Research Center"
+ },
+ {
+   "number": "0446",
+   "abbr": "RDER",
+   "name": "Rudder Tower"
+ },
+ {
+   "number": "0447",
+   "abbr": "ASTO",
+   "name": "Aston Residence Hall"
+ },
+ {
+   "number": "0448",
+   "abbr": "ADAM",
+   "name": "Adams Band Hall"
+ },
+ {
+   "number": "0449",
+   "abbr": "BSBW",
+   "name": "Biological Sciences Bldg West"
+ },
+ {
+   "number": "0450",
+   "abbr": "DCAN",
+   "name": "Duncan Dining Hall"
+ },
+ {
+   "number": "0454",
+   "abbr": "MSC",
+   "name": "Memorial Student Center"
+ },
+ {
+   "number": "0456",
+   "abbr": "MILS",
+   "name": "Military Sciences Building"
+ },
+ {
+   "number": "0457",
+   "abbr": "TAES",
+   "name": "TAES Annex Building"
+ },
+ {
+   "number": "0458",
+   "abbr": "EABC",
+   "name": "Engineering Activities Bldg C"
+ },
+ {
+   "number": "0459",
+   "abbr": "EABB",
+   "name": "Engineering Activities Bldg B"
+ },
+ {
+   "number": "0460",
+   "abbr": "EABA",
+   "name": "Engineering Activities Bldg A"
+ },
+ {
+   "number": "0461",
+   "abbr": "COKE",
+   "name": "Coke Building"
+ },
+ {
+   "number": "0462",
+   "abbr": "ACAD",
+   "name": "Academic Building"
+ },
+ {
+   "number": "0463",
+   "abbr": "PSYC",
+   "name": "Psychology Building"
+ },
+ {
+   "number": "0464",
+   "abbr": "STCH",
+   "name": "State Chemist Building"
+ },
+ {
+   "number": "0465",
+   "abbr": "BTLR",
+   "name": "Butler Hall"
+ },
+ {
+   "number": "0467",
+   "abbr": "BSBE",
+   "name": "Biological Sciences Bldg East"
+ },
+ {
+   "number": "0468",
+   "abbr": "LIBR",
+   "name": "Evans Library"
+ },
+ {
+   "number": "0469",
+   "abbr": "CCPG",
+   "name": "Central Campus Parking Garage"
+ },
+ {
+   "number": "0470",
+   "abbr": "GLAS",
+   "name": "Melbern G. Glasscock Building"
+ },
+ {
+   "number": "0471",
+   "abbr": "PAV",
+   "name": "Pavilion"
+ },
+ {
+   "number": "0472",
+   "abbr": "AIEN",
+   "name": "AI Engineering Building"
+ },
+ {
+   "number": "0473",
+   "abbr": "ADMN",
+   "name": "Jack K. Williams Administration Building"
+ },
+ {
+   "number": "0474",
+   "abbr": "YMCA",
+   "name": "YMCA Building"
+ },
+ {
+   "number": "0476",
+   "abbr": "FRAN",
+   "name": "Francis Hall"
+ },
+ {
+   "number": "0477",
+   "abbr": "ANTH",
+   "name": "Anthropology Building"
+ },
+ {
+   "number": "0478",
+   "abbr": "SCTS",
+   "name": "Scoates Hall"
+ },
+ {
+   "number": "0480",
+   "abbr": "BLTN",
+   "name": "Bolton Hall"
+ },
+ {
+   "number": "0481",
+   "abbr": "HEAT",
+   "name": "Heaton Hall"
+ },
+ {
+   "number": "0482",
+   "abbr": "FERM",
+   "name": "Fermier Hall"
+ },
+ {
+   "number": "0483",
+   "abbr": "THOM",
+   "name": "Thompson Hall"
+ },
+ {
+   "number": "0484",
+   "abbr": "CHEM",
+   "name": "Chemistry"
+ },
+ {
+   "number": "0490",
+   "abbr": "HALB",
+   "name": "Halbouty Geosciences Building"
+ },
+ {
+   "number": "0492",
+   "abbr": "HEB",
+   "name": "H.J. (Bill) and Reta Haynes Engineering Building"
+ },
+ {
+   "number": "0495",
+   "abbr": "SBSA",
+   "name": "Sbisa Dining Hall"
+ },
+ {
+   "number": "0496",
+   "abbr": "UCO",
+   "name": "Utilities & Energy Services Central Office"
+ },
+ {
+   "number": "0498",
+   "abbr": "CUP",
+   "name": "Central Utility Plant"
+ },
+ {
+   "number": "0499",
+   "abbr": "EIC",
+   "name": "Engineering Innovation Center"
+ },
+ {
+   "number": "0501",
+   "abbr": "CONC",
+   "name": "Concrete Materials Laboratory"
+ },
+ {
+   "number": "0506",
+   "abbr": "NGLE",
+   "name": "Nagle Hall"
+ },
+ {
+   "number": "0507",
+   "abbr": "VMS",
+   "name": "Veterinary Medical Sciences Building"
+ },
+ {
+   "number": "0508",
+   "abbr": "VTH",
+   "name": "Veterinary Teaching Hospital"
+ },
+ {
+   "number": "0510",
+   "abbr": "",
+   "name": "Adriance Lab"
+ },
+ {
+   "number": "0511",
+   "abbr": "HLB",
+   "name": "HEEP Laboratory Building"
+ },
+ {
+   "number": "0512",
+   "abbr": "CHPL",
+   "name": "All Faiths Chapel"
+ },
+ {
+   "number": "0513",
+   "abbr": "DRTY",
+   "name": "Doherty Building"
+ },
+ {
+   "number": "0514",
+   "abbr": "MASS",
+   "name": "Munnerlyn Astronomy & Space Sciences Engineering"
+ },
+ {
+   "number": "0516",
+   "abbr": "CSC",
+   "name": "Computing Services Center"
+ },
+ {
+   "number": "0517",
+   "abbr": "CSA",
+   "name": "Computing Services Annex"
+ },
+ {
+   "number": "0518",
+   "abbr": "ZEEC",
+   "name": "Zachry Engineering Education Complex"
+ },
+ {
+   "number": "0519",
+   "abbr": "KAMU",
+   "name": "Moore Communications Center"
+ },
+ {
+   "number": "0520",
+   "abbr": "BEUT",
+   "name": "Beutel Health Center"
+ },
+ {
+   "number": "0521",
+   "abbr": "HELD",
+   "name": "Heldenfels Hall"
+ },
+ {
+   "number": "0522",
+   "abbr": "",
+   "name": "TVMC-LAB Animal Shelter (SOLD 5/2014)"
+ },
+ {
+   "number": "0524",
+   "abbr": "BLOC",
+   "name": "Blocker Building"
+ },
+ {
+   "number": "0547",
+   "abbr": "",
+   "name": "Break Room at Central Utility Plant"
+ },
+ {
+   "number": "0548",
+   "abbr": "CLEM",
+   "name": "Clements Residence Hall"
+ },
+ {
+   "number": "0549",
+   "abbr": "HAAS",
+   "name": "Haas Residence Hall"
+ },
+ {
+   "number": "0550",
+   "abbr": "MCFA",
+   "name": "McFadden Residence Hall"
+ },
+ {
+   "number": "0630",
+   "abbr": "PRVP",
+   "name": "Vice President's Residence"
+ },
+ {
+   "number": "0632",
+   "abbr": "",
+   "name": "Compressor House"
+ },
+ {
+   "number": "0634",
+   "abbr": "PRES",
+   "name": "One Circle Drive"
+ },
+ {
+   "number": "0635",
+   "abbr": "",
+   "name": "Grounds Maintenance Storage"
+ },
+ {
+   "number": "0649",
+   "abbr": "",
+   "name": "RAPTOR REHABILITATION ANNEX (SOLD)"
+ },
+ {
+   "number": "0652",
+   "abbr": "NEEL",
+   "name": "Neeley Residence Hall"
+ },
+ {
+   "number": "0653",
+   "abbr": "HOBB",
+   "name": "Hobby Residence Hall"
+ },
+ {
+   "number": "0654",
+   "abbr": "",
+   "name": "Generator Shed"
+ },
+ {
+   "number": "0655",
+   "abbr": "",
+   "name": "Golf Course Maintenance Shop"
+ },
+ {
+   "number": "0672",
+   "abbr": "GOLF",
+   "name": "Golf Course Clubhouse"
+ },
+ {
+   "number": "0677",
+   "abbr": "",
+   "name": "Golf Course Halfway House"
+ },
+ {
+   "number": "0682",
+   "abbr": "WEB",
+   "name": "Wisenbaker Engineering Building"
+ },
+ {
+   "number": "0685",
+   "abbr": "",
+   "name": "Grounds Maintenance - Tractor Shed"
+ },
+ {
+   "number": "0687",
+   "abbr": "",
+   "name": "ESTI Industrial Classroom"
+ },
+ {
+   "number": "0688",
+   "abbr": "",
+   "name": "ESTI Industrial Technician Office/Shop"
+ },
+ {
+   "number": "0689",
+   "abbr": "",
+   "name": "ESTI Warehouse Building"
+ },
+ {
+   "number": "0712",
+   "abbr": "",
+   "name": "RADIATION BIOLOGY"
+ },
+ {
+   "number": "0715",
+   "abbr": "",
+   "name": "Chemistry Chemical Storage"
+ },
+ {
+   "number": "0717",
+   "abbr": "",
+   "name": "Storage and Lab-Cyclotron"
+ },
+ {
+   "number": "0718",
+   "abbr": "",
+   "name": "Storage-Cyclotron"
+ },
+ {
+   "number": "0724",
+   "abbr": "",
+   "name": "ESTI Breathing Apparatus Compressor Building"
+ },
+ {
+   "number": "0726",
+   "abbr": "",
+   "name": "Grounds Maintenance Greenhouse 4"
+ },
+ {
+   "number": "0728",
+   "abbr": "",
+   "name": "Grounds Maintenance Greenhouse 5"
+ },
+ {
+   "number": "0729",
+   "abbr": "",
+   "name": "Biology Greenhouse"
+ },
+ {
+   "number": "0732",
+   "abbr": "",
+   "name": "Grounds Maintenance Greenhouse"
+ },
+ {
+   "number": "0733",
+   "abbr": "",
+   "name": "Grounds Maintenance Greenhouse"
+ },
+ {
+   "number": "0740",
+   "abbr": "MCNW",
+   "name": "McNew Laboratory"
+ },
+ {
+   "number": "0742",
+   "abbr": "",
+   "name": "Grounds Maintenance Storage"
+ },
+ {
+   "number": "0744",
+   "abbr": "",
+   "name": "Wind Tunnel Compressor Building"
+ },
+ {
+   "number": "0747",
+   "abbr": "",
+   "name": "Grounds Maintenance Supply Bldg"
+ },
+ {
+   "number": "0750",
+   "abbr": "",
+   "name": "SHEEP & GOAT SHELTER (SOLD)"
+ },
+ {
+   "number": "0754",
+   "abbr": "",
+   "name": "Easterwood Shops"
+ },
+ {
+   "number": "0755",
+   "abbr": "",
+   "name": "Easterwood General Aviation Terminal"
+ },
+ {
+   "number": "0757",
+   "abbr": "",
+   "name": "Waste Water Lift Station"
+ },
+ {
+   "number": "0759",
+   "abbr": "WIND",
+   "name": "Nicks Low Speed Wind Tunnel"
+ },
+ {
+   "number": "0797",
+   "abbr": "",
+   "name": "Horticulture Implement Shed - A"
+ },
+ {
+   "number": "0799",
+   "abbr": "",
+   "name": "Horticulture Shop"
+ },
+ {
+   "number": "0806",
+   "abbr": "STL",
+   "name": "Soil Testing Lab"
+ },
+ {
+   "number": "0815",
+   "abbr": "ERLB",
+   "name": "Entomology Research Lab"
+ },
+ {
+   "number": "0816",
+   "abbr": "",
+   "name": "Water Distribution Pump Station No. 1"
+ },
+ {
+   "number": "0817",
+   "abbr": "",
+   "name": "Well Field Pump Station"
+ },
+ {
+   "number": "0821",
+   "abbr": "",
+   "name": "GROUNDS MAINTENANCE STORAGE(SOLD 2003)"
+ },
+ {
+   "number": "0824",
+   "abbr": "",
+   "name": "Grounds Maintenance Implement Shed"
+ },
+ {
+   "number": "0825",
+   "abbr": "",
+   "name": "FLORICULTURE STORAGE BLDG(NULL)"
+ },
+ {
+   "number": "0828",
+   "abbr": "",
+   "name": "Grounds Shop Warehouse"
+ },
+ {
+   "number": "0829",
+   "abbr": "",
+   "name": "Grounds Maintenance Office Shop/Stor"
+ },
+ {
+   "number": "0831",
+   "abbr": "",
+   "name": "Grounds Maintenance Greenhouse"
+ },
+ {
+   "number": "0859",
+   "abbr": "",
+   "name": "SHEEP AND GOAT CENTER (SOLD)"
+ },
+ {
+   "number": "0860",
+   "abbr": "",
+   "name": "SHEEP BARN (SOLD)"
+ },
+ {
+   "number": "0861",
+   "abbr": "INSC",
+   "name": "CUSE-Chemistry"
+ },
+ {
+   "number": "0862",
+   "abbr": "",
+   "name": "Butler Building"
+ },
+ {
+   "number": "0880",
+   "abbr": "",
+   "name": "TVMC-Small Animal Building"
+ },
+ {
+   "number": "0883",
+   "abbr": "VMLA",
+   "name": "LARGE ANIMAL HOLDING"
+ },
+ {
+   "number": "0940",
+   "abbr": "",
+   "name": "Photosensitivation Lab (SOLD 5/2014)"
+ },
+ {
+   "number": "0943",
+   "abbr": "",
+   "name": "TVMC-Barn No 2"
+ },
+ {
+   "number": "0954",
+   "abbr": "AGRL",
+   "name": "Agronomy Field Lab"
+ },
+ {
+   "number": "0955",
+   "abbr": "",
+   "name": "Soil/Crop Cotton Genetic Greenhouse"
+ },
+ {
+   "number": "0956",
+   "abbr": "PGBG",
+   "name": "Perennial Grass Breeding and Genetics"
+ },
+ {
+   "number": "0957",
+   "abbr": "PRCH",
+   "name": "Purchasing & Stores"
+ },
+ {
+   "number": "0958",
+   "abbr": "FLSV",
+   "name": "Fleet Services"
+ },
+ {
+   "number": "0959",
+   "abbr": "",
+   "name": "Plant Science Greenhouse"
+ },
+ {
+   "number": "0960",
+   "abbr": "SCSFGH",
+   "name": "SCS Forage Greenhouse"
+ },
+ {
+   "number": "0961",
+   "abbr": "",
+   "name": "Cotton Greenhouse"
+ },
+ {
+   "number": "0962",
+   "abbr": "",
+   "name": "Plant Science Grain Sorghum Greenhouse"
+ },
+ {
+   "number": "0963",
+   "abbr": "",
+   "name": "Hort & Plant Science Greenhouse"
+ },
+ {
+   "number": "0964",
+   "abbr": "",
+   "name": "Agronomy Greenhouse"
+ },
+ {
+   "number": "0965",
+   "abbr": "BEAS",
+   "name": "Beasley Laboratory"
+ },
+ {
+   "number": "0966",
+   "abbr": "",
+   "name": "Purchasing & Stores - General Storage"
+ },
+ {
+   "number": "0967",
+   "abbr": "",
+   "name": "Purchasing & Stores - Volatile Storage"
+ },
+ {
+   "number": "0969",
+   "abbr": "TRSV",
+   "name": "Transit Services"
+ },
+ {
+   "number": "0970",
+   "abbr": "PPGM",
+   "name": "Phys Plant-Grounds Maintenance"
+ },
+ {
+   "number": "0971",
+   "abbr": "WCDC",
+   "name": "Fred Dollar Food Services Commissary"
+ },
+ {
+   "number": "0972",
+   "abbr": "LARR",
+   "name": "Laboratory Animal Care Building"
+ },
+ {
+   "number": "0973",
+   "abbr": "",
+   "name": "CMP-Animal Housing Unit"
+ },
+ {
+   "number": "0974",
+   "abbr": "",
+   "name": "CMP-Animal Housing Unit"
+ },
+ {
+   "number": "0975",
+   "abbr": "",
+   "name": "CMP-Animal Housing Unit"
+ },
+ {
+   "number": "0976",
+   "abbr": "",
+   "name": "CMP-Animal Housing Unit"
+ },
+ {
+   "number": "0977",
+   "abbr": "",
+   "name": "CMP-Animal Housing Unit"
+ },
+ {
+   "number": "0978",
+   "abbr": "",
+   "name": "CMP-Quarantine Unit"
+ },
+ {
+   "number": "0979",
+   "abbr": "TURF",
+   "name": "Turfgrass Field Lab"
+ },
+ {
+   "number": "0980",
+   "abbr": "",
+   "name": "Murray Case Sells Storage Bldg"
+ },
+ {
+   "number": "0983",
+   "abbr": "",
+   "name": "Trans Center Paint Storage"
+ },
+ {
+   "number": "0987",
+   "abbr": "",
+   "name": "TVMC-Pole Building (SOLD 5/2014)"
+ },
+ {
+   "number": "0989",
+   "abbr": "VMCA",
+   "name": "TVMC-Caged Animals"
+ },
+ {
+   "number": "0990",
+   "abbr": "CPLX",
+   "name": "Cardiovascular Pathology Lab Annex"
+ },
+ {
+   "number": "0991",
+   "abbr": "",
+   "name": "VMP Shop"
+ },
+ {
+   "number": "0992",
+   "abbr": "",
+   "name": "TVMC-Experimental Animal Building"
+ },
+ {
+   "number": "0993",
+   "abbr": "",
+   "name": "TVMC-Barn (SOLD 5/2014)"
+ },
+ {
+   "number": "0994",
+   "abbr": "",
+   "name": "TVMC-Rreproduction Barn (SOLD 5/2014)"
+ },
+ {
+   "number": "0995",
+   "abbr": "",
+   "name": "Water Distribution Pump Station No. 2"
+ },
+ {
+   "number": "0996",
+   "abbr": "",
+   "name": "Oil Tanks Boiler House"
+ },
+ {
+   "number": "0997",
+   "abbr": "TICK",
+   "name": "Tick Research Facility"
+ },
+ {
+   "number": "0AV1",
+   "abbr": "",
+   "name": "ALVARADO CIS SPACE"
+ },
+ {
+   "number": "0BR1",
+   "abbr": "",
+   "name": "Bryan CIS Space"
+ },
+ {
+   "number": "0BR2",
+   "abbr": "",
+   "name": "Fiber Town"
+ },
+ {
+   "number": "0CS1",
+   "abbr": "",
+   "name": "City of College Station Admin Bldg"
+ },
+ {
+   "number": "0CS2",
+   "abbr": "",
+   "name": "COLLEGE STATION SCIENCE PARK (RMVD see 2944)"
+ },
+ {
+   "number": "0DL1",
+   "abbr": "",
+   "name": "Dallas CIS Space #1"
+ },
+ {
+   "number": "0DL2",
+   "abbr": "",
+   "name": "Dallas CIS Space #2"
+ },
+ {
+   "number": "0HU1",
+   "abbr": "",
+   "name": "Houston CIS Space"
+ },
+ {
+   "number": "0RN1",
+   "abbr": "",
+   "name": "REAGAN CIS SPACE"
+ },
+ {
+   "number": "0WA1",
+   "abbr": "",
+   "name": "WACO CIS SPACE"
+ },
+ {
+   "number": "0WR3",
+   "abbr": "",
+   "name": "WALLER CIS SPACE"
+ },
+ {
+   "number": "1000",
+   "abbr": "",
+   "name": "Farm Service Office"
+ },
+ {
+   "number": "1001",
+   "abbr": "",
+   "name": "Farm Service Implement #1"
+ },
+ {
+   "number": "1002",
+   "abbr": "",
+   "name": "Farm Service Implement #2"
+ },
+ {
+   "number": "1003",
+   "abbr": "",
+   "name": "Farm Service Shop"
+ },
+ {
+   "number": "1005",
+   "abbr": "",
+   "name": "Farm Service Storage 2"
+ },
+ {
+   "number": "1008",
+   "abbr": "VMB3",
+   "name": "TVMC-Barn No 3"
+ },
+ {
+   "number": "1010",
+   "abbr": "VIV2",
+   "name": "TVMC-Small Animal Research Building"
+ },
+ {
+   "number": "1011",
+   "abbr": "",
+   "name": "Horticulture Shop and Garage"
+ },
+ {
+   "number": "1014",
+   "abbr": "PIPS",
+   "name": "Prida Apartments"
+ },
+ {
+   "number": "1020",
+   "abbr": "VIV3",
+   "name": "Vivarium III"
+ },
+ {
+   "number": "1026",
+   "abbr": "VMA",
+   "name": "Veterinary Medicine Administration"
+ },
+ {
+   "number": "1027",
+   "abbr": "NFFL",
+   "name": "Nursery Floral Field Laboratory"
+ },
+ {
+   "number": "1028",
+   "abbr": "",
+   "name": "Distribution Storage (NULL)"
+ },
+ {
+   "number": "1029",
+   "abbr": "",
+   "name": "Agronomy Implement Storage"
+ },
+ {
+   "number": "1030",
+   "abbr": "AESH",
+   "name": "AG Engr Res Lab & Shop"
+ },
+ {
+   "number": "1034",
+   "abbr": "AEPM",
+   "name": "AG Engineering Power & Machinery Building"
+ },
+ {
+   "number": "1040",
+   "abbr": "CPL",
+   "name": "Cardiovascular Pathology Laboratory"
+ },
+ {
+   "number": "1041",
+   "abbr": "VMDL",
+   "name": "Texas Vet Med Diagnostic Lab"
+ },
+ {
+   "number": "1042",
+   "abbr": "FSLB",
+   "name": "Forest Science Laboratory Building"
+ },
+ {
+   "number": "1043",
+   "abbr": "",
+   "name": "Mosquito Research Lab"
+ },
+ {
+   "number": "1044",
+   "abbr": "",
+   "name": "TVMC-Poultry Research"
+ },
+ {
+   "number": "1045",
+   "abbr": "",
+   "name": "USDA Greenhouse 1"
+ },
+ {
+   "number": "1047",
+   "abbr": "",
+   "name": "Virus-Vector Research Lab"
+ },
+ {
+   "number": "1049",
+   "abbr": "",
+   "name": "USDA Greenhouse 2"
+ },
+ {
+   "number": "1050",
+   "abbr": "",
+   "name": "CUSE-Research Labs"
+ },
+ {
+   "number": "1051",
+   "abbr": "CUSE",
+   "name": "Center for Urban and Structural Entomology (CUSE)"
+ },
+ {
+   "number": "1052",
+   "abbr": "",
+   "name": "Weed Science Field Lab"
+ },
+ {
+   "number": "1054",
+   "abbr": "",
+   "name": "Forage and Turf Greenhouse"
+ },
+ {
+   "number": "1056",
+   "abbr": "",
+   "name": "Soil & Crop Sci Greenhouse"
+ },
+ {
+   "number": "1057",
+   "abbr": "",
+   "name": "Soil & Crop Sci Greenhouse"
+ },
+ {
+   "number": "1058",
+   "abbr": "",
+   "name": "Soil & Crop Sci Greenhouse"
+ },
+ {
+   "number": "1059",
+   "abbr": "",
+   "name": "Soil & Crop Sci Greenhouse"
+ },
+ {
+   "number": "1060",
+   "abbr": "",
+   "name": "Greenhouse-Small Grains"
+ },
+ {
+   "number": "1063",
+   "abbr": "",
+   "name": "Greenhouse-Cotton Taxonomy"
+ },
+ {
+   "number": "1064",
+   "abbr": "",
+   "name": "Soil & Crop Sciences Greenhouse"
+ },
+ {
+   "number": "1065",
+   "abbr": "",
+   "name": "Soil & Crop Sci Dry Processing"
+ },
+ {
+   "number": "1066",
+   "abbr": "",
+   "name": "Cotton Ginning Lab"
+ },
+ {
+   "number": "1067",
+   "abbr": "",
+   "name": "Agronomy Field Crop Laboratory"
+ },
+ {
+   "number": "1068",
+   "abbr": "",
+   "name": "Crop Testing"
+ },
+ {
+   "number": "1075",
+   "abbr": "",
+   "name": "Ecology & Natural Resources Teaching Pavilion"
+ },
+ {
+   "number": "1077",
+   "abbr": "",
+   "name": "SCSC Small Grain Greenhouse"
+ },
+ {
+   "number": "1078",
+   "abbr": "",
+   "name": "Soil & Crop Peanut Greenhouse"
+ },
+ {
+   "number": "1079",
+   "abbr": "",
+   "name": "SCSC-Weed Sci Greenhouse"
+ },
+ {
+   "number": "1083",
+   "abbr": "",
+   "name": "Research Park Maintenance Building"
+ },
+ {
+   "number": "1084",
+   "abbr": "",
+   "name": "West Campus Switching Station"
+ },
+ {
+   "number": "1085",
+   "abbr": "VSAH",
+   "name": "Veterinary Small Animal Hospital"
+ },
+ {
+   "number": "1086",
+   "abbr": "",
+   "name": "CMP-Housing Unit"
+ },
+ {
+   "number": "1087",
+   "abbr": "",
+   "name": "CMP-Quarantine Unit"
+ },
+ {
+   "number": "1089",
+   "abbr": "UEOA",
+   "name": "Utilities & Energy Services Energy Office"
+ },
+ {
+   "number": "1090",
+   "abbr": "",
+   "name": "R & F Environmental Chambers(DISPOSED 1994)"
+ },
+ {
+   "number": "1091",
+   "abbr": "",
+   "name": "Easterwood Hangar 1091"
+ },
+ {
+   "number": "1092",
+   "abbr": "",
+   "name": "Easterwood Hangar 1092"
+ },
+ {
+   "number": "1094",
+   "abbr": "",
+   "name": "TVMC-Poultry Disease Research"
+ },
+ {
+   "number": "1095",
+   "abbr": "",
+   "name": "Nuclear Science Cntr"
+ },
+ {
+   "number": "1096",
+   "abbr": "",
+   "name": "Gamma Radiation Lab"
+ },
+ {
+   "number": "1098",
+   "abbr": "",
+   "name": "N.S.C. Hyperbaric Lab"
+ },
+ {
+   "number": "1129",
+   "abbr": "",
+   "name": "Floriculture Greenhouse"
+ },
+ {
+   "number": "1140",
+   "abbr": "",
+   "name": "ESTI Extinguisher Refill Building"
+ },
+ {
+   "number": "1142",
+   "abbr": "",
+   "name": "ESTI Marine Classroom/First Aid"
+ },
+ {
+   "number": "1143",
+   "abbr": "",
+   "name": "ESTI Fixed System Classroom"
+ },
+ {
+   "number": "1144",
+   "abbr": "",
+   "name": "ESTI Industrial Classroom"
+ },
+ {
+   "number": "1145",
+   "abbr": "",
+   "name": "FTS INDUSTRIAL STOREROOM BLDG  (SOLD)"
+ },
+ {
+   "number": "1146",
+   "abbr": "BCC",
+   "name": "Biological Control Facility"
+ },
+ {
+   "number": "1149",
+   "abbr": "",
+   "name": "Billy Bryant Barn"
+ },
+ {
+   "number": "1151",
+   "abbr": "EQCT",
+   "name": "Equine Center Stable"
+ },
+ {
+   "number": "1152",
+   "abbr": "",
+   "name": "Equine Center Restroom"
+ },
+ {
+   "number": "1154",
+   "abbr": "",
+   "name": "Electrical Distribution Storage"
+ },
+ {
+   "number": "1156",
+   "abbr": "PLNT",
+   "name": "Facilities Services"
+ },
+ {
+   "number": "1157",
+   "abbr": "",
+   "name": "Warehouse"
+ },
+ {
+   "number": "1158",
+   "abbr": "",
+   "name": "Equine Gait Analysis Bldg (SOLD 5/2014)"
+ },
+ {
+   "number": "1160",
+   "abbr": "PRPV",
+   "name": "Pearce Animal Pavilion"
+ },
+ {
+   "number": "1161",
+   "abbr": "",
+   "name": "Reed House"
+ },
+ {
+   "number": "1165",
+   "abbr": "",
+   "name": "Hazardous Waste Storage Bldg"
+ },
+ {
+   "number": "1166",
+   "abbr": "",
+   "name": "CUSE-Special Project Lab & Storage"
+ },
+ {
+   "number": "1167",
+   "abbr": "",
+   "name": "CUSE-Insect Testing Lab"
+ },
+ {
+   "number": "1168",
+   "abbr": "",
+   "name": "CUSE-Shop & Storage"
+ },
+ {
+   "number": "1169",
+   "abbr": "",
+   "name": "CUSE-Toxicology Hut"
+ },
+ {
+   "number": "1171",
+   "abbr": "",
+   "name": "Radioactive Waste Building"
+ },
+ {
+   "number": "1172",
+   "abbr": "",
+   "name": "Flammable Mat Storage"
+ },
+ {
+   "number": "1173",
+   "abbr": "",
+   "name": "Soil & Crop Greenhouse"
+ },
+ {
+   "number": "1174",
+   "abbr": "",
+   "name": "Small Ungulate Holding Facility"
+ },
+ {
+   "number": "1176",
+   "abbr": "",
+   "name": "Hort/FS Greenhouse"
+ },
+ {
+   "number": "1177",
+   "abbr": "",
+   "name": "Hort/FS Greenhouse"
+ },
+ {
+   "number": "1178",
+   "abbr": "",
+   "name": "Hort/FS Greenhouse"
+ },
+ {
+   "number": "1179",
+   "abbr": "",
+   "name": "Forest Science Greenhouse"
+ },
+ {
+   "number": "1180",
+   "abbr": "",
+   "name": "Floriculture Farm Storage Bldg"
+ },
+ {
+   "number": "1182",
+   "abbr": "",
+   "name": "Farrow Shop"
+ },
+ {
+   "number": "1183",
+   "abbr": "",
+   "name": "Range Science Field Lab"
+ },
+ {
+   "number": "1184",
+   "abbr": "VAPA",
+   "name": "Veterinary Anatomic Pathology"
+ },
+ {
+   "number": "1185",
+   "abbr": "",
+   "name": "Parsons Cav Caretaker Facility"
+ },
+ {
+   "number": "1186",
+   "abbr": "",
+   "name": "TVMC-Isolation Laboratory"
+ },
+ {
+   "number": "1187",
+   "abbr": "LFB",
+   "name": "W.P. Luse Foundation Building"
+ },
+ {
+   "number": "1188",
+   "abbr": "",
+   "name": "Forest Science Storage"
+ },
+ {
+   "number": "1189",
+   "abbr": "",
+   "name": "Generator Housing Building (NULL)"
+ },
+ {
+   "number": "1190",
+   "abbr": "",
+   "name": "Floriculture Research Greenhouse"
+ },
+ {
+   "number": "1191",
+   "abbr": "",
+   "name": "Floriculture Growing Facility"
+ },
+ {
+   "number": "1192",
+   "abbr": "VMSB",
+   "name": "TVMC-Surgery Building"
+ },
+ {
+   "number": "1193",
+   "abbr": "",
+   "name": "Wildlife & Exotic Animal Ctr"
+ },
+ {
+   "number": "1194",
+   "abbr": "VLAH",
+   "name": "Veterinary Large Animal Hospital"
+ },
+ {
+   "number": "1195",
+   "abbr": "",
+   "name": "Non Surgical Animal Procedure"
+ },
+ {
+   "number": "1196",
+   "abbr": "",
+   "name": "Animal Housing Unit"
+ },
+ {
+   "number": "1197",
+   "abbr": "VRB",
+   "name": "Veterinary Research Building"
+ },
+ {
+   "number": "1198",
+   "abbr": "",
+   "name": "LARR Support Personnel Bldg"
+ },
+ {
+   "number": "1200",
+   "abbr": "",
+   "name": "McFerrin '65 Parsons Mounted Cavalry Headquarters"
+ },
+ {
+   "number": "1201",
+   "abbr": "FARM",
+   "name": "Poultry Science Headquarters"
+ },
+ {
+   "number": "1202",
+   "abbr": "POSC",
+   "name": "Poultry Sci Handling & Judging"
+ },
+ {
+   "number": "1203",
+   "abbr": "PSNP",
+   "name": "Poultry Sci Nutrition & Phys"
+ },
+ {
+   "number": "1204",
+   "abbr": "",
+   "name": "Poultry Sci Environmental Res"
+ },
+ {
+   "number": "1205",
+   "abbr": "",
+   "name": "Poultry Science Feed Mixing"
+ },
+ {
+   "number": "1206",
+   "abbr": "",
+   "name": "Poultry Sci Equipment Storage"
+ },
+ {
+   "number": "1207",
+   "abbr": "",
+   "name": "Poultry Sci Repro & Embryology"
+ },
+ {
+   "number": "1208",
+   "abbr": "",
+   "name": "Poultry Sci Comparative Rearing"
+ },
+ {
+   "number": "1209",
+   "abbr": "",
+   "name": "Poultry Sci Integrated Repro"
+ },
+ {
+   "number": "1210",
+   "abbr": "",
+   "name": "PS Intensive Mgt & Rearing"
+ },
+ {
+   "number": "1211",
+   "abbr": "",
+   "name": "Poultry Science Broiler #1"
+ },
+ {
+   "number": "1212",
+   "abbr": "",
+   "name": "Poultry Science Broiler #2"
+ },
+ {
+   "number": "1213",
+   "abbr": "",
+   "name": "Poultry Science Caged Layer #1"
+ },
+ {
+   "number": "1214",
+   "abbr": "",
+   "name": "Poultry Science Caged Layer #2"
+ },
+ {
+   "number": "1215",
+   "abbr": "",
+   "name": "PS Environmental Biotechnology"
+ },
+ {
+   "number": "1216",
+   "abbr": "",
+   "name": "PS Gamebird Repro & Management"
+ },
+ {
+   "number": "1217",
+   "abbr": "",
+   "name": "PS Gamebird Rearing & Flt Pen"
+ },
+ {
+   "number": "1218",
+   "abbr": "",
+   "name": "Refuse Collection Maintenance"
+ },
+ {
+   "number": "1220",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #1"
+ },
+ {
+   "number": "1221",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #2"
+ },
+ {
+   "number": "1222",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #3"
+ },
+ {
+   "number": "1223",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #4"
+ },
+ {
+   "number": "1224",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #5"
+ },
+ {
+   "number": "1225",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #6"
+ },
+ {
+   "number": "1226",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #7"
+ },
+ {
+   "number": "1227",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #8"
+ },
+ {
+   "number": "1228",
+   "abbr": "",
+   "name": "TVMC-Animal Isolation Bldg #9"
+ },
+ {
+   "number": "1229",
+   "abbr": "",
+   "name": "Schubot Aviary BR Facility (SOLD 5/2014)"
+ },
+ {
+   "number": "1232",
+   "abbr": "VMTF",
+   "name": "Theriogenology Facility, Equine Reproduction"
+ },
+ {
+   "number": "1234",
+   "abbr": "",
+   "name": "Dry Feed Storage Facility"
+ },
+ {
+   "number": "1235",
+   "abbr": "",
+   "name": "Poultry Incinerator"
+ },
+ {
+   "number": "1236",
+   "abbr": "",
+   "name": "Small Horse Barn"
+ },
+ {
+   "number": "1238",
+   "abbr": "OBSR",
+   "name": "Robotic Observatory"
+ },
+ {
+   "number": "1239",
+   "abbr": "OBSV",
+   "name": "Physics Teaching Observatory"
+ },
+ {
+   "number": "1242",
+   "abbr": "",
+   "name": "Utilities Water Operations Building F&B Storage"
+ },
+ {
+   "number": "1243",
+   "abbr": "",
+   "name": "Plumbing Fabrication Shop"
+ },
+ {
+   "number": "1244",
+   "abbr": "",
+   "name": "Utilities Inventory Warehouse Building 1"
+ },
+ {
+   "number": "1245",
+   "abbr": "",
+   "name": "Cable Wire Storage"
+ },
+ {
+   "number": "1246",
+   "abbr": "",
+   "name": "Generator Storage Building"
+ },
+ {
+   "number": "1247",
+   "abbr": "",
+   "name": "Hazardous Waste Office & Support Bldg"
+ },
+ {
+   "number": "1248",
+   "abbr": "VWSH",
+   "name": "Transportation Car/Bus Wash Building"
+ },
+ {
+   "number": "1249",
+   "abbr": "",
+   "name": "Telecommunications Optical Remote Building"
+ },
+ {
+   "number": "1259",
+   "abbr": "",
+   "name": "Airport-Aircraft Hanger J"
+ },
+ {
+   "number": "1260",
+   "abbr": "",
+   "name": "Airport Hangar"
+ },
+ {
+   "number": "1262",
+   "abbr": "",
+   "name": "McKenzie Terminal Building"
+ },
+ {
+   "number": "1264",
+   "abbr": "",
+   "name": "TAC Realty Hanger"
+ },
+ {
+   "number": "1265",
+   "abbr": "",
+   "name": "Former Parking Toll Booth-Easterwood"
+ },
+ {
+   "number": "1268",
+   "abbr": "",
+   "name": "Nat'l Aerothermochemistry Lab, Bldg 1"
+ },
+ {
+   "number": "1269",
+   "abbr": "",
+   "name": "Low Speed Wind Tunnel Shop"
+ },
+ {
+   "number": "1271",
+   "abbr": "",
+   "name": "Nat'l Aerothermochemistry Lab, Bldg 2"
+ },
+ {
+   "number": "1272",
+   "abbr": "",
+   "name": "Easterwood Airport Control Tower"
+ },
+ {
+   "number": "1274",
+   "abbr": "KSWT",
+   "name": "Klebanoff-Saric Wind Tunnel (Unsteady Wind Tunnel)"
+ },
+ {
+   "number": "1275",
+   "abbr": "",
+   "name": "New Easterwood FBO and Hangar"
+ },
+ {
+   "number": "1277",
+   "abbr": "",
+   "name": "Easterwood Rescue and Fire Facility"
+ },
+ {
+   "number": "1280",
+   "abbr": "",
+   "name": "ESTI Bathroom (Parker's Privy)"
+ },
+ {
+   "number": "1281",
+   "abbr": "",
+   "name": "ESTI BATHROOM (PAT'S POTTY)(sold)"
+ },
+ {
+   "number": "1282",
+   "abbr": "",
+   "name": "ESTI Bathroom (Ryan's Roost) (Sold)"
+ },
+ {
+   "number": "1283",
+   "abbr": "",
+   "name": "ESTI Industrial Bunker Gear Drying Building"
+ },
+ {
+   "number": "1284",
+   "abbr": "",
+   "name": "ESTI Breathing Apparatus Repair Building"
+ },
+ {
+   "number": "1287",
+   "abbr": "",
+   "name": "ESTI EMS Shop/Storage Building"
+ },
+ {
+   "number": "1295",
+   "abbr": "",
+   "name": "Turbo Machine Storage Facility"
+ },
+ {
+   "number": "1296",
+   "abbr": "",
+   "name": "Easterwood Maintenance Support Facility"
+ },
+ {
+   "number": "1297",
+   "abbr": "",
+   "name": "Land, Air, Space Robotics"
+ },
+ {
+   "number": "1298",
+   "abbr": "",
+   "name": "Turbo Lab Support Building"
+ },
+ {
+   "number": "1299",
+   "abbr": "",
+   "name": "Turbomachinery Laboratory"
+ },
+ {
+   "number": "1300",
+   "abbr": "",
+   "name": "Turbomachinery Office Building"
+ },
+ {
+   "number": "1305",
+   "abbr": "",
+   "name": "TVMC-Equine Breeding Facility (SOLD 5/2014)"
+ },
+ {
+   "number": "1307",
+   "abbr": "",
+   "name": "Nuclear Science Center Laboratory"
+ },
+ {
+   "number": "1345",
+   "abbr": "",
+   "name": "ESTI H. D. Smith Operations Complex"
+ },
+ {
+   "number": "1347",
+   "abbr": "",
+   "name": "ESTI Bathroom (SCBA Area)(SOLD 2017)"
+ },
+ {
+   "number": "1348",
+   "abbr": "",
+   "name": "ETSI Rescue/Disaster City Classroom (Sold)"
+ },
+ {
+   "number": "1349",
+   "abbr": "",
+   "name": "ESTI Rescue/Disaster City Canine Support"
+ },
+ {
+   "number": "1350",
+   "abbr": "",
+   "name": "ESTI Bathroom (Hazardous Materials Area)"
+ },
+ {
+   "number": "1351",
+   "abbr": "",
+   "name": "ESTI Bathroom (Marine Area)"
+ },
+ {
+   "number": "1352",
+   "abbr": "",
+   "name": "ESTI Bathroom (Industrial Area)"
+ },
+ {
+   "number": "1353",
+   "abbr": "",
+   "name": "ESTI Industrial Classrooms A&B"
+ },
+ {
+   "number": "1354",
+   "abbr": "",
+   "name": "ESTI Industrial Office"
+ },
+ {
+   "number": "1355",
+   "abbr": "",
+   "name": "ESTI Industrial Classrooms A&B"
+ },
+ {
+   "number": "1356",
+   "abbr": "",
+   "name": "ESTI Industrial Office"
+ },
+ {
+   "number": "1357",
+   "abbr": "",
+   "name": "ESTI Industrial Classrooms A&B"
+ },
+ {
+   "number": "1358",
+   "abbr": "",
+   "name": "ESTI Business Office"
+ },
+ {
+   "number": "1359",
+   "abbr": "",
+   "name": "ESTI Hazardous Materials Classrm/Mrkting Office"
+ },
+ {
+   "number": "1360",
+   "abbr": "",
+   "name": "ESTI Marine/EHS Office"
+ },
+ {
+   "number": "1361",
+   "abbr": "",
+   "name": "ESTI Rescue Classroom A&B (SOLD 2016)"
+ },
+ {
+   "number": "1363",
+   "abbr": "",
+   "name": "ESTI Field Maintenance Shop"
+ },
+ {
+   "number": "1364",
+   "abbr": "",
+   "name": "EMS Classroom/EMS Storage"
+ },
+ {
+   "number": "1365",
+   "abbr": "",
+   "name": "ESTI EMS Classroom"
+ },
+ {
+   "number": "1366",
+   "abbr": "",
+   "name": "ESTI Industrial Classrooms A&B"
+ },
+ {
+   "number": "1367",
+   "abbr": "",
+   "name": "ESTI EMS Office"
+ },
+ {
+   "number": "1368",
+   "abbr": "",
+   "name": "ESTI Vendor Store"
+ },
+ {
+   "number": "1370",
+   "abbr": "",
+   "name": "Emergency Operations Training Center"
+ },
+ {
+   "number": "1378",
+   "abbr": "",
+   "name": "US&R Warehouse (per '13 update this is bldg #1382)"
+ },
+ {
+   "number": "1382",
+   "abbr": "",
+   "name": "Rescue/Disaster City Warehouse"
+ },
+ {
+   "number": "1385",
+   "abbr": "",
+   "name": "ESTI WMD Restroom"
+ },
+ {
+   "number": "1386",
+   "abbr": "",
+   "name": "ESTI Curriculum Office"
+ },
+ {
+   "number": "1387",
+   "abbr": "",
+   "name": "ESTI Leadership/Certification/Evaluation Office"
+ },
+ {
+   "number": "1388",
+   "abbr": "",
+   "name": "TEEX Emergency Services Lab"
+ },
+ {
+   "number": "1391",
+   "abbr": "",
+   "name": "Pat Barrett Bunker Gear Drying Facility"
+ },
+ {
+   "number": "1392",
+   "abbr": "",
+   "name": "TEEX-ESTI (FTS) Rescue Training Facility"
+ },
+ {
+   "number": "1393",
+   "abbr": "",
+   "name": "TEEX-ESTI SCBA Facility"
+ },
+ {
+   "number": "1398",
+   "abbr": "",
+   "name": "New Music Activity Center"
+ },
+ {
+   "number": "1402",
+   "abbr": "BUZB",
+   "name": "Buzbee Leadership Learning Center"
+ },
+ {
+   "number": "1403",
+   "abbr": "ASH1",
+   "name": "H. Grady Ash, Jr. '58 Leadership Learning Center"
+ },
+ {
+   "number": "1404",
+   "abbr": "PLNK",
+   "name": "Plank Leadership Learning Center"
+ },
+ {
+   "number": "1405",
+   "abbr": "ASH2",
+   "name": "Ash, II Leadership Learning Center"
+ },
+ {
+   "number": "1412",
+   "abbr": "",
+   "name": "Civilian Lounge - A2"
+ },
+ {
+   "number": "1415",
+   "abbr": "CVLNA3",
+   "name": "Civilian Lounge - A3"
+ },
+ {
+   "number": "1416",
+   "abbr": "HLBL",
+   "name": "Hullabaloo Residence Hall"
+ },
+ {
+   "number": "1427",
+   "abbr": "",
+   "name": "Civilian Lounge - A1"
+ },
+ {
+   "number": "1430",
+   "abbr": "",
+   "name": "Civilian Lounge - C1"
+ },
+ {
+   "number": "1440",
+   "abbr": "",
+   "name": "Golf Cart Storage Building"
+ },
+ {
+   "number": "1450",
+   "abbr": "",
+   "name": "Laundry @ The Gardens"
+ },
+ {
+   "number": "1451",
+   "abbr": "",
+   "name": "The Gardens J"
+ },
+ {
+   "number": "1452",
+   "abbr": "",
+   "name": "The Gardens K"
+ },
+ {
+   "number": "1453",
+   "abbr": "",
+   "name": "The Gardens L"
+ },
+ {
+   "number": "1454",
+   "abbr": "",
+   "name": "The Gardens F"
+ },
+ {
+   "number": "1455",
+   "abbr": "",
+   "name": "The Gardens G"
+ },
+ {
+   "number": "1456",
+   "abbr": "",
+   "name": "The Gardens H"
+ },
+ {
+   "number": "1457",
+   "abbr": "",
+   "name": "The Gardens M"
+ },
+ {
+   "number": "1458",
+   "abbr": "",
+   "name": "The Gardens N"
+ },
+ {
+   "number": "1459",
+   "abbr": "",
+   "name": "The Gardens P"
+ },
+ {
+   "number": "1460",
+   "abbr": "",
+   "name": "The Gardens Q"
+ },
+ {
+   "number": "1461",
+   "abbr": "",
+   "name": "Activity Building"
+ },
+ {
+   "number": "1488",
+   "abbr": "UESIT",
+   "name": "UES IT Modular Building"
+ },
+ {
+   "number": "1489",
+   "abbr": "",
+   "name": "Utilities Energy Office Expansion"
+ },
+ {
+   "number": "1490",
+   "abbr": "",
+   "name": "Cabin At Challenge Course"
+ },
+ {
+   "number": "1491",
+   "abbr": "",
+   "name": "Shed At Challenge Course"
+ },
+ {
+   "number": "1492",
+   "abbr": "",
+   "name": "Classroom At Challenge Course"
+ },
+ {
+   "number": "1493",
+   "abbr": "",
+   "name": "Agronomy Road - T8 PCR"
+ },
+ {
+   "number": "1495",
+   "abbr": "",
+   "name": "Enterprise Electrical Distribution Center"
+ },
+ {
+   "number": "1496",
+   "abbr": "",
+   "name": "12.47 KV Switching Station"
+ },
+ {
+   "number": "1497",
+   "abbr": "UBO",
+   "name": "Utilities & Energy Services Business Office"
+ },
+ {
+   "number": "1498",
+   "abbr": "SUP1",
+   "name": "Satellite Utility Plant No. 1"
+ },
+ {
+   "number": "1499",
+   "abbr": "SUP2",
+   "name": "Satellite Utility Plant No. 2"
+ },
+ {
+   "number": "1501",
+   "abbr": "KLCT",
+   "name": "Kleberg Center"
+ },
+ {
+   "number": "1502",
+   "abbr": "HPCT",
+   "name": "HEEP Center"
+ },
+ {
+   "number": "1503",
+   "abbr": "CMAT",
+   "name": "Cater-Mattil Hall"
+ },
+ {
+   "number": "1504",
+   "abbr": "REYN",
+   "name": "Reynolds Medical Sciences Building"
+ },
+ {
+   "number": "1505",
+   "abbr": "MSTC",
+   "name": "Rosenthal Meat Science & Technology Center"
+ },
+ {
+   "number": "1506",
+   "abbr": "HFSB",
+   "name": "Horticulture/Forest Science Building"
+ },
+ {
+   "number": "1507",
+   "abbr": "BICH",
+   "name": "Biochemistry/Biophysics Building"
+ },
+ {
+   "number": "1508",
+   "abbr": "HOBG",
+   "name": "Price Hobgood Ag. Engineering Research Lab"
+ },
+ {
+   "number": "1509",
+   "abbr": "MEDL",
+   "name": "Medical Sciences Library"
+ },
+ {
+   "number": "1510",
+   "abbr": "WCBA",
+   "name": "Wehner Building"
+ },
+ {
+   "number": "1511",
+   "abbr": "WCLF",
+   "name": "West Campus Library Facility"
+ },
+ {
+   "number": "1512",
+   "abbr": "SCIG",
+   "name": "Southern Crop Improvement Greenhouse"
+ },
+ {
+   "number": "1513",
+   "abbr": "SCIC",
+   "name": "Borlaug Center for Southern Crop Improvement"
+ },
+ {
+   "number": "1514",
+   "abbr": "",
+   "name": "Parking Toll Booth At PA72"
+ },
+ {
+   "number": "1515",
+   "abbr": "",
+   "name": "Agriculture Building #5"
+ },
+ {
+   "number": "1516",
+   "abbr": "",
+   "name": "Horticulture Field Laboratory"
+ },
+ {
+   "number": "1517",
+   "abbr": "",
+   "name": "Horticulture Cabin"
+ },
+ {
+   "number": "1518",
+   "abbr": "SPHA",
+   "name": "School of Public Health - Admin Bldg"
+ },
+ {
+   "number": "1519",
+   "abbr": "SPHB",
+   "name": "School of Public Health - Lab Bldg"
+ },
+ {
+   "number": "1520",
+   "abbr": "SPHC",
+   "name": "School of Public Health - Classroom Bldg"
+ },
+ {
+   "number": "1525",
+   "abbr": "NMR",
+   "name": "Nuclear Magnetic Resonance Facility"
+ },
+ {
+   "number": "1530",
+   "abbr": "ILSB",
+   "name": "Interdisciplinary Life Sciences Building"
+ },
+ {
+   "number": "1535",
+   "abbr": "AGLS",
+   "name": "Agriculture and Life Sciences Building"
+ },
+ {
+   "number": "1536",
+   "abbr": "AGSV",
+   "name": "AgriLife Services Building"
+ },
+ {
+   "number": "1537",
+   "abbr": "WFES",
+   "name": "Wildlife, Fisheries & Ecological Sciences Building"
+ },
+ {
+   "number": "1538",
+   "abbr": "AGCT",
+   "name": "The AgriLife Center"
+ },
+ {
+   "number": "1540",
+   "abbr": "PEAP",
+   "name": "Physical Education Activity Program Building"
+ },
+ {
+   "number": "1541",
+   "abbr": "PEBC",
+   "name": "Physical Education Boot Camp and Archery Annex"
+ },
+ {
+   "number": "1542",
+   "abbr": "HCRB",
+   "name": "Human Clinical Research Building"
+ },
+ {
+   "number": "1543",
+   "abbr": "",
+   "name": "21st Century Classroom Building"
+ },
+ {
+   "number": "1544",
+   "abbr": "",
+   "name": "Cain Parking Garage"
+ },
+ {
+   "number": "1546",
+   "abbr": "",
+   "name": "Bizzell site Student Affairs Building"
+ },
+ {
+   "number": "1547",
+   "abbr": "",
+   "name": "McFerrin Athletic Center-Indoor Football"
+ },
+ {
+   "number": "1548",
+   "abbr": "ITRK",
+   "name": "McFerrin Athletic Center-Indoor Track"
+ },
+ {
+   "number": "1549",
+   "abbr": "",
+   "name": "Olsen Field Batting Cage Facility"
+ },
+ {
+   "number": "1550",
+   "abbr": "OLSN",
+   "name": "Olsen Field at Bluebell Park"
+ },
+ {
+   "number": "1552",
+   "abbr": "",
+   "name": "Olsen (E.D.) Grove Picnic Area"
+ },
+ {
+   "number": "1554",
+   "abbr": "REED",
+   "name": "Reed Arena"
+ },
+ {
+   "number": "1555",
+   "abbr": "",
+   "name": "Track & Field Support Center"
+ },
+ {
+   "number": "1556",
+   "abbr": "PISC",
+   "name": "Penberthy Intramural Sports Center"
+ },
+ {
+   "number": "1557",
+   "abbr": "",
+   "name": "Track & Field CTR Ticket Booth"
+ },
+ {
+   "number": "1558",
+   "abbr": "",
+   "name": "Cox-McFerrin Center for Aggie Basketball"
+ },
+ {
+   "number": "1559",
+   "abbr": "WCG",
+   "name": "West Campus Parking Garage"
+ },
+ {
+   "number": "1560",
+   "abbr": "SREC",
+   "name": "Student Recreation Center"
+ },
+ {
+   "number": "1561",
+   "abbr": "",
+   "name": "George P. Mitchell '40 Outdoor Tennis Center"
+ },
+ {
+   "number": "1562",
+   "abbr": "",
+   "name": "Wireless Telecommunications Facility"
+ },
+ {
+   "number": "1565",
+   "abbr": "",
+   "name": "Johnson Track & Field"
+ },
+ {
+   "number": "1566",
+   "abbr": "",
+   "name": "Julia And Mark Ellis '79 Soccer Building"
+ },
+ {
+   "number": "1567",
+   "abbr": "",
+   "name": "Softball Building"
+ },
+ {
+   "number": "1568",
+   "abbr": "",
+   "name": "Varsity Soccer Press Box"
+ },
+ {
+   "number": "1569",
+   "abbr": "",
+   "name": "Mitchell Tennis Center Ticket Booth"
+ },
+ {
+   "number": "1570",
+   "abbr": "WCTC",
+   "name": "Omar Smith Instructional Tennis Center"
+ },
+ {
+   "number": "1571",
+   "abbr": "",
+   "name": "West Campus Office Pavilion"
+ },
+ {
+   "number": "1572",
+   "abbr": "",
+   "name": "Soccer/Intramural Restroom"
+ },
+ {
+   "number": "1578",
+   "abbr": "",
+   "name": "Penberthy RecSports Pavilion"
+ },
+ {
+   "number": "1579",
+   "abbr": "",
+   "name": "Small Upland Fowl Res Lab (Mothballed in 2014)"
+ },
+ {
+   "number": "1581",
+   "abbr": "",
+   "name": "Penberthy RecSports Maintenance Bldg"
+ },
+ {
+   "number": "1582",
+   "abbr": "PDCWC",
+   "name": "Player Development Center-West Campus"
+ },
+ {
+   "number": "1583",
+   "abbr": "",
+   "name": "New Softball Stadium"
+ },
+ {
+   "number": "1584",
+   "abbr": "",
+   "name": "New Track & Field Stadium"
+ },
+ {
+   "number": "1586",
+   "abbr": "",
+   "name": "Penberthy South Restroom"
+ },
+ {
+   "number": "1587",
+   "abbr": "",
+   "name": "Penberthy South Control Building"
+ },
+ {
+   "number": "1589",
+   "abbr": "",
+   "name": "White Creek Apartments Activity Center"
+ },
+ {
+   "number": "1590",
+   "abbr": "",
+   "name": "White Creek Apartments #1"
+ },
+ {
+   "number": "1591",
+   "abbr": "",
+   "name": "White Creek Apartments #2"
+ },
+ {
+   "number": "1592",
+   "abbr": "",
+   "name": "White Creek Apartments #3"
+ },
+ {
+   "number": "1593",
+   "abbr": "",
+   "name": "White Creek Community Center"
+ },
+ {
+   "number": "1597",
+   "abbr": "",
+   "name": "IODP Hazmat Containment"
+ },
+ {
+   "number": "1598",
+   "abbr": "",
+   "name": "1313 Research Parkway (Lynntech Building)"
+ },
+ {
+   "number": "1599",
+   "abbr": "2RPK",
+   "name": "2 Research Park"
+ },
+ {
+   "number": "1600",
+   "abbr": "GGB",
+   "name": "Gilchrist Building (T.T.I.)"
+ },
+ {
+   "number": "1601",
+   "abbr": "IODP",
+   "name": "International Ocean Discovery Building"
+ },
+ {
+   "number": "1602",
+   "abbr": "ONRP",
+   "name": "1111 Research Parkway Bldg"
+ },
+ {
+   "number": "1603",
+   "abbr": "DLH",
+   "name": "Donald L. Houston Building"
+ },
+ {
+   "number": "1604",
+   "abbr": "OTRC",
+   "name": "Offshore Technology Research Center"
+ },
+ {
+   "number": "1605",
+   "abbr": "CEN",
+   "name": "Centeq Building"
+ },
+ {
+   "number": "1606",
+   "abbr": "BPLM",
+   "name": "George Bush Presidential Library & Museum"
+ },
+ {
+   "number": "1607",
+   "abbr": "ALLN",
+   "name": "Allen Building"
+ },
+ {
+   "number": "1608",
+   "abbr": "BPCC",
+   "name": "Annenberg Presidential Conference Center"
+ },
+ {
+   "number": "1609",
+   "abbr": "TTIHQ",
+   "name": "TTI State Headquarters & Research Building"
+ },
+ {
+   "number": "1610",
+   "abbr": "CEL",
+   "name": "Coastal Engineering Lab"
+ },
+ {
+   "number": "1611",
+   "abbr": "GERB",
+   "name": "Giesecke Engineering Research Building"
+ },
+ {
+   "number": "1620",
+   "abbr": "EBRF",
+   "name": "Electron Beam Food Research Facility"
+ },
+ {
+   "number": "1698",
+   "abbr": "",
+   "name": "Research Park Switching Station"
+ },
+ {
+   "number": "1699",
+   "abbr": "",
+   "name": "GTE Optical Remote Module (ODM) Facility @ Researc"
+ },
+ {
+   "number": "1700",
+   "abbr": "",
+   "name": "Schmidt House"
+ },
+ {
+   "number": "1701",
+   "abbr": "",
+   "name": "Texas A&M Polo Club Stables"
+ },
+ {
+   "number": "1702",
+   "abbr": "",
+   "name": "Equestrian Bldg@BrazosCo ExpoCtr (Vacated in 2014)"
+ },
+ {
+   "number": "1720",
+   "abbr": "TGLC",
+   "name": "Traditions Golf Learning Center"
+ },
+ {
+   "number": "1721",
+   "abbr": "",
+   "name": "Traditions Golf Storage Building"
+ },
+ {
+   "number": "1750",
+   "abbr": "",
+   "name": "Reproductive Sciences Bldg. A"
+ },
+ {
+   "number": "1753",
+   "abbr": "",
+   "name": "Reproductive Sciences Bldg. D"
+ },
+ {
+   "number": "1754",
+   "abbr": "",
+   "name": "Reproductive Sciences Bldg. E"
+ },
+ {
+   "number": "1755",
+   "abbr": "",
+   "name": "Reproductive Sciences Bldg. F"
+ },
+ {
+   "number": "1758",
+   "abbr": "",
+   "name": "Reproductive Sciences Bldg. I"
+ },
+ {
+   "number": "1759",
+   "abbr": "",
+   "name": "Reproductive Sciences Bldg. J"
+ },
+ {
+   "number": "1800",
+   "abbr": "GSC",
+   "name": "General Services Complex"
+ },
+ {
+   "number": "1804",
+   "abbr": "ENTO",
+   "name": "Rollins Urban and Structural Entomology Facility"
+ },
+ {
+   "number": "1805",
+   "abbr": "STLA",
+   "name": "Scotts Turf Lab 1 (Admin Bldg)"
+ },
+ {
+   "number": "1806",
+   "abbr": "STLS",
+   "name": "Scotts Turf Lab 2 (Shop Bldg)"
+ },
+ {
+   "number": "1808",
+   "abbr": "",
+   "name": "BRF Facility"
+ },
+ {
+   "number": "1809",
+   "abbr": "",
+   "name": "TVMDL Building"
+ },
+ {
+   "number": "1810",
+   "abbr": "",
+   "name": "Office of the State Chemist Building"
+ },
+ {
+   "number": "1811",
+   "abbr": "VMR",
+   "name": "Vet Med Research Bldg Addition"
+ },
+ {
+   "number": "1812",
+   "abbr": "VENI",
+   "name": "Veterinary Medicine Building 1 (VENI)"
+ },
+ {
+   "number": "1813",
+   "abbr": "VIDI",
+   "name": "Veterinary Medicine Building 2 (VIDI)"
+ },
+ {
+   "number": "1814",
+   "abbr": "VICI",
+   "name": "Veterinary Medicine Building 3 (VICI)"
+ },
+ {
+   "number": "1900",
+   "abbr": "TIGM",
+   "name": "Texas A&M Institute For Genomic Medicine"
+ },
+ {
+   "number": "1904",
+   "abbr": "TIPS A",
+   "name": "Texas A&M Institute for Preclinical Studies A"
+ },
+ {
+   "number": "1905",
+   "abbr": "TIPS B",
+   "name": "Texas A&M Institute for Preclinical Studies B"
+ },
+ {
+   "number": "1906",
+   "abbr": "TIPS C",
+   "name": "Texas A&M Institute for Preclinical Studies C"
+ },
+ {
+   "number": "1910",
+   "abbr": "NCTM",
+   "name": "National Center for Therapeutics Manufacturing"
+ },
+ {
+   "number": "1911",
+   "abbr": "MSRB",
+   "name": "Multi-Species Resource Building"
+ },
+ {
+   "number": "2135",
+   "abbr": "",
+   "name": "TVMC-WILDLIFE & EXOTIC ANIMALS B (Sold 2013)"
+ },
+ {
+   "number": "2900",
+   "abbr": "",
+   "name": "NEWMAN PRINTING BLDG(Lease expired 2004)"
+ },
+ {
+   "number": "2901",
+   "abbr": "",
+   "name": "Eastmark Building"
+ },
+ {
+   "number": "2902",
+   "abbr": "",
+   "name": "707 Texas Ave Bldg A [lease terminated 2016]"
+ },
+ {
+   "number": "2903",
+   "abbr": "",
+   "name": "29TH ST TEEX BLDG(Expired)"
+ },
+ {
+   "number": "2904",
+   "abbr": "",
+   "name": "707 TEXAS BLDG-D(Lease expired 2004)"
+ },
+ {
+   "number": "2905",
+   "abbr": "",
+   "name": "707 TEXAS BLDG-E(Lease expired 2012)"
+ },
+ {
+   "number": "2906",
+   "abbr": "",
+   "name": "WELLS FARGO BANK PLAZA"
+ },
+ {
+   "number": "2907",
+   "abbr": "",
+   "name": "4301-B S. Texas Ave (expired)"
+ },
+ {
+   "number": "2908",
+   "abbr": "",
+   "name": "111 UNIVERSITY (expired 2004)"
+ },
+ {
+   "number": "2909",
+   "abbr": "",
+   "name": "TAMU Employment Office-Creekside (expired 2004)"
+ },
+ {
+   "number": "2911",
+   "abbr": "",
+   "name": "700 East University, Suite 104"
+ },
+ {
+   "number": "2912",
+   "abbr": "MTRO",
+   "name": "3833 Texas Ave (Metro Center)"
+ },
+ {
+   "number": "2913",
+   "abbr": "",
+   "name": "3400 S Texas (Family Health Center)"
+ },
+ {
+   "number": "2914",
+   "abbr": "",
+   "name": "2700 Earl Rudder Fwy South, Suite 1800"
+ },
+ {
+   "number": "2915",
+   "abbr": "",
+   "name": "CENTRAL BRAZOS BUSINESS CENTER(EXPIRED 2003)"
+ },
+ {
+   "number": "2916",
+   "abbr": "",
+   "name": "UNIVERSITY PARK PLAZA"
+ },
+ {
+   "number": "2917",
+   "abbr": "",
+   "name": "702 E University Bldg E"
+ },
+ {
+   "number": "2918",
+   "abbr": "",
+   "name": "Executive Office Plaza, Bryan Tx"
+ },
+ {
+   "number": "2919",
+   "abbr": "",
+   "name": "LYNTECH BLDG. (SOLD 2009)"
+ },
+ {
+   "number": "2920",
+   "abbr": "CDLR",
+   "name": "501 Industrial Blvd (Ctr for Dist Learning Rsch)"
+ },
+ {
+   "number": "2921",
+   "abbr": "",
+   "name": "700 E. UNIVERSITY, SUITE 110 (Expired)"
+ },
+ {
+   "number": "2922",
+   "abbr": "TALXSC",
+   "name": "Texas A&M AgriLife Extension - South Campus"
+ },
+ {
+   "number": "2923",
+   "abbr": "",
+   "name": "1005 UNIVERSITY DRIVE EAST, STE. 105(EXPIRED 2006)"
+ },
+ {
+   "number": "2924",
+   "abbr": "",
+   "name": "LYNTECH BUILDING STORAGE (SOLD 2009)"
+ },
+ {
+   "number": "2925",
+   "abbr": "",
+   "name": "A&B Self Storage"
+ },
+ {
+   "number": "2926",
+   "abbr": "",
+   "name": "All Seasons Storage (LEASE VACATED 2/2017)"
+ },
+ {
+   "number": "2927",
+   "abbr": "",
+   "name": "Lock & Roll Storage"
+ },
+ {
+   "number": "2928",
+   "abbr": "",
+   "name": "700 E. UNIVERSITY, SUITE 108 (SOLD 2009)"
+ },
+ {
+   "number": "2929",
+   "abbr": "",
+   "name": "USAR Gateway Facility"
+ },
+ {
+   "number": "2930",
+   "abbr": "",
+   "name": "4001 E 29th Street, Suite 118"
+ },
+ {
+   "number": "2931",
+   "abbr": "",
+   "name": "903B HARVEY ROAD"
+ },
+ {
+   "number": "2932",
+   "abbr": "",
+   "name": "915B Harvey Rd"
+ },
+ {
+   "number": "2933",
+   "abbr": "",
+   "name": "CUBBY HOLE TEXAS SELF-STORAGE (LEASE EXP 2012)"
+ },
+ {
+   "number": "2934",
+   "abbr": "",
+   "name": "Lone Star Storage Center"
+ },
+ {
+   "number": "2935",
+   "abbr": "",
+   "name": "THE STORAGE STATION"
+ },
+ {
+   "number": "2937",
+   "abbr": "",
+   "name": "ALL SAFE STORAGE (Lease RENEWED 10/2016)"
+ },
+ {
+   "number": "2938",
+   "abbr": "",
+   "name": "400 Harvey Mitchell Pw (Valley Park Center)"
+ },
+ {
+   "number": "2939",
+   "abbr": "",
+   "name": "702 E University, Bldg D"
+ },
+ {
+   "number": "2940",
+   "abbr": "",
+   "name": "4001 E 29TH, SUITE 118 (CARTER CREEK CENTER)"
+ },
+ {
+   "number": "2941",
+   "abbr": "",
+   "name": "402 Harvey Mitchell (Valley Park II)"
+ },
+ {
+   "number": "2942",
+   "abbr": "",
+   "name": "Telecommunications Services Center (expired 2013)"
+ },
+ {
+   "number": "2943",
+   "abbr": "",
+   "name": "2901 E 29th St,Ste118(CarterCrkCtr)-DOES NOT EXIST"
+ },
+ {
+   "number": "2944",
+   "abbr": "",
+   "name": "Science Park Bldg (Suite 700) INACTIVE"
+ },
+ {
+   "number": "2945",
+   "abbr": "",
+   "name": "Gateway Greenhouse (103 Gateway Blvd)"
+ },
+ {
+   "number": "2946",
+   "abbr": "",
+   "name": "Science Park Bldg (Suite 701)"
+ },
+ {
+   "number": "2947",
+   "abbr": "",
+   "name": "Parker Lumber Office"
+ },
+ {
+   "number": "2951",
+   "abbr": "",
+   "name": "Fourwinds Industrial Park"
+ },
+ {
+   "number": "2952",
+   "abbr": "",
+   "name": "Transportation Svcs-Village Center Building F"
+ },
+ {
+   "number": "2953",
+   "abbr": "",
+   "name": "Northpoint AgriLife Printing and Bookstore"
+ },
+ {
+   "number": "2954",
+   "abbr": "",
+   "name": "Northpoint Storage"
+ },
+ {
+   "number": "2998",
+   "abbr": "GRND",
+   "name": "Grand Station Entertainment"
+ },
+ {
+   "number": "2999",
+   "abbr": "RINK",
+   "name": "Arctic Wolf Ice Rink"
+ },
+ {
+   "number": "3001",
+   "abbr": "KIRK",
+   "name": "Kirkham Hall"
+ },
+ {
+   "number": "3002",
+   "abbr": "ENGR",
+   "name": "Engineering Lab Building"
+ },
+ {
+   "number": "3003",
+   "abbr": "",
+   "name": "Oceanography Building"
+ },
+ {
+   "number": "3004",
+   "abbr": "",
+   "name": "Mary Moody Northern Student Cent"
+ },
+ {
+   "number": "3005",
+   "abbr": "",
+   "name": "Residence Hall A/B"
+ },
+ {
+   "number": "3006",
+   "abbr": "",
+   "name": "Central Service Building"
+ },
+ {
+   "number": "3007",
+   "abbr": "CLB",
+   "name": "Classroom-Laboratory Bldg"
+ },
+ {
+   "number": "3008",
+   "abbr": "",
+   "name": "Service Annex"
+ },
+ {
+   "number": "3010",
+   "abbr": "WILL",
+   "name": "Williams Library"
+ },
+ {
+   "number": "3011",
+   "abbr": "",
+   "name": "Electric Switch Gear Bldg"
+ },
+ {
+   "number": "3014",
+   "abbr": "",
+   "name": "RELOCATABLE BLDG(SOLD 2005)"
+ },
+ {
+   "number": "3015",
+   "abbr": "",
+   "name": "RELOCATABLE BLDG(SOLD 2005)"
+ },
+ {
+   "number": "3018",
+   "abbr": "GPEF",
+   "name": "PE Facility"
+ },
+ {
+   "number": "3019",
+   "abbr": "",
+   "name": "Sewer Plant"
+ },
+ {
+   "number": "3021",
+   "abbr": "",
+   "name": "Pool Mechanical Building"
+ },
+ {
+   "number": "3025",
+   "abbr": "",
+   "name": "Student Support Building"
+ },
+ {
+   "number": "3026",
+   "abbr": "SAGC",
+   "name": "Sea Aggie Center"
+ },
+ {
+   "number": "3027",
+   "abbr": "PMEC",
+   "name": "Powell Marine Engineering Complex"
+ },
+ {
+   "number": "3028",
+   "abbr": "",
+   "name": "Residence Life Center"
+ },
+ {
+   "number": "3029",
+   "abbr": "OCSB",
+   "name": "Oceans and Coastal Studies Building"
+ },
+ {
+   "number": "3030",
+   "abbr": "SSSB",
+   "name": "Seibel Student Services Building"
+ },
+ {
+   "number": "3031",
+   "abbr": "",
+   "name": "Pacific Hall"
+ },
+ {
+   "number": "3032",
+   "abbr": "",
+   "name": "Atlantic Hall"
+ },
+ {
+   "number": "3033",
+   "abbr": "AMMH",
+   "name": "Texas A&M Maritime Hall"
+ },
+ {
+   "number": "3034",
+   "abbr": "",
+   "name": "Academic Building Complex - Phase I"
+ },
+ {
+   "number": "3050",
+   "abbr": "GERG",
+   "name": "GERG Main Office Building"
+ },
+ {
+   "number": "3051",
+   "abbr": "",
+   "name": "GERG East Lab & Office Building"
+ },
+ {
+   "number": "3052",
+   "abbr": "",
+   "name": "GERG West Office Building (Sold 2010)"
+ },
+ {
+   "number": "3053",
+   "abbr": "",
+   "name": "GERG Portable Building"
+ },
+ {
+   "number": "3054",
+   "abbr": "",
+   "name": "GERG Warehouse"
+ },
+ {
+   "number": "3055",
+   "abbr": "",
+   "name": "GERG Solvent Shed"
+ },
+ {
+   "number": "3056",
+   "abbr": "",
+   "name": "GERG Gas Shed"
+ },
+ {
+   "number": "3057",
+   "abbr": "",
+   "name": "GERG-Autonomous Vehicle Bldg"
+ },
+ {
+   "number": "3098",
+   "abbr": "",
+   "name": "Business Management Services Record Storage"
+ },
+ {
+   "number": "3099",
+   "abbr": "BMSB",
+   "name": "Business Management Services Building"
+ },
+ {
+   "number": "3100",
+   "abbr": "HGLR",
+   "name": "Hagler Center"
+ },
+ {
+   "number": "3101",
+   "abbr": "",
+   "name": "HIRSHFELD MANSION"
+ },
+ {
+   "number": "3102",
+   "abbr": "",
+   "name": "HIRSHFELD COTTAGE (sold 2016)"
+ },
+ {
+   "number": "3103",
+   "abbr": "",
+   "name": "HIRSHFELD GARAGE APT (sold 2016)"
+ },
+ {
+   "number": "3104",
+   "abbr": "",
+   "name": "WETLANDS PAVILION"
+ },
+ {
+   "number": "3170",
+   "abbr": "",
+   "name": "Horticulture Garden Volunteer Office"
+ },
+ {
+   "number": "3171",
+   "abbr": "HORTOF",
+   "name": "Horticulture Office"
+ },
+ {
+   "number": "3172",
+   "abbr": "HORTCL",
+   "name": "Horticulture Classroom"
+ },
+ {
+   "number": "3190",
+   "abbr": "",
+   "name": "Becky Gates Children's Center Multipurpose Bldg"
+ },
+ {
+   "number": "3195",
+   "abbr": "",
+   "name": "Hensel Park Telecom Building #2"
+ },
+ {
+   "number": "3196",
+   "abbr": "",
+   "name": "Hensel Park Telecom Building"
+ },
+ {
+   "number": "3197",
+   "abbr": "",
+   "name": "University Apts Community Maintenance Bldg"
+ },
+ {
+   "number": "3198",
+   "abbr": "UACC",
+   "name": "University Apartments Community Center"
+ },
+ {
+   "number": "3199",
+   "abbr": "",
+   "name": "Becky Gates Children's Center"
+ },
+ {
+   "number": "3200",
+   "abbr": "",
+   "name": "Moore-Connally Building"
+ },
+ {
+   "number": "3201",
+   "abbr": "",
+   "name": "State HQTRS Thermal Plant"
+ },
+ {
+   "number": "3202",
+   "abbr": "",
+   "name": "Spring Loop Properties"
+ },
+ {
+   "number": "3205",
+   "abbr": "AMSB",
+   "name": "Texas A&M System Agency Office Building"
+ },
+ {
+   "number": "3210",
+   "abbr": "",
+   "name": "TOWNHOUSE #1 SPRING LOOP - STATE HDQ(sold 2001)"
+ },
+ {
+   "number": "3220",
+   "abbr": "",
+   "name": "TOWNHOUSE #2 SPRING LOOP - STATE HDQ(sold 2001)"
+ },
+ {
+   "number": "3230",
+   "abbr": "",
+   "name": "TOWNHOUSE #3 SPRING LOOP - STATE HDQ(sold 2001)"
+ },
+ {
+   "number": "3240",
+   "abbr": "",
+   "name": "TOWNHOUSE #4 SPRING LOOP - STATE HDQ(sold 2001)"
+ },
+ {
+   "number": "3300",
+   "abbr": "",
+   "name": "BRAZOS DUPLEXES(sold 2001)"
+ },
+ {
+   "number": "3310",
+   "abbr": "",
+   "name": "FORT CROCKETT II (Lease expired)"
+ },
+ {
+   "number": "3311",
+   "abbr": "MLB",
+   "name": "MARINE LABORATORY BUILDING (SOLD 2017)"
+ },
+ {
+   "number": "3312",
+   "abbr": "",
+   "name": "PRESIDENT'S RESIDENCE - GALVESTON"
+ },
+ {
+   "number": "3313",
+   "abbr": "",
+   "name": "HAZ MAT BUILDING (SOLD 2017)"
+ },
+ {
+   "number": "3314",
+   "abbr": "",
+   "name": "BAYOU CAMPUS (see A720)"
+ },
+ {
+   "number": "3315",
+   "abbr": "",
+   "name": "CHEMICAL STORAGE SHED"
+ },
+ {
+   "number": "3316",
+   "abbr": "",
+   "name": "BENNISON PLACE SAIL CENTER"
+ },
+ {
+   "number": "3317",
+   "abbr": "",
+   "name": "IMLS-Lease expired 2009"
+ },
+ {
+   "number": "3318",
+   "abbr": "",
+   "name": "MAMMAL RESEARCH"
+ },
+ {
+   "number": "3319",
+   "abbr": "",
+   "name": "SEA GRANT"
+ },
+ {
+   "number": "3320",
+   "abbr": "",
+   "name": "BI-VALVE HATCHERY"
+ },
+ {
+   "number": "3321",
+   "abbr": "",
+   "name": "HAZ MAT STORAGE"
+ },
+ {
+   "number": "3400",
+   "abbr": "USB",
+   "name": "University Services Building"
+ },
+ {
+   "number": "3410",
+   "abbr": "4HHQ",
+   "name": "AgriLife Extension 4-H State Headquarters"
+ },
+ {
+   "number": "3411",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER ADMINISTRATION BUILDING"
+ },
+ {
+   "number": "3412",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER LEADERSHIP LODGE"
+ },
+ {
+   "number": "3413",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 01"
+ },
+ {
+   "number": "3414",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 02"
+ },
+ {
+   "number": "3415",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 03"
+ },
+ {
+   "number": "3416",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 04"
+ },
+ {
+   "number": "3417",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 05"
+ },
+ {
+   "number": "3418",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 06"
+ },
+ {
+   "number": "3419",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 07"
+ },
+ {
+   "number": "3420",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 08"
+ },
+ {
+   "number": "3421",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 09"
+ },
+ {
+   "number": "3422",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER DORMITORY 10"
+ },
+ {
+   "number": "3423",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER MAINTENANCE BUILDING"
+ },
+ {
+   "number": "3424",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER POOL HOUSE"
+ },
+ {
+   "number": "3425",
+   "abbr": "",
+   "name": "4H CONFERENCE CENTER PAVILION"
+ },
+ {
+   "number": "3500",
+   "abbr": "ALKEK",
+   "name": "ALKEK INST BIOSCI & TECHN BLDG"
+ },
+ {
+   "number": "3501",
+   "abbr": "SWHS",
+   "name": "MAIN HOSPITAL (S&W #1)"
+ },
+ {
+   "number": "3502",
+   "abbr": "MRB",
+   "name": "Medical Research Building (HSC)"
+ },
+ {
+   "number": "3503",
+   "abbr": "",
+   "name": "ANIMAL FACILITY (S&W #3)"
+ },
+ {
+   "number": "3504",
+   "abbr": "MEC",
+   "name": "MEDICAL EDUCATION CENTER AT S&W"
+ },
+ {
+   "number": "3505",
+   "abbr": "",
+   "name": "HSC Mechanical Building"
+ },
+ {
+   "number": "3506",
+   "abbr": "",
+   "name": "IMAGING CENTER-TEMPLE (HSC)"
+ },
+ {
+   "number": "3507",
+   "abbr": "",
+   "name": "SPECIAL TREATMENT CTR (S&W #7)"
+ },
+ {
+   "number": "3509",
+   "abbr": "",
+   "name": "SCOTT & WHITE CLINIC (S&W #9)"
+ },
+ {
+   "number": "3511",
+   "abbr": "",
+   "name": "CRITICAL CARE (S&W #11)"
+ },
+ {
+   "number": "3520",
+   "abbr": "",
+   "name": "DAY SURGERY (S&W #20)"
+ },
+ {
+   "number": "3522",
+   "abbr": "",
+   "name": "MENTAL HEALTH BLDG (S&W #22)"
+ },
+ {
+   "number": "3525",
+   "abbr": "",
+   "name": "ANIMAL FACILITY (S&W #25)"
+ },
+ {
+   "number": "3527",
+   "abbr": "",
+   "name": "PEDIATRICS BLDG (S&W #27)"
+ },
+ {
+   "number": "3529",
+   "abbr": "",
+   "name": "NURSING MODULAR (S&W #31)"
+ },
+ {
+   "number": "3530",
+   "abbr": "",
+   "name": "57TH STREET ANNEX (S&W #A2)"
+ },
+ {
+   "number": "3540",
+   "abbr": "",
+   "name": "BELTON CLINIC (S&W #B1)"
+ },
+ {
+   "number": "3542",
+   "abbr": "",
+   "name": "BROWNWOOD CLINIC (S&W #BW)"
+ },
+ {
+   "number": "3544",
+   "abbr": "",
+   "name": "KILLEEN CLINIC (S&W #K1)"
+ },
+ {
+   "number": "3550",
+   "abbr": "",
+   "name": "SANTA FE CLINIC (S&W #S1)"
+ },
+ {
+   "number": "3552",
+   "abbr": "",
+   "name": "SANTA FE CENTURY SQ (S&W #52)"
+ },
+ {
+   "number": "3560",
+   "abbr": "",
+   "name": "SOUTH LOOP ANNEX (S&W #A1)"
+ },
+ {
+   "number": "3570",
+   "abbr": "",
+   "name": "VA CAMPUS BLDG - 147(ABANDONED 2004)"
+ },
+ {
+   "number": "3571",
+   "abbr": "",
+   "name": "MED SCI - NEUROPSYCHIATRY"
+ },
+ {
+   "number": "3574",
+   "abbr": "VAMC",
+   "name": "VA 205-CARDIOVASCULAR"
+ },
+ {
+   "number": "3575",
+   "abbr": "",
+   "name": "VA CAMPUS BLDG - 7 (ABANDONED 2003)"
+ },
+ {
+   "number": "3600",
+   "abbr": "BCD",
+   "name": "BAYLOR COLLEGE DENTISTRY-BCD1"
+ },
+ {
+   "number": "3601",
+   "abbr": "",
+   "name": "BCD PARKING GARAGE - BCD2"
+ },
+ {
+   "number": "3602",
+   "abbr": "IMAG",
+   "name": "BCD IMAGING CENTER - BCD3"
+ },
+ {
+   "number": "3603",
+   "abbr": "",
+   "name": "BCD CARPENTER SHOP - BCD4"
+ },
+ {
+   "number": "3604",
+   "abbr": "",
+   "name": "BCD WAREHOUSE - BCD5"
+ },
+ {
+   "number": "3605",
+   "abbr": "",
+   "name": "BCD WADLEY TOWER - BCD6"
+ },
+ {
+   "number": "3606",
+   "abbr": "BSCS",
+   "name": "BCD BIOMEDICAL SCIENCES BUILDING (HSC)"
+ },
+ {
+   "number": "3800",
+   "abbr": "LAWS",
+   "name": "Texas A&M Law School Building"
+ },
+ {
+   "number": "3801",
+   "abbr": "LAWSH",
+   "name": "TAMU Law - Sheraton Fort Worth"
+ },
+ {
+   "number": "3802",
+   "abbr": "LAWSTB",
+   "name": "TAMU Law - Star-Telegram Bldg"
+ },
+ {
+   "number": "4001",
+   "abbr": "",
+   "name": "White (G.R.) Conference Center"
+ },
+ {
+   "number": "4002",
+   "abbr": "",
+   "name": "Beef Cattle Center Headquarters"
+ },
+ {
+   "number": "4003",
+   "abbr": "",
+   "name": "Beef Cattle Center Feed Mill"
+ },
+ {
+   "number": "4004",
+   "abbr": "",
+   "name": "Beef Cattle Center Equip Storage"
+ },
+ {
+   "number": "4005",
+   "abbr": "",
+   "name": "BEEF CATTLE CTR LAB/RESTRM (REMV'D;SEE 4002)"
+ },
+ {
+   "number": "4006",
+   "abbr": "",
+   "name": "BEEF CATTLE CTR FEED STOR (REMV'D;SEE 4002)"
+ },
+ {
+   "number": "4008",
+   "abbr": "",
+   "name": "BEEF CATTLE CTR TACK STORAGE (REMV'D; SEE 4002)"
+ },
+ {
+   "number": "4009",
+   "abbr": "",
+   "name": "BEEF CATTLE CENTER FEED MILL (REMV'D; SEE 4003)"
+ },
+ {
+   "number": "4010",
+   "abbr": "",
+   "name": "Nutrition/Physiology Center"
+ },
+ {
+   "number": "4011",
+   "abbr": "",
+   "name": "Equipment Storage/Diet Prep"
+ },
+ {
+   "number": "4016",
+   "abbr": "",
+   "name": "Farrowing/Nursery"
+ },
+ {
+   "number": "4020",
+   "abbr": "",
+   "name": "Sheep & Goat Center"
+ },
+ {
+   "number": "4021",
+   "abbr": "",
+   "name": "Livestock Housing"
+ },
+ {
+   "number": "4022",
+   "abbr": "",
+   "name": "Isolation Barn"
+ },
+ {
+   "number": "4025",
+   "abbr": "",
+   "name": "Thomsen Animal Euthenics Center"
+ },
+ {
+   "number": "4026",
+   "abbr": "",
+   "name": "SHEEP FEEDING BARN-BURLESON CO."
+ },
+ {
+   "number": "4027",
+   "abbr": "",
+   "name": "BEEF RESEARCH UNIT-BURLESON CO."
+ },
+ {
+   "number": "4028",
+   "abbr": "",
+   "name": "Farm Service Field Support"
+ },
+ {
+   "number": "4030",
+   "abbr": "",
+   "name": "HortTREC Greenhouse Complex"
+ },
+ {
+   "number": "4031",
+   "abbr": "",
+   "name": "HortTREC Complex Headhouse"
+ },
+ {
+   "number": "4032",
+   "abbr": "",
+   "name": "HortTREC Winteringhouse West"
+ },
+ {
+   "number": "4033",
+   "abbr": "",
+   "name": "HortTREC Winteringhouse East"
+ },
+ {
+   "number": "4034",
+   "abbr": "",
+   "name": "HortTREC Headhouse North"
+ },
+ {
+   "number": "4035",
+   "abbr": "",
+   "name": "HortTREC Pesticide Locker"
+ },
+ {
+   "number": "4036",
+   "abbr": "",
+   "name": "HortTREC Greenhouse North"
+ },
+ {
+   "number": "4037",
+   "abbr": "",
+   "name": "HortTREC Office-Warehouse"
+ },
+ {
+   "number": "4050",
+   "abbr": "WWTP",
+   "name": "Wastewater Treatment Plant"
+ },
+ {
+   "number": "4051",
+   "abbr": "TPPP",
+   "name": "WWTP Primary Pump Building"
+ },
+ {
+   "number": "4052",
+   "abbr": "TPSP",
+   "name": "WWTP Secondary Pump Building"
+ },
+ {
+   "number": "4053",
+   "abbr": "TPDB",
+   "name": "WWTP Disinfection Building"
+ },
+ {
+   "number": "4054",
+   "abbr": "TPBB",
+   "name": "WWTP Digester Boiler Building"
+ },
+ {
+   "number": "4055",
+   "abbr": "TPES",
+   "name": "WWTP Equipment Storage Building"
+ },
+ {
+   "number": "4542",
+   "abbr": "",
+   "name": "TVMC-Wildlife & Exotic Animals"
+ },
+ {
+   "number": "4634",
+   "abbr": "FSSB",
+   "name": "Variety Testing and Sorghum Breeding"
+ },
+ {
+   "number": "4701",
+   "abbr": "",
+   "name": "MAIN ELECTRIC SWITCHGEAR BLDG (NULL)"
+ },
+ {
+   "number": "5200",
+   "abbr": "",
+   "name": "Metal Building"
+ },
+ {
+   "number": "6030",
+   "abbr": "ELTC",
+   "name": "TEEX Hangar/Classrooms"
+ },
+ {
+   "number": "6047",
+   "abbr": "",
+   "name": "Chemical Supplies Storage"
+ },
+ {
+   "number": "6069",
+   "abbr": "",
+   "name": "Research Support Bldg"
+ },
+ {
+   "number": "6071",
+   "abbr": "",
+   "name": "ITSI Storage"
+ },
+ {
+   "number": "6095",
+   "abbr": "",
+   "name": "TTI Research Storage"
+ },
+ {
+   "number": "6242",
+   "abbr": "",
+   "name": "Aquaculture Lab (Mothballed)"
+ },
+ {
+   "number": "6502",
+   "abbr": "",
+   "name": "Energy Systems Lab"
+ },
+ {
+   "number": "6881",
+   "abbr": "",
+   "name": "Bath House"
+ },
+ {
+   "number": "6882",
+   "abbr": "",
+   "name": "Rest Rooms"
+ },
+ {
+   "number": "6884",
+   "abbr": "",
+   "name": "Honey Bee/Apiary Services Building"
+ },
+ {
+   "number": "7002",
+   "abbr": "",
+   "name": "Storage Building"
+ },
+ {
+   "number": "7003",
+   "abbr": "",
+   "name": "Office Building"
+ },
+ {
+   "number": "7004",
+   "abbr": "",
+   "name": "PreFabWood Frame Office Bldg (Sold 2017)"
+ },
+ {
+   "number": "7006",
+   "abbr": "",
+   "name": "Chapel & Assembly Hall"
+ },
+ {
+   "number": "7007",
+   "abbr": "RNCH",
+   "name": "Automated Fabrication and Design Lab"
+ },
+ {
+   "number": "7008",
+   "abbr": "",
+   "name": "Automated Fabrication & Design Expansion Building"
+ },
+ {
+   "number": "7023",
+   "abbr": "",
+   "name": "Residence Supt. Maint. & Oper.(DISPOSED 1994)"
+ },
+ {
+   "number": "7030",
+   "abbr": "",
+   "name": "TTI Sediment & Erosion Control Lab"
+ },
+ {
+   "number": "7040",
+   "abbr": "",
+   "name": "The Western Dairy Transport Classroom Building"
+ },
+ {
+   "number": "7041",
+   "abbr": "",
+   "name": "U.S.D.A. Hangar No.2"
+ },
+ {
+   "number": "7042",
+   "abbr": "",
+   "name": "U.S.D.A. Hangar No.1"
+ },
+ {
+   "number": "7043",
+   "abbr": "",
+   "name": "U.S.D.A. Hangar No.3"
+ },
+ {
+   "number": "7044",
+   "abbr": "",
+   "name": "U.S.D.A. Hangar No.4"
+ },
+ {
+   "number": "7045",
+   "abbr": "",
+   "name": "U.S.D.A. Hangar"
+ },
+ {
+   "number": "7046",
+   "abbr": "",
+   "name": "Aerospace Hangar"
+ },
+ {
+   "number": "7056",
+   "abbr": "",
+   "name": "Electrical and Computer Engineering Solar"
+ },
+ {
+   "number": "7057",
+   "abbr": "",
+   "name": "TEES Records Archive"
+ },
+ {
+   "number": "7061",
+   "abbr": "",
+   "name": "TTI Sediment & Erosion Control Support Lab"
+ },
+ {
+   "number": "7063",
+   "abbr": "",
+   "name": "Conservation Research Lab"
+ },
+ {
+   "number": "7064",
+   "abbr": "",
+   "name": "Conservation Projects"
+ },
+ {
+   "number": "7065",
+   "abbr": "",
+   "name": "CRL Storage"
+ },
+ {
+   "number": "7066",
+   "abbr": "",
+   "name": "TEEX - LAW Driving Track Pavilion"
+ },
+ {
+   "number": "7067",
+   "abbr": "",
+   "name": "TEEX - LAW Driving Track Restroom"
+ },
+ {
+   "number": "7077",
+   "abbr": "",
+   "name": "CONTROL TOWER"
+ },
+ {
+   "number": "7082",
+   "abbr": "RCUP",
+   "name": "RELLIS Central Utility Plant"
+ },
+ {
+   "number": "7090",
+   "abbr": "",
+   "name": "TTI Proving Ground Research Hangar"
+ },
+ {
+   "number": "7091",
+   "abbr": "",
+   "name": "TTI Office Building"
+ },
+ {
+   "number": "7092",
+   "abbr": "",
+   "name": "TTI Proving Ground Research Support"
+ },
+ {
+   "number": "7093",
+   "abbr": "",
+   "name": "TTI Machining Facility"
+ },
+ {
+   "number": "7095",
+   "abbr": "",
+   "name": "TTI Research Storage Building"
+ },
+ {
+   "number": "7096",
+   "abbr": "",
+   "name": "TTI Environmental & Emissions Research Facility"
+ },
+ {
+   "number": "7098",
+   "abbr": "",
+   "name": "Warehouse"
+ },
+ {
+   "number": "7176",
+   "abbr": "",
+   "name": "Publications Pro. Center"
+ },
+ {
+   "number": "7177",
+   "abbr": "",
+   "name": "Nautical Archeology Storage"
+ },
+ {
+   "number": "7180",
+   "abbr": "",
+   "name": "Processing Lab"
+ },
+ {
+   "number": "7181",
+   "abbr": "",
+   "name": "Solvent Extraction Building"
+ },
+ {
+   "number": "7182",
+   "abbr": "",
+   "name": "Extraction Building"
+ },
+ {
+   "number": "7183",
+   "abbr": "",
+   "name": "Refinery"
+ },
+ {
+   "number": "7184",
+   "abbr": "",
+   "name": "Fats & Oils Processing Building"
+ },
+ {
+   "number": "7240",
+   "abbr": "",
+   "name": "TEEX Copy Center"
+ },
+ {
+   "number": "7439",
+   "abbr": "",
+   "name": "Telecommunications Optical Remote Bldg-Riverside"
+ },
+ {
+   "number": "7441",
+   "abbr": "",
+   "name": "Riverside Water Distribution Pump Station"
+ },
+ {
+   "number": "7500",
+   "abbr": "",
+   "name": "TTI Research Pendulum Test Facility"
+ },
+ {
+   "number": "7535",
+   "abbr": "",
+   "name": "AM VI Office and Shops"
+ },
+ {
+   "number": "7751",
+   "abbr": "",
+   "name": "TEEX - LAW Office Bldg"
+ },
+ {
+   "number": "7752",
+   "abbr": "",
+   "name": "TEEX - LAW Gym"
+ },
+ {
+   "number": "7800",
+   "abbr": "",
+   "name": "TEES Smoke Detector Research"
+ },
+ {
+   "number": "7801",
+   "abbr": "",
+   "name": "TEEX - LAW Prop House #1"
+ },
+ {
+   "number": "7802",
+   "abbr": "",
+   "name": "TEEX - LAW Prop House #2"
+ },
+ {
+   "number": "7899",
+   "abbr": "",
+   "name": "TEEX ELECTRICAL POWER TRAINING STORAGE"
+ },
+ {
+   "number": "7900",
+   "abbr": "",
+   "name": "TEEX ITSI Offices"
+ },
+ {
+   "number": "7901",
+   "abbr": "",
+   "name": "TEEX - ITSI"
+ },
+ {
+   "number": "7902",
+   "abbr": "",
+   "name": "ESTI SUPPORT BUILDING (SOLD 2009)"
+ },
+ {
+   "number": "7904",
+   "abbr": "",
+   "name": "ESTI Haz Mat Classroom"
+ },
+ {
+   "number": "7905",
+   "abbr": "",
+   "name": "ESTI Haz Mat Warehouse"
+ },
+ {
+   "number": "7906",
+   "abbr": "",
+   "name": "TEEX ITSI Shop"
+ },
+ {
+   "number": "7907",
+   "abbr": "",
+   "name": "ESTI Haz Mat Technician Shop"
+ },
+ {
+   "number": "7910",
+   "abbr": "",
+   "name": "ESTI Haz Mat Storage"
+ },
+ {
+   "number": "8000",
+   "abbr": "",
+   "name": "TEEX ITSI Garage & Offices"
+ },
+ {
+   "number": "8004",
+   "abbr": "",
+   "name": "TEEX ITSI Offices - Water Lab"
+ },
+ {
+   "number": "8031",
+   "abbr": "",
+   "name": "IODP/Oceanography Bldg"
+ },
+ {
+   "number": "8032",
+   "abbr": "",
+   "name": "Ocean Drilling Test Facility"
+ },
+ {
+   "number": "8081",
+   "abbr": "",
+   "name": "TEEX - ITSI Tech Bldg"
+ },
+ {
+   "number": "8083",
+   "abbr": "",
+   "name": "Telecommunications Building"
+ },
+ {
+   "number": "8236",
+   "abbr": "",
+   "name": "Instructional Materials Serv"
+ },
+ {
+   "number": "8512",
+   "abbr": "",
+   "name": "Warehouse"
+ },
+ {
+   "number": "8520",
+   "abbr": "JLF",
+   "name": "Joint Library Facility with UT"
+ },
+ {
+   "number": "8525",
+   "abbr": "",
+   "name": "Food Protein R&D Center"
+ },
+ {
+   "number": "8535",
+   "abbr": "CIR",
+   "name": "Center for Infrastructure Renewal -RELLIS"
+ },
+ {
+   "number": "8537",
+   "abbr": "",
+   "name": "New TTI Headquarters - RELLIS"
+ },
+ {
+   "number": "8577",
+   "abbr": "",
+   "name": "Flammable Materials Storage at CUP"
+ },
+ {
+   "number": "8578",
+   "abbr": "",
+   "name": "Water Lab at CUP"
+ },
+ {
+   "number": "8586",
+   "abbr": "",
+   "name": "EXTENSION CENTER STORAGE"
+ },
+ {
+   "number": "8600",
+   "abbr": "",
+   "name": "TEEX - LAW UXO Demo Range Pavilion"
+ },
+ {
+   "number": "8601",
+   "abbr": "",
+   "name": "TEEX - LAW UXO Search Grid Pavilion"
+ },
+ {
+   "number": "8684",
+   "abbr": "",
+   "name": "New Rifle Range Pavilion"
+ },
+ {
+   "number": "8685",
+   "abbr": "",
+   "name": "TEEX - LAW Firing Range Classroom"
+ },
+ {
+   "number": "8687",
+   "abbr": "",
+   "name": "TEEX - LAW Shoot House"
+ },
+ {
+   "number": "8691",
+   "abbr": "",
+   "name": "SEWAGE PLANT"
+ },
+ {
+   "number": "8800",
+   "abbr": "",
+   "name": "Bonfire Memorial Restroom"
+ },
+ {
+   "number": "8897",
+   "abbr": "",
+   "name": "CUSE-PCO (SOLD 2005)"
+ },
+ {
+   "number": "8898",
+   "abbr": "",
+   "name": "CUSE - INSECT REARING (SOLD 2005)"
+ },
+ {
+   "number": "8900",
+   "abbr": "W5AC",
+   "name": "W5AC Amateur Radio Club Building"
+ },
+ {
+   "number": "8901",
+   "abbr": "",
+   "name": "GSC Portable Building"
+ },
+ {
+   "number": "9001",
+   "abbr": "",
+   "name": "HOB PACKING SHED & (Sold 2004)"
+ },
+ {
+   "number": "9002",
+   "abbr": "",
+   "name": "HOB IRON CLAD (Sold 2004)"
+ },
+ {
+   "number": "9004",
+   "abbr": "",
+   "name": "HOB IRON CLAD MACH & (Sold 2004)"
+ },
+ {
+   "number": "9007",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9008",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9010",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9011",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9012",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9015",
+   "abbr": "",
+   "name": "HOB GLASSED GREEN (Sold 2004)"
+ },
+ {
+   "number": "9016",
+   "abbr": "",
+   "name": "HOB OPEN EQUIPMENT (Sold 2004)"
+ },
+ {
+   "number": "9018",
+   "abbr": "",
+   "name": "HOB ONE ROOM (Sold 2004)"
+ },
+ {
+   "number": "9020",
+   "abbr": "",
+   "name": "HOBLITZELLE (Sold 2004)"
+ },
+ {
+   "number": "9103",
+   "abbr": "",
+   "name": "TAP STATION CONTROL BUILDING (SOLD 2008)"
+ },
+ {
+   "number": "9119",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9120",
+   "abbr": "",
+   "name": "HOB MASONRY BATH (Sold 2004)"
+ },
+ {
+   "number": "9121",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9123",
+   "abbr": "",
+   "name": "HOB ONE STORY FRAME (Sold 2004)"
+ },
+ {
+   "number": "9224",
+   "abbr": "",
+   "name": "HOB BOAT HOUSE & (Sold 2004)"
+ },
+ {
+   "number": "9325",
+   "abbr": "",
+   "name": "HOB RESIDENCE LOT 15 (Sold 2004)"
+ },
+ {
+   "number": "9426",
+   "abbr": "",
+   "name": "HOB MANAGERS (Sold 2004)"
+ },
+ {
+   "number": "9427",
+   "abbr": "",
+   "name": "HOB BRICK STORE ROOM (Sold 2004)"
+ },
+ {
+   "number": "9529",
+   "abbr": "",
+   "name": "HOB GARAGE  & PUMP (Sold 2004)"
+ },
+ {
+   "number": "9530",
+   "abbr": "",
+   "name": "HOB STORAGE ROOM (Sold 2004)"
+ },
+ {
+   "number": "9535",
+   "abbr": "",
+   "name": "HOB FEED MIXING & (Sold 2004)"
+ },
+ {
+   "number": "9536",
+   "abbr": "",
+   "name": "HOB GRAIN ELEVATOR (Sold 2004)"
+ },
+ {
+   "number": "9537",
+   "abbr": "",
+   "name": "HOB GRAIN ELEVATOR (Sold 2004)"
+ },
+ {
+   "number": "9538",
+   "abbr": "",
+   "name": "HOB GRAIN ELEVATOR (Sold 2004)"
+ },
+ {
+   "number": "9539",
+   "abbr": "",
+   "name": "HOB GRAIN ELEVATOR (Sold 2004)"
+ },
+ {
+   "number": "A001",
+   "abbr": "",
+   "name": "AREC AMARILLO"
+ },
+ {
+   "number": "A002",
+   "abbr": "",
+   "name": "Bush Farm Office, Bush Farm"
+ },
+ {
+   "number": "A003",
+   "abbr": "",
+   "name": "Quonset Shop/Storage Bush Farm"
+ },
+ {
+   "number": "A004",
+   "abbr": "",
+   "name": "Pole Barn Shed Bush Farm"
+ },
+ {
+   "number": "A005",
+   "abbr": "",
+   "name": "Chemical Storage Bush Farm"
+ },
+ {
+   "number": "A006",
+   "abbr": "",
+   "name": "Well House Bush Farm"
+ },
+ {
+   "number": "A007",
+   "abbr": "",
+   "name": "Storm Shelter Bush Farm"
+ },
+ {
+   "number": "A008",
+   "abbr": "",
+   "name": "Tack Storage Bush Farm"
+ },
+ {
+   "number": "A009",
+   "abbr": "",
+   "name": "Grain Drying Barn (USDA) Bushland"
+ },
+ {
+   "number": "A010",
+   "abbr": "",
+   "name": "Storage Shed (USDA) Bushland"
+ },
+ {
+   "number": "A011",
+   "abbr": "",
+   "name": "K. B. Porter Wheat Genetics Building Bushland"
+ },
+ {
+   "number": "A012",
+   "abbr": "",
+   "name": "Agronomy/Crop Stress Research Lab Bldg Bushland"
+ },
+ {
+   "number": "A013",
+   "abbr": "",
+   "name": "Metabolism Laboratory Bushland"
+ },
+ {
+   "number": "A015",
+   "abbr": "",
+   "name": "Residence Bushland"
+ },
+ {
+   "number": "A016",
+   "abbr": "",
+   "name": "Garage - Res. Bushland"
+ },
+ {
+   "number": "A017",
+   "abbr": "",
+   "name": "Greenhouse (Pathology) Bushland"
+ },
+ {
+   "number": "A022",
+   "abbr": "",
+   "name": "Headhouse - Ento Bushland"
+ },
+ {
+   "number": "A024",
+   "abbr": "",
+   "name": "Air Quality Field Lab & BioMass Processing Bushlan"
+ },
+ {
+   "number": "A025",
+   "abbr": "",
+   "name": "Maintenance Shop"
+ },
+ {
+   "number": "A026",
+   "abbr": "",
+   "name": "Old Headquarters Bushland"
+ },
+ {
+   "number": "A027",
+   "abbr": "",
+   "name": "Greenhouse - Ento Bushland"
+ },
+ {
+   "number": "A028",
+   "abbr": "",
+   "name": "Fuel Storage Bushland"
+ },
+ {
+   "number": "A029",
+   "abbr": "",
+   "name": "Ento Greenhouse Bushland"
+ },
+ {
+   "number": "A030",
+   "abbr": "",
+   "name": "Ento Greenhouse Bushland"
+ },
+ {
+   "number": "A031",
+   "abbr": "",
+   "name": "Ento Greenhouse Bushland"
+ },
+ {
+   "number": "A032",
+   "abbr": "",
+   "name": "Storage Bushland"
+ },
+ {
+   "number": "A033",
+   "abbr": "",
+   "name": "Quonset Bushland"
+ },
+ {
+   "number": "A034",
+   "abbr": "",
+   "name": "Storage USDA Bushland"
+ },
+ {
+   "number": "A035",
+   "abbr": "",
+   "name": "Container Storage Bushland"
+ },
+ {
+   "number": "A036",
+   "abbr": "",
+   "name": "Container Storage Bushland"
+ },
+ {
+   "number": "A037",
+   "abbr": "",
+   "name": "Container Storage Bushland"
+ },
+ {
+   "number": "A038",
+   "abbr": "",
+   "name": "Pesticide Storage Bushland"
+ },
+ {
+   "number": "A039",
+   "abbr": "",
+   "name": "Equipment Storage Bushland"
+ },
+ {
+   "number": "A040",
+   "abbr": "",
+   "name": "Air Quality Storage"
+ },
+ {
+   "number": "A041",
+   "abbr": "",
+   "name": "Shop Building Bushland"
+ },
+ {
+   "number": "A042",
+   "abbr": "",
+   "name": "HQ, North Plains Res, Etter/Dumas [lease exp 2014]"
+ },
+ {
+   "number": "A043",
+   "abbr": "",
+   "name": "Shop Building, Etter/Dumas [lease exp 2014]"
+ },
+ {
+   "number": "A044",
+   "abbr": "",
+   "name": "Field Lab Bldg., Etter/Dumas [lease exp 2014]"
+ },
+ {
+   "number": "A045",
+   "abbr": "",
+   "name": "Chem Storage Bldg., Etter/Dumas [lease exp 2014]"
+ },
+ {
+   "number": "A046",
+   "abbr": "",
+   "name": "Plumbing House [Lease exp 2014]"
+ },
+ {
+   "number": "A047",
+   "abbr": "",
+   "name": "Air House [lease exp 2014]"
+ },
+ {
+   "number": "A048",
+   "abbr": "",
+   "name": "Electrical Bldg, Dumas/Etter [lease exp 2014]"
+ },
+ {
+   "number": "A049",
+   "abbr": "",
+   "name": "Chemical Storage Bldg."
+ },
+ {
+   "number": "A050",
+   "abbr": "",
+   "name": "Boll Weevil Lab"
+ },
+ {
+   "number": "A051",
+   "abbr": "",
+   "name": "Annex #3"
+ },
+ {
+   "number": "A052",
+   "abbr": "",
+   "name": "Field Lab"
+ },
+ {
+   "number": "A053",
+   "abbr": "",
+   "name": "Cotton Gin Labs"
+ },
+ {
+   "number": "A054",
+   "abbr": "",
+   "name": "Sorghum Lab"
+ },
+ {
+   "number": "A055",
+   "abbr": "",
+   "name": "Entomology Lab"
+ },
+ {
+   "number": "A056",
+   "abbr": "",
+   "name": "Chemical Storage Bldg."
+ },
+ {
+   "number": "A057",
+   "abbr": "",
+   "name": "Implement Shop"
+ },
+ {
+   "number": "A058",
+   "abbr": "",
+   "name": "Implement Shed"
+ },
+ {
+   "number": "A059",
+   "abbr": "",
+   "name": "Staff House 2"
+ },
+ {
+   "number": "A060",
+   "abbr": "",
+   "name": "Staff House 1"
+ },
+ {
+   "number": "A061",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A067",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A068",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A070",
+   "abbr": "",
+   "name": "Sorghum Lab"
+ },
+ {
+   "number": "A071",
+   "abbr": "",
+   "name": "Walk In Cooler (part of A052)"
+ },
+ {
+   "number": "A072",
+   "abbr": "",
+   "name": "Pump House"
+ },
+ {
+   "number": "A073",
+   "abbr": "",
+   "name": "Chemical Storage Bldg."
+ },
+ {
+   "number": "A074",
+   "abbr": "",
+   "name": "Enology Lab"
+ },
+ {
+   "number": "A075",
+   "abbr": "",
+   "name": "Portable Building (SOLD late 2014)"
+ },
+ {
+   "number": "A076",
+   "abbr": "",
+   "name": "Rainout Shelter"
+ },
+ {
+   "number": "A077",
+   "abbr": "",
+   "name": "Rainout Shelter"
+ },
+ {
+   "number": "A078",
+   "abbr": "",
+   "name": "Red Iron Bldg."
+ },
+ {
+   "number": "A079",
+   "abbr": "",
+   "name": "Portable Building"
+ },
+ {
+   "number": "A080",
+   "abbr": "",
+   "name": "HEADQUARTERS"
+ },
+ {
+   "number": "A081",
+   "abbr": "",
+   "name": "Water Tank"
+ },
+ {
+   "number": "A082",
+   "abbr": "",
+   "name": "Dryer"
+ },
+ {
+   "number": "A086",
+   "abbr": "",
+   "name": "Moody Bldg."
+ },
+ {
+   "number": "A087",
+   "abbr": "",
+   "name": "Shop"
+ },
+ {
+   "number": "A088",
+   "abbr": "",
+   "name": "Cotton Gin"
+ },
+ {
+   "number": "A090",
+   "abbr": "",
+   "name": "Kilgore Bldg."
+ },
+ {
+   "number": "A091",
+   "abbr": "",
+   "name": "HEADQUARTERS PECOS"
+ },
+ {
+   "number": "A092",
+   "abbr": "",
+   "name": "FUEL SERVICE CENTER PECOS"
+ },
+ {
+   "number": "A093",
+   "abbr": "",
+   "name": "QUONSET BARN PECOS"
+ },
+ {
+   "number": "A094",
+   "abbr": "",
+   "name": "EQUIPMENT SHED PECOS"
+ },
+ {
+   "number": "A095",
+   "abbr": "",
+   "name": "REISDENCE PECOS"
+ },
+ {
+   "number": "A096",
+   "abbr": "",
+   "name": "HEADHOUSE PECOS"
+ },
+ {
+   "number": "A097",
+   "abbr": "",
+   "name": "GREENHOUSE PECOS"
+ },
+ {
+   "number": "A098",
+   "abbr": "",
+   "name": "Headquarters, Offices & Labs"
+ },
+ {
+   "number": "A099",
+   "abbr": "",
+   "name": "BLDG. A"
+ },
+ {
+   "number": "A100",
+   "abbr": "",
+   "name": "Chemical Storage Bldg."
+ },
+ {
+   "number": "A101",
+   "abbr": "",
+   "name": "Large Greenhouse"
+ },
+ {
+   "number": "A102",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A103",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A104",
+   "abbr": "",
+   "name": "Storm Cellar"
+ },
+ {
+   "number": "A105",
+   "abbr": "",
+   "name": "BLDG. B"
+ },
+ {
+   "number": "A106",
+   "abbr": "",
+   "name": "Foundation Seed Bldg."
+ },
+ {
+   "number": "A107",
+   "abbr": "",
+   "name": "Conditioning Facility"
+ },
+ {
+   "number": "A108",
+   "abbr": "",
+   "name": "Greenhouse - Seed"
+ },
+ {
+   "number": "A109",
+   "abbr": "",
+   "name": "Well House"
+ },
+ {
+   "number": "A110",
+   "abbr": "",
+   "name": "Well House"
+ },
+ {
+   "number": "A111",
+   "abbr": "",
+   "name": "Grain Bin"
+ },
+ {
+   "number": "A112",
+   "abbr": "",
+   "name": "Grain Bin"
+ },
+ {
+   "number": "A113",
+   "abbr": "",
+   "name": "Grain Bin"
+ },
+ {
+   "number": "A114",
+   "abbr": "",
+   "name": "Grain Bin"
+ },
+ {
+   "number": "A115",
+   "abbr": "",
+   "name": "Grain Bin"
+ },
+ {
+   "number": "A116",
+   "abbr": "",
+   "name": "Grain Bin"
+ },
+ {
+   "number": "A117",
+   "abbr": "",
+   "name": "Chillicothe Research Station"
+ },
+ {
+   "number": "A118",
+   "abbr": "",
+   "name": "Shop and Processing"
+ },
+ {
+   "number": "A119",
+   "abbr": "",
+   "name": "Metal Storage"
+ },
+ {
+   "number": "A120",
+   "abbr": "",
+   "name": "Pesticide Storage"
+ },
+ {
+   "number": "A121",
+   "abbr": "",
+   "name": "Small Grain Bldg."
+ },
+ {
+   "number": "A122",
+   "abbr": "",
+   "name": "Foreman Residence"
+ },
+ {
+   "number": "A123",
+   "abbr": "",
+   "name": "Garage"
+ },
+ {
+   "number": "A124",
+   "abbr": "",
+   "name": "Rainout Shelter (CLOSED 2005)"
+ },
+ {
+   "number": "A125",
+   "abbr": "",
+   "name": "Headquarters (CLOSED 2005)"
+ },
+ {
+   "number": "A126",
+   "abbr": "",
+   "name": "Main Shop (CLOSED 2005)"
+ },
+ {
+   "number": "A127",
+   "abbr": "",
+   "name": "Storage Barn (CLOSED 2005)"
+ },
+ {
+   "number": "A128",
+   "abbr": "",
+   "name": "Greenhouse (CLOSED 2005)"
+ },
+ {
+   "number": "A129",
+   "abbr": "",
+   "name": "Storage Shed (CLOSED 2005)"
+ },
+ {
+   "number": "A130",
+   "abbr": "",
+   "name": "Metal Shop (CLOSED 2005)"
+ },
+ {
+   "number": "A131",
+   "abbr": "",
+   "name": "Storage Shed (CLOSED 2005)"
+ },
+ {
+   "number": "A132",
+   "abbr": "",
+   "name": "Equipment Shed (CLOSED 2005)"
+ },
+ {
+   "number": "A133",
+   "abbr": "",
+   "name": "Storage Shed (CLOSED 2005)"
+ },
+ {
+   "number": "A134",
+   "abbr": "",
+   "name": "Restroom Bldg. (CLOSED 2005)"
+ },
+ {
+   "number": "A135",
+   "abbr": "",
+   "name": "Building F"
+ },
+ {
+   "number": "A136",
+   "abbr": "",
+   "name": "Building E"
+ },
+ {
+   "number": "A137",
+   "abbr": "",
+   "name": "Chemical Storage Bldg."
+ },
+ {
+   "number": "A138",
+   "abbr": "",
+   "name": "Building C"
+ },
+ {
+   "number": "A139",
+   "abbr": "",
+   "name": "Building A"
+ },
+ {
+   "number": "A140",
+   "abbr": "",
+   "name": "Building B"
+ },
+ {
+   "number": "A141",
+   "abbr": "",
+   "name": "Greenhouse (sold 2012)"
+ },
+ {
+   "number": "A143",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A145",
+   "abbr": "",
+   "name": "Water Sense House"
+ },
+ {
+   "number": "A147",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A148",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A149",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A150",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A151",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A152",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A153",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A154",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A155",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A156",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A157",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A158",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A159",
+   "abbr": "",
+   "name": "Hay Barn (SOLD 2005)"
+ },
+ {
+   "number": "A160",
+   "abbr": "",
+   "name": "Chemical Storage Bldg."
+ },
+ {
+   "number": "A161",
+   "abbr": "",
+   "name": "Building D"
+ },
+ {
+   "number": "A165",
+   "abbr": "",
+   "name": "Turfgrass/Forage Bldg."
+ },
+ {
+   "number": "A168",
+   "abbr": "",
+   "name": "Prosper Headquarters (sold in 2014)"
+ },
+ {
+   "number": "A169",
+   "abbr": "",
+   "name": "House (SOLD 2005)"
+ },
+ {
+   "number": "A170",
+   "abbr": "",
+   "name": "Grain Bins (Sold 2011)"
+ },
+ {
+   "number": "A171",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A172",
+   "abbr": "",
+   "name": "Shop And Lab"
+ },
+ {
+   "number": "A173",
+   "abbr": "",
+   "name": "Shop & Storage"
+ },
+ {
+   "number": "A174",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A175",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A176",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A177",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A178",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A179",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A180",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A181",
+   "abbr": "",
+   "name": "Cattle Feeding Fac."
+ },
+ {
+   "number": "A182",
+   "abbr": "",
+   "name": "Scale Shed"
+ },
+ {
+   "number": "A183",
+   "abbr": "",
+   "name": "Portable Building"
+ },
+ {
+   "number": "A186",
+   "abbr": "",
+   "name": "Pole Shed"
+ },
+ {
+   "number": "A187",
+   "abbr": "",
+   "name": "Cattle Handling Shed"
+ },
+ {
+   "number": "A188",
+   "abbr": "",
+   "name": "North Farm Field Lab"
+ },
+ {
+   "number": "A189",
+   "abbr": "",
+   "name": "Reproductive Surgery Bldg."
+ },
+ {
+   "number": "A190",
+   "abbr": "",
+   "name": "Chemical Storage - North Farm"
+ },
+ {
+   "number": "A191",
+   "abbr": "",
+   "name": "Chemical Storage Bldg. - South"
+ },
+ {
+   "number": "A192",
+   "abbr": "",
+   "name": "North Farm Shop/Storage"
+ },
+ {
+   "number": "A193",
+   "abbr": "",
+   "name": "Calving Shed"
+ },
+ {
+   "number": "A194",
+   "abbr": "",
+   "name": "Deer Barn"
+ },
+ {
+   "number": "A195",
+   "abbr": "",
+   "name": "Main Building"
+ },
+ {
+   "number": "A196",
+   "abbr": "",
+   "name": "Staff Residence1 (mothballed in 2014)"
+ },
+ {
+   "number": "A197",
+   "abbr": "",
+   "name": "Grad Housing 2 (mothballed in 2014)"
+ },
+ {
+   "number": "A198",
+   "abbr": "",
+   "name": "Laborer Duplex (mothballed in 2014)"
+ },
+ {
+   "number": "A199",
+   "abbr": "",
+   "name": "Shop and Garage"
+ },
+ {
+   "number": "A200",
+   "abbr": "",
+   "name": "Feed Barn (mothballed in 2014)"
+ },
+ {
+   "number": "A201",
+   "abbr": "",
+   "name": "Truck Scales House (mothballed in 2014)"
+ },
+ {
+   "number": "A202",
+   "abbr": "",
+   "name": "Feed Shelter (mothballed in 2014)"
+ },
+ {
+   "number": "A203",
+   "abbr": "",
+   "name": "Greenhouse 2"
+ },
+ {
+   "number": "A204",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A205",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A206",
+   "abbr": "",
+   "name": "Metal Bldg."
+ },
+ {
+   "number": "A207",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A208",
+   "abbr": "",
+   "name": "Implement Shed"
+ },
+ {
+   "number": "A209",
+   "abbr": "",
+   "name": "Main Bldg. - Farm"
+ },
+ {
+   "number": "A210",
+   "abbr": "",
+   "name": "Steel Bldg."
+ },
+ {
+   "number": "A211",
+   "abbr": "",
+   "name": "Metal Bldg."
+ },
+ {
+   "number": "A212",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A213",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A214",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A215",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A216",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A217",
+   "abbr": "",
+   "name": "Metal Building"
+ },
+ {
+   "number": "A218",
+   "abbr": "",
+   "name": "Mobile Laboratory"
+ },
+ {
+   "number": "A219",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A220",
+   "abbr": "",
+   "name": "Feed Eval. Bldg."
+ },
+ {
+   "number": "A221",
+   "abbr": "",
+   "name": "Woolhouse"
+ },
+ {
+   "number": "A222",
+   "abbr": "",
+   "name": "Office and Shop"
+ },
+ {
+   "number": "A223",
+   "abbr": "",
+   "name": "Multipurpose Barn"
+ },
+ {
+   "number": "A224",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A225",
+   "abbr": "",
+   "name": "Isolation Lab"
+ },
+ {
+   "number": "A227",
+   "abbr": "",
+   "name": "Wool And Mohair Lab"
+ },
+ {
+   "number": "A228",
+   "abbr": "",
+   "name": "Feed Storage"
+ },
+ {
+   "number": "A229",
+   "abbr": "",
+   "name": "Chemical Storage"
+ },
+ {
+   "number": "A232",
+   "abbr": "",
+   "name": "Bunkhouse - Barnhart"
+ },
+ {
+   "number": "A238",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A239",
+   "abbr": "",
+   "name": "Res. & Ext. Support"
+ },
+ {
+   "number": "A240",
+   "abbr": "",
+   "name": "Propogation Greenhouse"
+ },
+ {
+   "number": "A241",
+   "abbr": "",
+   "name": "Propogation Greenhouse"
+ },
+ {
+   "number": "A242",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A243",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A244",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A245",
+   "abbr": "",
+   "name": "Hort. Lab"
+ },
+ {
+   "number": "A246",
+   "abbr": "",
+   "name": "Pesticide Storage"
+ },
+ {
+   "number": "A247",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A248",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A249",
+   "abbr": "",
+   "name": "Pipe Frame Shed"
+ },
+ {
+   "number": "A250",
+   "abbr": "",
+   "name": "Shop and Storage"
+ },
+ {
+   "number": "A251",
+   "abbr": "",
+   "name": "Forage Processing"
+ },
+ {
+   "number": "A252",
+   "abbr": "",
+   "name": "Equip Storage"
+ },
+ {
+   "number": "A253",
+   "abbr": "",
+   "name": "Peanut Proc. Bldg."
+ },
+ {
+   "number": "A254",
+   "abbr": "",
+   "name": "Portable Building"
+ },
+ {
+   "number": "A255",
+   "abbr": "",
+   "name": "Pump House"
+ },
+ {
+   "number": "A256",
+   "abbr": "",
+   "name": "Barn"
+ },
+ {
+   "number": "A257",
+   "abbr": "",
+   "name": "Tile Pump House"
+ },
+ {
+   "number": "A258",
+   "abbr": "",
+   "name": "Portable Building"
+ },
+ {
+   "number": "A259",
+   "abbr": "",
+   "name": "Storage Building"
+ },
+ {
+   "number": "A260",
+   "abbr": "",
+   "name": "Storage Shed"
+ },
+ {
+   "number": "A261",
+   "abbr": "",
+   "name": "Livestock Shed"
+ },
+ {
+   "number": "A262",
+   "abbr": "",
+   "name": "Scale Shed"
+ },
+ {
+   "number": "A263",
+   "abbr": "",
+   "name": "Livestock Shed"
+ },
+ {
+   "number": "A264",
+   "abbr": "",
+   "name": "Grain Bins"
+ },
+ {
+   "number": "A265",
+   "abbr": "",
+   "name": "Quonset Barn"
+ },
+ {
+   "number": "A266",
+   "abbr": "",
+   "name": "Office & Laboratories"
+ },
+ {
+   "number": "A267",
+   "abbr": "",
+   "name": "B F Residence 1"
+ },
+ {
+   "number": "A268",
+   "abbr": "",
+   "name": "B F Residence 2"
+ },
+ {
+   "number": "A270",
+   "abbr": "",
+   "name": "B F Residence 6"
+ },
+ {
+   "number": "A272",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A273",
+   "abbr": "",
+   "name": "S & G Building"
+ },
+ {
+   "number": "A276",
+   "abbr": "",
+   "name": "Feed Plant"
+ },
+ {
+   "number": "A277",
+   "abbr": "",
+   "name": "Cattle Shelter"
+ },
+ {
+   "number": "A278",
+   "abbr": "",
+   "name": "Sick Bay"
+ },
+ {
+   "number": "A279",
+   "abbr": "",
+   "name": "Working Pen Shelter"
+ },
+ {
+   "number": "A281",
+   "abbr": "",
+   "name": "Shop Equipment Storage"
+ },
+ {
+   "number": "A282",
+   "abbr": "",
+   "name": "Seed Proc. Plant"
+ },
+ {
+   "number": "A283",
+   "abbr": "",
+   "name": "Farm Service Center"
+ },
+ {
+   "number": "A285",
+   "abbr": "",
+   "name": "Rain Out Shelter (Deleted 2003)"
+ },
+ {
+   "number": "A286",
+   "abbr": "",
+   "name": "Grain bin (Deleted 2003)"
+ },
+ {
+   "number": "A287",
+   "abbr": "",
+   "name": "USDA Lab"
+ },
+ {
+   "number": "A288",
+   "abbr": "",
+   "name": "Main Building"
+ },
+ {
+   "number": "A289",
+   "abbr": "",
+   "name": "State Computer Lab Bldg."
+ },
+ {
+   "number": "A290",
+   "abbr": "",
+   "name": "Multi-Purpose Bldg."
+ },
+ {
+   "number": "A291",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A292",
+   "abbr": "",
+   "name": "Farm Building"
+ },
+ {
+   "number": "A293",
+   "abbr": "",
+   "name": "Seed/Chemical Storage"
+ },
+ {
+   "number": "A294",
+   "abbr": "",
+   "name": "Blackland Research and Extension Center (Main Buil"
+ },
+ {
+   "number": "A295",
+   "abbr": "",
+   "name": "Shearing Shed"
+ },
+ {
+   "number": "A296",
+   "abbr": "",
+   "name": "Laborer Cottage"
+ },
+ {
+   "number": "A297",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A298",
+   "abbr": "",
+   "name": "Lab Bldg."
+ },
+ {
+   "number": "A299",
+   "abbr": "",
+   "name": "Concrete Silo (removed from inventory 9/2013)"
+ },
+ {
+   "number": "A300",
+   "abbr": "",
+   "name": "Sheep and Goat Hospital"
+ },
+ {
+   "number": "A301",
+   "abbr": "",
+   "name": "Horse Barn"
+ },
+ {
+   "number": "A302",
+   "abbr": "",
+   "name": "Office Bldg."
+ },
+ {
+   "number": "A304",
+   "abbr": "",
+   "name": "Residence"
+ },
+ {
+   "number": "A305",
+   "abbr": "",
+   "name": "Residence"
+ },
+ {
+   "number": "A306",
+   "abbr": "",
+   "name": "Residence"
+ },
+ {
+   "number": "A307",
+   "abbr": "",
+   "name": "Vet Lab"
+ },
+ {
+   "number": "A308",
+   "abbr": "",
+   "name": "Sheep Barn"
+ },
+ {
+   "number": "A309",
+   "abbr": "",
+   "name": "Sheep Barn"
+ },
+ {
+   "number": "A310",
+   "abbr": "",
+   "name": "Residence"
+ },
+ {
+   "number": "A311",
+   "abbr": "",
+   "name": "Wash House"
+ },
+ {
+   "number": "A312",
+   "abbr": "",
+   "name": "Residence"
+ },
+ {
+   "number": "A313",
+   "abbr": "",
+   "name": "Residence"
+ },
+ {
+   "number": "A316",
+   "abbr": "",
+   "name": "Pavilion"
+ },
+ {
+   "number": "A317",
+   "abbr": "",
+   "name": "Office Building"
+ },
+ {
+   "number": "A319",
+   "abbr": "",
+   "name": "Residence #1"
+ },
+ {
+   "number": "A320",
+   "abbr": "",
+   "name": "Residence #2"
+ },
+ {
+   "number": "A321",
+   "abbr": "",
+   "name": "Residence #3"
+ },
+ {
+   "number": "A325",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A326",
+   "abbr": "",
+   "name": "Grad Student Housing"
+ },
+ {
+   "number": "A327",
+   "abbr": "",
+   "name": "Headhouse and Lab"
+ },
+ {
+   "number": "A328",
+   "abbr": "",
+   "name": "Shop Building"
+ },
+ {
+   "number": "A329",
+   "abbr": "",
+   "name": "Lab Bldg."
+ },
+ {
+   "number": "A330",
+   "abbr": "",
+   "name": "Fertilizer Bldg."
+ },
+ {
+   "number": "A331",
+   "abbr": "",
+   "name": "Seed Tech Lab"
+ },
+ {
+   "number": "A332",
+   "abbr": "",
+   "name": "Rice Lab"
+ },
+ {
+   "number": "A333",
+   "abbr": "",
+   "name": "Winterman Office & Lab Bldg Eagle Lake"
+ },
+ {
+   "number": "A334",
+   "abbr": "",
+   "name": "Portable Storage"
+ },
+ {
+   "number": "A335",
+   "abbr": "",
+   "name": "Office - Portable"
+ },
+ {
+   "number": "A336",
+   "abbr": "",
+   "name": "Water Lab Eagle Lake"
+ },
+ {
+   "number": "A337",
+   "abbr": "",
+   "name": "Storage Portable"
+ },
+ {
+   "number": "A338",
+   "abbr": "",
+   "name": "USDA Lab Building"
+ },
+ {
+   "number": "A339",
+   "abbr": "",
+   "name": "Shop Building - Eagle Lake"
+ },
+ {
+   "number": "A340",
+   "abbr": "",
+   "name": "Portable Storage Building - Eagle Lake"
+ },
+ {
+   "number": "A341",
+   "abbr": "",
+   "name": "Portable Storage Building - Eagle Lake"
+ },
+ {
+   "number": "A342",
+   "abbr": "",
+   "name": "Storage Shed - Eagle Lake"
+ },
+ {
+   "number": "A343",
+   "abbr": "",
+   "name": "Tractor and Equipment Shed - Eagle Lake"
+ },
+ {
+   "number": "A344",
+   "abbr": "",
+   "name": "Office and Lab (Closed 2003)"
+ },
+ {
+   "number": "A345",
+   "abbr": "",
+   "name": "Shop Building (Closed 2003)"
+ },
+ {
+   "number": "A346",
+   "abbr": "",
+   "name": "Greenhouse (Closed 2003)"
+ },
+ {
+   "number": "A347",
+   "abbr": "",
+   "name": "Headhouse (Closed 2003)"
+ },
+ {
+   "number": "A348",
+   "abbr": "",
+   "name": "Utility Barn (Closed 2003)"
+ },
+ {
+   "number": "A349",
+   "abbr": "",
+   "name": "Tile Barn (Closed 2003)"
+ },
+ {
+   "number": "A350",
+   "abbr": "",
+   "name": "Hay Shed (Closed 2003)"
+ },
+ {
+   "number": "A351",
+   "abbr": "",
+   "name": "Barn - Large Animal (Closed 2003)"
+ },
+ {
+   "number": "A352",
+   "abbr": "",
+   "name": "Livestock Shed (Closed 2003)"
+ },
+ {
+   "number": "A353",
+   "abbr": "",
+   "name": "Quonset Hay Barn (Closed 2003)"
+ },
+ {
+   "number": "A354",
+   "abbr": "",
+   "name": "Quonset Implement Stg. (Closed 2003)"
+ },
+ {
+   "number": "A355",
+   "abbr": "",
+   "name": "Warehouse (Closed 2003)"
+ },
+ {
+   "number": "A356",
+   "abbr": "",
+   "name": "House (Closed 2003)"
+ },
+ {
+   "number": "A357",
+   "abbr": "",
+   "name": "House with Garage (Closed 2003)"
+ },
+ {
+   "number": "A358",
+   "abbr": "",
+   "name": "Storage Garage(Closed 2003)"
+ },
+ {
+   "number": "A359",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A360",
+   "abbr": "",
+   "name": "BLDG. B-SHOP W/STORAGE"
+ },
+ {
+   "number": "A361",
+   "abbr": "",
+   "name": "Headhouse/Greenhouse D"
+ },
+ {
+   "number": "A362",
+   "abbr": "",
+   "name": "Headhouse/Greenhouse E"
+ },
+ {
+   "number": "A363",
+   "abbr": "",
+   "name": "Building F"
+ },
+ {
+   "number": "A364",
+   "abbr": "",
+   "name": "EQUIPMENT BLDG."
+ },
+ {
+   "number": "A365",
+   "abbr": "",
+   "name": "Nutrition Bldg."
+ },
+ {
+   "number": "A366",
+   "abbr": "",
+   "name": "Mobile Home (SOLD 2005)"
+ },
+ {
+   "number": "A367",
+   "abbr": "",
+   "name": "Mobile Home (SOLD 2005)"
+ },
+ {
+   "number": "A368",
+   "abbr": "",
+   "name": "Trailer (SOLD 2005)"
+ },
+ {
+   "number": "A369",
+   "abbr": "",
+   "name": "Storage Shed"
+ },
+ {
+   "number": "A370",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A371",
+   "abbr": "",
+   "name": "Lab and Office Bldg."
+ },
+ {
+   "number": "A372",
+   "abbr": "",
+   "name": "Greenhouse East"
+ },
+ {
+   "number": "A373",
+   "abbr": "",
+   "name": "Greenhouse West"
+ },
+ {
+   "number": "A374",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A375",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A376",
+   "abbr": "",
+   "name": "Metal Ag Master"
+ },
+ {
+   "number": "A378",
+   "abbr": "",
+   "name": "Storage Bldg."
+ },
+ {
+   "number": "A379",
+   "abbr": "",
+   "name": "Chemical Storage Bldg."
+ },
+ {
+   "number": "A380",
+   "abbr": "",
+   "name": "Extension Storage Bldg."
+ },
+ {
+   "number": "A381",
+   "abbr": "",
+   "name": "Beeville Admin Bldg"
+ },
+ {
+   "number": "A382",
+   "abbr": "",
+   "name": "Conference Bldg."
+ },
+ {
+   "number": "A383",
+   "abbr": "",
+   "name": "Shop and Implements"
+ },
+ {
+   "number": "A384",
+   "abbr": "",
+   "name": "Cattle Bldg No. 1"
+ },
+ {
+   "number": "A385",
+   "abbr": "",
+   "name": "Headhouse"
+ },
+ {
+   "number": "A386",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A387",
+   "abbr": "",
+   "name": "Animal Repro Lab"
+ },
+ {
+   "number": "A388",
+   "abbr": "",
+   "name": "Feed Mill"
+ },
+ {
+   "number": "A389",
+   "abbr": "",
+   "name": "Auto Shop"
+ },
+ {
+   "number": "A390",
+   "abbr": "",
+   "name": "Calving Lab #2"
+ },
+ {
+   "number": "A391",
+   "abbr": "",
+   "name": "Fuel Storage"
+ },
+ {
+   "number": "A392",
+   "abbr": "",
+   "name": "Forage Lab"
+ },
+ {
+   "number": "A393",
+   "abbr": "",
+   "name": "Wellhouse"
+ },
+ {
+   "number": "A394",
+   "abbr": "",
+   "name": "Wellhouse"
+ },
+ {
+   "number": "A395",
+   "abbr": "",
+   "name": "Grain Bin"
+ },
+ {
+   "number": "A396",
+   "abbr": "",
+   "name": "Pesticide Storage"
+ },
+ {
+   "number": "A397",
+   "abbr": "",
+   "name": "Scale Building"
+ },
+ {
+   "number": "A398",
+   "abbr": "",
+   "name": "Wellhouse - Beeville"
+ },
+ {
+   "number": "A399",
+   "abbr": "",
+   "name": "Shrimp Facility - Flour Bluff"
+ },
+ {
+   "number": "A400",
+   "abbr": "",
+   "name": "Shrimp Raceways - Flour Bluff"
+ },
+ {
+   "number": "A401",
+   "abbr": "",
+   "name": "Portable Lab Building - Flour Bluff"
+ },
+ {
+   "number": "A402",
+   "abbr": "",
+   "name": "Mariculture Lab - Port A."
+ },
+ {
+   "number": "A403",
+   "abbr": "",
+   "name": "Nutrition Lab - Port A."
+ },
+ {
+   "number": "A404",
+   "abbr": "",
+   "name": "Mechanical Bldg."
+ },
+ {
+   "number": "A407",
+   "abbr": "",
+   "name": "Office and Lab"
+ },
+ {
+   "number": "A408",
+   "abbr": "",
+   "name": "Peanut Lab"
+ },
+ {
+   "number": "A410",
+   "abbr": "",
+   "name": "Peanut Dryer"
+ },
+ {
+   "number": "A411",
+   "abbr": "",
+   "name": "Garage"
+ },
+ {
+   "number": "A412",
+   "abbr": "",
+   "name": "Storage"
+ },
+ {
+   "number": "A413",
+   "abbr": "",
+   "name": "Equipment Shed"
+ },
+ {
+   "number": "A414",
+   "abbr": "",
+   "name": "Forage Lab/Storage"
+ },
+ {
+   "number": "A415",
+   "abbr": "",
+   "name": "Walk-In Cooler"
+ },
+ {
+   "number": "A416",
+   "abbr": "",
+   "name": "Equipment Shed - Annex"
+ },
+ {
+   "number": "A417",
+   "abbr": "",
+   "name": "Manager Residence"
+ },
+ {
+   "number": "A418",
+   "abbr": "",
+   "name": "Office/Lab La Copita"
+ },
+ {
+   "number": "A419",
+   "abbr": "",
+   "name": "Bunkhouse La Copita"
+ },
+ {
+   "number": "A421",
+   "abbr": "",
+   "name": "Horse Stall - La Copita"
+ },
+ {
+   "number": "A422",
+   "abbr": "",
+   "name": "Shop and Storage - La Copita"
+ },
+ {
+   "number": "A423",
+   "abbr": "",
+   "name": "Shed/Garage - La Copita"
+ },
+ {
+   "number": "A424",
+   "abbr": "",
+   "name": "Portable Storage - La Copita"
+ },
+ {
+   "number": "A425",
+   "abbr": "",
+   "name": "Hay Shed - La Copita"
+ },
+ {
+   "number": "A428",
+   "abbr": "",
+   "name": "Bathhouse - La Copita"
+ },
+ {
+   "number": "A429",
+   "abbr": "",
+   "name": "Storage - La Copita"
+ },
+ {
+   "number": "A430",
+   "abbr": "",
+   "name": "Cattle Shute Shed - La Copita"
+ },
+ {
+   "number": "A431",
+   "abbr": "",
+   "name": "Headquarters"
+ },
+ {
+   "number": "A432",
+   "abbr": "",
+   "name": "Headquarters Addition"
+ },
+ {
+   "number": "A433",
+   "abbr": "",
+   "name": "FACILITIES & EQUIPMENT MAINTENANCE"
+ },
+ {
+   "number": "A434",
+   "abbr": "",
+   "name": "SPECIAL PROJECTS"
+ },
+ {
+   "number": "A435",
+   "abbr": "",
+   "name": "Equipment Shed"
+ },
+ {
+   "number": "A436",
+   "abbr": "",
+   "name": "POST HARVEST PHYSIOLOGY"
+ },
+ {
+   "number": "A437",
+   "abbr": "",
+   "name": "SEED & STORAGE"
+ },
+ {
+   "number": "A438",
+   "abbr": "",
+   "name": "Pump House"
+ },
+ {
+   "number": "A439",
+   "abbr": "",
+   "name": "PESTICIDE HANDLING FACILITY"
+ },
+ {
+   "number": "A440",
+   "abbr": "",
+   "name": "HORTICULTURE FIELD LAB"
+ },
+ {
+   "number": "A441",
+   "abbr": "",
+   "name": "IPM LAB"
+ },
+ {
+   "number": "A442",
+   "abbr": "",
+   "name": "TRANSPLANT PRODUCTION GREENHOUSE"
+ },
+ {
+   "number": "A448",
+   "abbr": "",
+   "name": "SEED PROCESSING"
+ },
+ {
+   "number": "A449",
+   "abbr": "",
+   "name": "HI SHED EQUIPMENT STORAGE"
+ },
+ {
+   "number": "A450",
+   "abbr": "",
+   "name": "HORTICULTURE GREENHOUSE Q"
+ },
+ {
+   "number": "A451",
+   "abbr": "",
+   "name": "HORTICULTURE GREENHOUSE R"
+ },
+ {
+   "number": "A453",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A454",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A455",
+   "abbr": "",
+   "name": "GREENHOUSE"
+ },
+ {
+   "number": "A456",
+   "abbr": "",
+   "name": "INSECTORY"
+ },
+ {
+   "number": "A457",
+   "abbr": "",
+   "name": "PLANT PATHOLOGY FIELD LAB"
+ },
+ {
+   "number": "A462",
+   "abbr": "",
+   "name": "Student Mobile Home (SOLD 2009)"
+ },
+ {
+   "number": "A463",
+   "abbr": "",
+   "name": "Student Mobile Home (SOLD 2009)"
+ },
+ {
+   "number": "A464",
+   "abbr": "",
+   "name": "Pumphouse"
+ },
+ {
+   "number": "A465",
+   "abbr": "",
+   "name": "Pumphouse/Soil Prep"
+ },
+ {
+   "number": "A466",
+   "abbr": "",
+   "name": "Greenhouse 1"
+ },
+ {
+   "number": "A467",
+   "abbr": "",
+   "name": "Greenhouse 2"
+ },
+ {
+   "number": "A468",
+   "abbr": "",
+   "name": "Greenhouse 3"
+ },
+ {
+   "number": "A469",
+   "abbr": "",
+   "name": "Greenhouse 4"
+ },
+ {
+   "number": "A470",
+   "abbr": "",
+   "name": "Greenhouse 5"
+ },
+ {
+   "number": "A471",
+   "abbr": "",
+   "name": "Greenhouse 6"
+ },
+ {
+   "number": "A472",
+   "abbr": "",
+   "name": "Greenhouse 7"
+ },
+ {
+   "number": "A473",
+   "abbr": "",
+   "name": "Greenhouse 8"
+ },
+ {
+   "number": "A474",
+   "abbr": "",
+   "name": "Greenhouse 9"
+ },
+ {
+   "number": "A475",
+   "abbr": "",
+   "name": "Greenhouse 10"
+ },
+ {
+   "number": "A476",
+   "abbr": "",
+   "name": "STATION RESIDENCE (SOLD IN 2014)"
+ },
+ {
+   "number": "A477",
+   "abbr": "",
+   "name": "Vehicle Storage"
+ },
+ {
+   "number": "A478",
+   "abbr": "",
+   "name": "Equipment Shed"
+ },
+ {
+   "number": "A479",
+   "abbr": "",
+   "name": "BIOENERGY HEADHOUSE/GREENHOUSE"
+ },
+ {
+   "number": "A481",
+   "abbr": "",
+   "name": "Machinery Storage"
+ },
+ {
+   "number": "A483",
+   "abbr": "",
+   "name": "ANNEX PUMPHOUSE"
+ },
+ {
+   "number": "A485",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A486",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A487",
+   "abbr": "",
+   "name": "Greenhouse"
+ },
+ {
+   "number": "A489",
+   "abbr": "",
+   "name": "DIESEL FUEL STATION NO. 1"
+ },
+ {
+   "number": "A490",
+   "abbr": "",
+   "name": "Machinery/Storage"
+ },
+ {
+   "number": "A491",
+   "abbr": "",
+   "name": "Hay Storage Barn"
+ },
+ {
+   "number": "A492",
+   "abbr": "",
+   "name": "Cattle Processing Building Bushland"
+ },
+ {
+   "number": "A493",
+   "abbr": "",
+   "name": "Barn at Hill Ranch"
+ },
+ {
+   "number": "A494",
+   "abbr": "",
+   "name": "Storage/Sunken Gardens"
+ },
+ {
+   "number": "A495",
+   "abbr": "",
+   "name": "CONTAINER WQ LAB EXT - Flour Bluff"
+ },
+ {
+   "number": "A500",
+   "abbr": "",
+   "name": "NEW BOSTON DISTRICT OFFICE"
+ },
+ {
+   "number": "A501",
+   "abbr": "",
+   "name": "NEW BOSTON OFFICE (CLOSED 2007)"
+ },
+ {
+   "number": "A505",
+   "abbr": "",
+   "name": "Linden Office"
+ },
+ {
+   "number": "A506",
+   "abbr": "",
+   "name": "Linden Equip Maint Shop"
+ },
+ {
+   "number": "A508",
+   "abbr": "",
+   "name": "Radio Bldg"
+ },
+ {
+   "number": "A511",
+   "abbr": "",
+   "name": "Pittsburg Office"
+ },
+ {
+   "number": "A514",
+   "abbr": "",
+   "name": "Tyler Office (Closed September 2006)"
+ },
+ {
+   "number": "A515",
+   "abbr": "",
+   "name": "Gilmer Office"
+ },
+ {
+   "number": "A518",
+   "abbr": "",
+   "name": "GM Storage Bldg (removed from inventory 9/2013)"
+ },
+ {
+   "number": "A519",
+   "abbr": "",
+   "name": "Jefferson Office (CLOSED 2005)"
+ },
+ {
+   "number": "A520",
+   "abbr": "",
+   "name": "Marshall Office"
+ },
+ {
+   "number": "A522",
+   "abbr": "",
+   "name": "MS stroage Bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A523",
+   "abbr": "",
+   "name": "Carthage Office"
+ },
+ {
+   "number": "A526",
+   "abbr": "",
+   "name": "CT Generator Bldg"
+ },
+ {
+   "number": "A527",
+   "abbr": "",
+   "name": "Palestine Office"
+ },
+ {
+   "number": "A529",
+   "abbr": "",
+   "name": "Henderson Office"
+ },
+ {
+   "number": "A530",
+   "abbr": "",
+   "name": "HE FRP/LE Office"
+ },
+ {
+   "number": "A531",
+   "abbr": "",
+   "name": "Henderson Maintenance"
+ },
+ {
+   "number": "A532",
+   "abbr": "",
+   "name": "HE Equip/Storage"
+ },
+ {
+   "number": "A533",
+   "abbr": "",
+   "name": "HE Radio Bldg"
+ },
+ {
+   "number": "A534",
+   "abbr": "",
+   "name": "HE Seedling Cooler"
+ },
+ {
+   "number": "A535",
+   "abbr": "",
+   "name": "HE Ground Equip (removed from inventory 2013)"
+ },
+ {
+   "number": "A536",
+   "abbr": "",
+   "name": "Jacksonville Office"
+ },
+ {
+   "number": "A537",
+   "abbr": "",
+   "name": "JV Storage Bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A538",
+   "abbr": "",
+   "name": "Fairchild Residence (SOLD 2005)"
+ },
+ {
+   "number": "A539",
+   "abbr": "",
+   "name": "FD Vehicle Storage"
+ },
+ {
+   "number": "A540",
+   "abbr": "",
+   "name": "FD Storage Bldg"
+ },
+ {
+   "number": "A541",
+   "abbr": "",
+   "name": "Center Office (Closed October 2006)"
+ },
+ {
+   "number": "A542",
+   "abbr": "",
+   "name": "CR Storage Bldg (Closed October 2006)"
+ },
+ {
+   "number": "A543",
+   "abbr": "",
+   "name": "Nacogdoches Office"
+ },
+ {
+   "number": "A544",
+   "abbr": "",
+   "name": "NC Vehicle Storage"
+ },
+ {
+   "number": "A545",
+   "abbr": "",
+   "name": "NC Storage Bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A546",
+   "abbr": "",
+   "name": "NC Chemical Storage (removed from inventory 2013)"
+ },
+ {
+   "number": "A547",
+   "abbr": "",
+   "name": "IMN Residence (Sold 2010)"
+ },
+ {
+   "number": "A548",
+   "abbr": "",
+   "name": "IMN Office (Sold 2010)"
+ },
+ {
+   "number": "A549",
+   "abbr": "",
+   "name": "IMN Packing/Cooler (Sold 2010)"
+ },
+ {
+   "number": "A550",
+   "abbr": "",
+   "name": "IMN Equip Maint (Sold 2010)"
+ },
+ {
+   "number": "A551",
+   "abbr": "",
+   "name": "IMN Chemical Facillity (Sold 2010)"
+ },
+ {
+   "number": "A552",
+   "abbr": "",
+   "name": "IMN Seed Storage (Sold 2010)"
+ },
+ {
+   "number": "A553",
+   "abbr": "",
+   "name": "IMN packing shed (Sold 2010)"
+ },
+ {
+   "number": "A554",
+   "abbr": "",
+   "name": "Restrooms/storage (Sold 2010)"
+ },
+ {
+   "number": "A555",
+   "abbr": "",
+   "name": "IMN Tractor Shed (Sold 2010)"
+ },
+ {
+   "number": "A556",
+   "abbr": "",
+   "name": "IMN well houe (Sold 2010)"
+ },
+ {
+   "number": "A557",
+   "abbr": "",
+   "name": "IMN Fuel Shed (Sold 2010)"
+ },
+ {
+   "number": "A558",
+   "abbr": "",
+   "name": "IMN Pump house (Sold 2010)"
+ },
+ {
+   "number": "A559",
+   "abbr": "",
+   "name": "IMN Oil Storage (Sold 2010)"
+ },
+ {
+   "number": "A560",
+   "abbr": "",
+   "name": "IMN Pump House (Sold 2010)"
+ },
+ {
+   "number": "A561",
+   "abbr": "",
+   "name": "IMN Field Restrooms (Sold 2010)"
+ },
+ {
+   "number": "A562",
+   "abbr": "",
+   "name": "San Augustine Office"
+ },
+ {
+   "number": "A563",
+   "abbr": "",
+   "name": "ST Vehicle Storage"
+ },
+ {
+   "number": "A564",
+   "abbr": "",
+   "name": "Hudson Office"
+ },
+ {
+   "number": "A565",
+   "abbr": "",
+   "name": "Hudson  FRD Storage (removed from inventory 2013)"
+ },
+ {
+   "number": "A568",
+   "abbr": "",
+   "name": "Hudson Wash Bay"
+ },
+ {
+   "number": "A569",
+   "abbr": "",
+   "name": "Hudson Equip Maint"
+ },
+ {
+   "number": "A570",
+   "abbr": "",
+   "name": "HD Radio Bldg"
+ },
+ {
+   "number": "A571",
+   "abbr": "",
+   "name": "HD Shop Storage"
+ },
+ {
+   "number": "A572",
+   "abbr": "",
+   "name": "HD Storage Barn #1"
+ },
+ {
+   "number": "A573",
+   "abbr": "",
+   "name": "HD Storage Barn #2"
+ },
+ {
+   "number": "A574",
+   "abbr": "",
+   "name": "HD Seedling Cooler"
+ },
+ {
+   "number": "A575",
+   "abbr": "",
+   "name": "Helibase Office"
+ },
+ {
+   "number": "A576",
+   "abbr": "",
+   "name": "Hudson FRD Vehicle storage"
+ },
+ {
+   "number": "A577",
+   "abbr": "",
+   "name": "Hudson Residence"
+ },
+ {
+   "number": "A578",
+   "abbr": "",
+   "name": "Forest Pest Control"
+ },
+ {
+   "number": "A580",
+   "abbr": "",
+   "name": "Cudlipp RFD Facility"
+ },
+ {
+   "number": "A581",
+   "abbr": "",
+   "name": "Cudllipp Training Bldg"
+ },
+ {
+   "number": "A583",
+   "abbr": "",
+   "name": "HH&FEPP Storage"
+ },
+ {
+   "number": "A584",
+   "abbr": "",
+   "name": "Facillities Shop"
+ },
+ {
+   "number": "A585",
+   "abbr": "",
+   "name": "Wood Signs Shop"
+ },
+ {
+   "number": "A586",
+   "abbr": "",
+   "name": "Cudlipp FRD Office"
+ },
+ {
+   "number": "A587",
+   "abbr": "",
+   "name": "Storage Shed"
+ },
+ {
+   "number": "A588",
+   "abbr": "",
+   "name": "Chemical Storage"
+ },
+ {
+   "number": "A589",
+   "abbr": "",
+   "name": "Wind Lab"
+ },
+ {
+   "number": "A590",
+   "abbr": "",
+   "name": "Radio Service Bldg"
+ },
+ {
+   "number": "A591",
+   "abbr": "",
+   "name": "Equip Storage Shed"
+ },
+ {
+   "number": "A592",
+   "abbr": "",
+   "name": "Cudlipp Fire Prevention"
+ },
+ {
+   "number": "A593",
+   "abbr": "",
+   "name": "Solar Dry Kiln (removed from inventory 2013)"
+ },
+ {
+   "number": "A594",
+   "abbr": "",
+   "name": "Crockett Office"
+ },
+ {
+   "number": "A595",
+   "abbr": "",
+   "name": "CK Vehicle storage"
+ },
+ {
+   "number": "A596",
+   "abbr": "",
+   "name": "CK Storage (remove from inventory 2013)"
+ },
+ {
+   "number": "A597",
+   "abbr": "",
+   "name": "Groveton Office (Closed 2004)"
+ },
+ {
+   "number": "A600",
+   "abbr": "",
+   "name": "Livingston Office"
+ },
+ {
+   "number": "A601",
+   "abbr": "",
+   "name": "LD Vehicle Storage"
+ },
+ {
+   "number": "A602",
+   "abbr": "",
+   "name": "LD Storage (removed from inventory 2013)"
+ },
+ {
+   "number": "A603",
+   "abbr": "",
+   "name": "Woodville Office"
+ },
+ {
+   "number": "A604",
+   "abbr": "",
+   "name": "Woodville FRP Office"
+ },
+ {
+   "number": "A605",
+   "abbr": "",
+   "name": "WO Equip Maint"
+ },
+ {
+   "number": "A607",
+   "abbr": "",
+   "name": "WO Seedling storage"
+ },
+ {
+   "number": "A609",
+   "abbr": "",
+   "name": "Olive Office"
+ },
+ {
+   "number": "A611",
+   "abbr": "",
+   "name": "Jasper Office (CLOSED 2007)"
+ },
+ {
+   "number": "A612",
+   "abbr": "",
+   "name": "MSSO Residence"
+ },
+ {
+   "number": "A613",
+   "abbr": "",
+   "name": "MSSO Maint/Storage"
+ },
+ {
+   "number": "A614",
+   "abbr": "",
+   "name": "MSSO/Chemical Bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A615",
+   "abbr": "",
+   "name": "MSSO Oil Shed"
+ },
+ {
+   "number": "A616",
+   "abbr": "",
+   "name": "MSSO  Storage Bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A618",
+   "abbr": "",
+   "name": "Kirbyville Office"
+ },
+ {
+   "number": "A619",
+   "abbr": "",
+   "name": "Pump House"
+ },
+ {
+   "number": "A620",
+   "abbr": "",
+   "name": "KB Storage Building (removed from inventory 2013)"
+ },
+ {
+   "number": "A622",
+   "abbr": "",
+   "name": "KB Oil Shed"
+ },
+ {
+   "number": "A623",
+   "abbr": "",
+   "name": "KB Equip Storage"
+ },
+ {
+   "number": "A625",
+   "abbr": "",
+   "name": "Masterson Office"
+ },
+ {
+   "number": "A626",
+   "abbr": "",
+   "name": "Restrooms"
+ },
+ {
+   "number": "A627",
+   "abbr": "",
+   "name": "Masterson Vehicle Storage"
+ },
+ {
+   "number": "A628",
+   "abbr": "",
+   "name": "Huntsville Regional Office -TFS (Lease exp 8-31-0"
+ },
+ {
+   "number": "A629",
+   "abbr": "",
+   "name": "HV Office (Burned 2010)"
+ },
+ {
+   "number": "A630",
+   "abbr": "",
+   "name": "HV Vehicle Storage"
+ },
+ {
+   "number": "A631",
+   "abbr": "",
+   "name": "HV Chemical Bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A632",
+   "abbr": "",
+   "name": "Conroe Office"
+ },
+ {
+   "number": "A633",
+   "abbr": "",
+   "name": "Training Bldg"
+ },
+ {
+   "number": "A634",
+   "abbr": "",
+   "name": "STORAGE (removed from inventory 2013)"
+ },
+ {
+   "number": "A635",
+   "abbr": "",
+   "name": "Conroe Equip Maintenance"
+ },
+ {
+   "number": "A636",
+   "abbr": "",
+   "name": "Chemical Bldg"
+ },
+ {
+   "number": "A637",
+   "abbr": "",
+   "name": "Old Maint Shop"
+ },
+ {
+   "number": "A638",
+   "abbr": "",
+   "name": "Seedling Cooler"
+ },
+ {
+   "number": "A639",
+   "abbr": "",
+   "name": "Well Bldg"
+ },
+ {
+   "number": "A641",
+   "abbr": "",
+   "name": "Equip Shelter"
+ },
+ {
+   "number": "A642",
+   "abbr": "",
+   "name": "Radio Shelter"
+ },
+ {
+   "number": "A643",
+   "abbr": "",
+   "name": "Storage bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A644",
+   "abbr": "",
+   "name": "Conroe residence"
+ },
+ {
+   "number": "A645",
+   "abbr": "",
+   "name": "LaGrange RFC Office"
+ },
+ {
+   "number": "A646",
+   "abbr": "",
+   "name": "LaGrange Oil Bldg (removed from inventory 2013)"
+ },
+ {
+   "number": "A647",
+   "abbr": "",
+   "name": "LG Vehicle Service"
+ },
+ {
+   "number": "A648",
+   "abbr": "",
+   "name": "Fastril Office (CLOSED 2006)"
+ },
+ {
+   "number": "A649",
+   "abbr": "",
+   "name": "Fastril shop (CLOSED 2006)"
+ },
+ {
+   "number": "A650",
+   "abbr": "",
+   "name": "Fastril  Vehicle Storage (Sold 2010)"
+ },
+ {
+   "number": "A651",
+   "abbr": "",
+   "name": "Lubbock RFC Office (CLOSED 2005)"
+ },
+ {
+   "number": "A652",
+   "abbr": "",
+   "name": "Canyon RFC Office"
+ },
+ {
+   "number": "A653",
+   "abbr": "",
+   "name": "Amarillo RFC Office (CLOSED 2005)"
+ },
+ {
+   "number": "A654",
+   "abbr": "",
+   "name": "Abilene RFC Office (CLOSED 2008)"
+ },
+ {
+   "number": "A655",
+   "abbr": "",
+   "name": "Granbury RFC Office"
+ },
+ {
+   "number": "A656",
+   "abbr": "",
+   "name": "Waco FRP Office (CLOSED 2005)"
+ },
+ {
+   "number": "A657",
+   "abbr": "",
+   "name": "McGregor  RFC Office (CLOSED 2008)"
+ },
+ {
+   "number": "A658",
+   "abbr": "",
+   "name": "Bastrop RFC Office (Office closed 2-28-2013)"
+ },
+ {
+   "number": "A659",
+   "abbr": "",
+   "name": "Fredericksburg RFC Office"
+ },
+ {
+   "number": "A660",
+   "abbr": "",
+   "name": "San Antonio Urban For Office (CLOSED 2008)"
+ },
+ {
+   "number": "A661",
+   "abbr": "",
+   "name": "Houston Urban Forestry Office"
+ },
+ {
+   "number": "A662",
+   "abbr": "",
+   "name": "Kingsville RFC Office (CLOSED 2005)"
+ },
+ {
+   "number": "A663",
+   "abbr": "",
+   "name": "Horseshoe Bay FRP Office (CLOSED 2005)"
+ },
+ {
+   "number": "A664",
+   "abbr": "",
+   "name": "Meridian FRD Office (closed 9-30-2012)"
+ },
+ {
+   "number": "A665",
+   "abbr": "",
+   "name": "Fort Stockton FRD Office"
+ },
+ {
+   "number": "A666",
+   "abbr": "",
+   "name": "Austin Office (Closed September 2006)"
+ },
+ {
+   "number": "A667",
+   "abbr": "",
+   "name": "CK STORAGE (removed from inventory 2013)"
+ },
+ {
+   "number": "A668",
+   "abbr": "",
+   "name": "TICC OFFICE"
+ },
+ {
+   "number": "A669",
+   "abbr": "",
+   "name": "MSSO OFFICE"
+ },
+ {
+   "number": "A670",
+   "abbr": "",
+   "name": "LONGVIEW OFFICE"
+ },
+ {
+   "number": "A671",
+   "abbr": "",
+   "name": "SAN ANGELO RFC OFFICE"
+ },
+ {
+   "number": "A672",
+   "abbr": "",
+   "name": "PITTSBURG RFC OFFICE (CLOSED 8/2013)"
+ },
+ {
+   "number": "A673",
+   "abbr": "",
+   "name": "CHILDRESS RFC OFFICE"
+ },
+ {
+   "number": "A674",
+   "abbr": "",
+   "name": "COLDSPRING OFFICE (CLOSED 2006)"
+ },
+ {
+   "number": "A675",
+   "abbr": "",
+   "name": "COLDSPRING STORAGE (CLOSED 2006)"
+ },
+ {
+   "number": "A676",
+   "abbr": "",
+   "name": "COLDSPRING SEEDING COOLER (CLOSED 2006)"
+ },
+ {
+   "number": "A677",
+   "abbr": "",
+   "name": "COLDSPRING PUMP HOUSE (CLOSED 2006)"
+ },
+ {
+   "number": "A678",
+   "abbr": "",
+   "name": "COLDSPRING CHEMICAL STORAGE (CLOSED 2006)"
+ },
+ {
+   "number": "A679",
+   "abbr": "",
+   "name": "COLDSPRING VEHICLE STORAGE (CLOSED 2006)"
+ },
+ {
+   "number": "A680",
+   "abbr": "",
+   "name": "EL PASO OFFICE"
+ },
+ {
+   "number": "A681",
+   "abbr": "",
+   "name": "DALLAS URBAN OFFICE (closed office 8-31-2013)"
+ },
+ {
+   "number": "A682",
+   "abbr": "",
+   "name": "JOHNSON CITY OFFICE"
+ },
+ {
+   "number": "A683",
+   "abbr": "",
+   "name": "LAMPASAS URBAN OFFICE (Lease expired 2004)"
+ },
+ {
+   "number": "A684",
+   "abbr": "",
+   "name": "CORPUS CHRISTI URBAN OFFICE"
+ },
+ {
+   "number": "A685",
+   "abbr": "",
+   "name": "FT. WORTH URBAN OFFICE"
+ },
+ {
+   "number": "A686",
+   "abbr": "",
+   "name": "SAN ANTONIO FRP OFFICE"
+ },
+ {
+   "number": "A687",
+   "abbr": "",
+   "name": "PALESTINE STORAGE (removed from inventory 2013)"
+ },
+ {
+   "number": "A688",
+   "abbr": "",
+   "name": "GREENVILLE RFC OFFICE"
+ },
+ {
+   "number": "A689",
+   "abbr": "",
+   "name": "LUBBOCK WTN OFFICE"
+ },
+ {
+   "number": "A690",
+   "abbr": "",
+   "name": "LUBBOCK WTN GREENHOUSE"
+ },
+ {
+   "number": "A691",
+   "abbr": "",
+   "name": "LUBBOCK WTN PACKING-COOLER"
+ },
+ {
+   "number": "A694",
+   "abbr": "",
+   "name": "LUBBOCK EQUIPMENT SHED"
+ },
+ {
+   "number": "A695",
+   "abbr": "",
+   "name": "IDALOU WTN GREENHOUSE"
+ },
+ {
+   "number": "A696",
+   "abbr": "",
+   "name": "IDALOU WTN PACKING-COOLER"
+ },
+ {
+   "number": "A697",
+   "abbr": "",
+   "name": "IDALOU WTN EQUIPMENT STORAGE"
+ },
+ {
+   "number": "A698",
+   "abbr": "",
+   "name": "IDALOU WTN LATH HOUSE"
+ },
+ {
+   "number": "A699",
+   "abbr": "",
+   "name": "KIRBYVILLE RESIDENCE"
+ },
+ {
+   "number": "A701",
+   "abbr": "",
+   "name": "Austin Rental Space (Lease expired 2003)"
+ },
+ {
+   "number": "A710",
+   "abbr": "",
+   "name": "HRTC Main Bldg (Lease expired 2004)"
+ },
+ {
+   "number": "A711",
+   "abbr": "",
+   "name": "HRTC Port Bldg (Lease expired 2004)"
+ },
+ {
+   "number": "A720",
+   "abbr": "",
+   "name": "Galveston/Teichman Road"
+ },
+ {
+   "number": "A721",
+   "abbr": "",
+   "name": "Galveston/Port Bldg"
+ },
+ {
+   "number": "A722",
+   "abbr": "",
+   "name": "MARINE TRAINING BUILDING GARAGE"
+ },
+ {
+   "number": "A725",
+   "abbr": "",
+   "name": "San Antonio Bldg A"
+ },
+ {
+   "number": "A726",
+   "abbr": "",
+   "name": "San Antonio Bldg B"
+ },
+ {
+   "number": "A727",
+   "abbr": "",
+   "name": "San Antonio Bldg C"
+ },
+ {
+   "number": "A728",
+   "abbr": "",
+   "name": "San Antonio Bldg D"
+ },
+ {
+   "number": "A729",
+   "abbr": "",
+   "name": "San Antonio Bldg E"
+ },
+ {
+   "number": "A730",
+   "abbr": "",
+   "name": "San Antonio Bldg F"
+ },
+ {
+   "number": "A731",
+   "abbr": "",
+   "name": "SCTRTC (Lease expired 2004)"
+ },
+ {
+   "number": "A735",
+   "abbr": "",
+   "name": "Mesquite"
+ },
+ {
+   "number": "A740",
+   "abbr": "",
+   "name": "Abilene - Main Bldg (Sold-2003)"
+ },
+ {
+   "number": "A741",
+   "abbr": "",
+   "name": "Abilene - Training (Sold-2003)"
+ },
+ {
+   "number": "A777",
+   "abbr": "",
+   "name": "Amarillo Laboratory"
+ },
+ {
+   "number": "A778",
+   "abbr": "",
+   "name": "Gonzales Laboratory"
+ },
+ {
+   "number": "A780",
+   "abbr": "",
+   "name": "NEW CENTER LABORATORY"
+ },
+ {
+   "number": "A801",
+   "abbr": "",
+   "name": "TTI-ARLINGTON"
+ },
+ {
+   "number": "A802",
+   "abbr": "",
+   "name": "TTI-AUSTIN (LEASE SPACE VACATED IN 2013)"
+ },
+ {
+   "number": "A803",
+   "abbr": "",
+   "name": "TTI-DALLAS - LBJ FRWY (LEASE VACATED 5/2017)"
+ },
+ {
+   "number": "A804",
+   "abbr": "",
+   "name": "TTI-HOUSTON"
+ },
+ {
+   "number": "A805",
+   "abbr": "",
+   "name": "TTI-SAN ANTONIO - TRANSGUIDE"
+ },
+ {
+   "number": "A806",
+   "abbr": "",
+   "name": "TTI-SAN ANTONIO - ONE CASTLE HILLS"
+ },
+ {
+   "number": "A807",
+   "abbr": "",
+   "name": "TTI-AUSTIN - CENTENNIAL TOWERS EXEC SUITES"
+ },
+ {
+   "number": "A808",
+   "abbr": "",
+   "name": "TTI-WACO - TRIANGLE TOWERS, SUITE 308"
+ },
+ {
+   "number": "A809",
+   "abbr": "",
+   "name": "TTI-DALLAS - PARK CENTRAL"
+ },
+ {
+   "number": "A927",
+   "abbr": "",
+   "name": "CHEMICAL STORAGE BUILDING"
+ },
+ {
+   "number": "A928",
+   "abbr": "",
+   "name": "BATH HOUSE-OZONA"
+ },
+ {
+   "number": "A929",
+   "abbr": "",
+   "name": "McALLEN STATE BANK(SOUTH TEXAS CENTER) (Expired)"
+ },
+ {
+   "number": "A930",
+   "abbr": "",
+   "name": "MOBILE HOME-SAN ANGELO"
+ },
+ {
+   "number": "A931",
+   "abbr": "",
+   "name": "PORTABLE BLDG."
+ },
+ {
+   "number": "A932",
+   "abbr": "",
+   "name": "GREENHOUSE"
+ },
+ {
+   "number": "A933",
+   "abbr": "",
+   "name": "D/FW REGIONAL PSC"
+ },
+ {
+   "number": "A934",
+   "abbr": "",
+   "name": "GABE D. ANDERSON III WHEAT GREENHOUSE Bushland"
+ },
+ {
+   "number": "A935",
+   "abbr": "",
+   "name": "TEXAS WHEAT PROD BOARD WHEAT GREENHOUSE BUSHLAND"
+ },
+ {
+   "number": "A936",
+   "abbr": "",
+   "name": "D.G. (BILL) NELSON WHEAT GREENHOUSE BUSHLAND"
+ },
+ {
+   "number": "A937",
+   "abbr": "STC",
+   "name": "SHSC-SOUTH TEXAS CENTER"
+ },
+ {
+   "number": "A938",
+   "abbr": "",
+   "name": "LSC-UNIVERSITY CENTER-MONTGOMERY"
+ },
+ {
+   "number": "A939",
+   "abbr": "",
+   "name": "Meeting Facility - Ozona (sold 2012)"
+ },
+ {
+   "number": "A940",
+   "abbr": "",
+   "name": "LAREDO REGIONAL PSC"
+ },
+ {
+   "number": "A950",
+   "abbr": "",
+   "name": "ALPINE OFFICE"
+ },
+ {
+   "number": "A951",
+   "abbr": "",
+   "name": "KERRVILLE OFFICE"
+ },
+ {
+   "number": "A952",
+   "abbr": "",
+   "name": "PALESTINE FINV OFFICE"
+ },
+ {
+   "number": "A953",
+   "abbr": "",
+   "name": "LUBBOCK WTN EQUIPMENT STORAGE (CLOSED 2006)"
+ },
+ {
+   "number": "A954",
+   "abbr": "",
+   "name": "LUBBOCK WTN STORAGE ONE (CLOSED 2006)"
+ },
+ {
+   "number": "A955",
+   "abbr": "",
+   "name": "LUBBOCK WTN STORAGE TWO (CLOSED 2006)"
+ },
+ {
+   "number": "A956",
+   "abbr": "",
+   "name": "Tabernacle Radio Communication-remvd from inv '13"
+ },
+ {
+   "number": "A957",
+   "abbr": "",
+   "name": "Pine Milles Radio Communication-remvd from inv '13"
+ },
+ {
+   "number": "A958",
+   "abbr": "",
+   "name": "Neches Radio Communication-remvd from inv 2013"
+ },
+ {
+   "number": "A959",
+   "abbr": "",
+   "name": "Chandler Radio Communication-remvd from inv 2013"
+ },
+ {
+   "number": "A960",
+   "abbr": "",
+   "name": "Chita Radio Communication (removed from inv 2013)"
+ },
+ {
+   "number": "A961",
+   "abbr": "",
+   "name": "Deadwood Radio Communication-remvd from inv 2013"
+ },
+ {
+   "number": "A962",
+   "abbr": "",
+   "name": "GREENHOUSE-PONDS FACILITY - Flour Bluff"
+ },
+ {
+   "number": "A963",
+   "abbr": "",
+   "name": "WIMBERLEY UWI OFFICE (Expired)"
+ },
+ {
+   "number": "A964",
+   "abbr": "",
+   "name": "Edinburg Office (CLOSED 2006)"
+ },
+ {
+   "number": "A965",
+   "abbr": "",
+   "name": "TTI-El PASO"
+ },
+ {
+   "number": "A966",
+   "abbr": "",
+   "name": "CITY CENTRE III-MAYS"
+ },
+ {
+   "number": "A967",
+   "abbr": "",
+   "name": "CORPUS CHRISTI REGIONAL PSC"
+ },
+ {
+   "number": "A968",
+   "abbr": "",
+   "name": "RIO GRANDE VALLEY REGIONAL PSC"
+ },
+ {
+   "number": "A969",
+   "abbr": "",
+   "name": "HOUSTON REGIONAL PSC"
+ },
+ {
+   "number": "A970",
+   "abbr": "",
+   "name": "HOUSTON REGIONAL PSC-POWER CENTER (LEASE EXPIRED)"
+ },
+ {
+   "number": "A971",
+   "abbr": "",
+   "name": "SAN ANTONIO REGIONAL PSC"
+ },
+ {
+   "number": "A972",
+   "abbr": "",
+   "name": "AUSTIN OAKWILT OFFICE (closed 8-31-2013)"
+ },
+ {
+   "number": "A973",
+   "abbr": "",
+   "name": "LIVINGSTON DISPATCH"
+ },
+ {
+   "number": "A974",
+   "abbr": "",
+   "name": "KINGSVILLE RFC OFFICE"
+ },
+ {
+   "number": "A975",
+   "abbr": "",
+   "name": "ORANGE URBAN OFFICE (CLOSED 2008)"
+ },
+ {
+   "number": "A976",
+   "abbr": "",
+   "name": "MCGREGOR WAREHOUSE"
+ },
+ {
+   "number": "A977",
+   "abbr": "",
+   "name": "FASTRILL WELL PUMP HOUSE"
+ },
+ {
+   "number": "A979",
+   "abbr": "",
+   "name": "IDALOU OFFICE"
+ },
+ {
+   "number": "A980",
+   "abbr": "",
+   "name": "NUTRITION FEEDING"
+ },
+ {
+   "number": "A981",
+   "abbr": "",
+   "name": "ARLINGTON HIGHLANDS CENTER"
+ },
+ {
+   "number": "A982",
+   "abbr": "",
+   "name": "FEED BINS / COMMODITY BARN BUSHLAND"
+ },
+ {
+   "number": "A983",
+   "abbr": "",
+   "name": "STORAGE BUILDING, AREC Amarillo"
+ },
+ {
+   "number": "A984",
+   "abbr": "",
+   "name": "Trailer 1"
+ },
+ {
+   "number": "A985",
+   "abbr": "",
+   "name": "Trailer 2"
+ },
+ {
+   "number": "A986",
+   "abbr": "",
+   "name": "TRAILER 3"
+ },
+ {
+   "number": "A987",
+   "abbr": "",
+   "name": "TRAILER 4"
+ },
+ {
+   "number": "A989",
+   "abbr": "",
+   "name": "BIOENERGY LABORATORY"
+ },
+ {
+   "number": "A990",
+   "abbr": "",
+   "name": "BIOMASS GRINDING SHED BUSHLAND"
+ },
+ {
+   "number": "A991",
+   "abbr": "",
+   "name": "AIR QUALITY FIELD LAB ANNEX BUSHLAND"
+ },
+ {
+   "number": "A992",
+   "abbr": "",
+   "name": "WEEVIL REARING FACILITY #1"
+ },
+ {
+   "number": "A993",
+   "abbr": "",
+   "name": "WEEVIL REARING FACILITY #2"
+ },
+ {
+   "number": "A994",
+   "abbr": "",
+   "name": "BIOENERGY GREENHOUSE"
+ },
+ {
+   "number": "A995",
+   "abbr": "",
+   "name": "Manure Drying and Processing Shed Bushland"
+ },
+ {
+   "number": "A996",
+   "abbr": "",
+   "name": "AGRONOMY AG CHEMICALS FIELD LAB BUSHLAND"
+ },
+ {
+   "number": "A997",
+   "abbr": "",
+   "name": "PARK MODEL MOBILE HOME - Flour Bluff"
+ },
+ {
+   "number": "A998",
+   "abbr": "",
+   "name": "REDMAN 4600 MOBILE HOME - Flour Bluff"
+ },
+ {
+   "number": "A999",
+   "abbr": "",
+   "name": "VESTIL MULTI-DUTY STORAGE SHED"
+ },
+ {
+   "number": "B001",
+   "abbr": "",
+   "name": "FLOUR BLUFF STORAGE BUILDING"
+ },
+ {
+   "number": "B002",
+   "abbr": "",
+   "name": "Office Building"
+ },
+ {
+   "number": "B003",
+   "abbr": "",
+   "name": "CORPUS CHRISTI WOODEN STORAGE BUILDING - SHOP"
+ },
+ {
+   "number": "B004",
+   "abbr": "",
+   "name": "FLOUR BLUFF PORTABLE STORAGE BLDG."
+ },
+ {
+   "number": "B005",
+   "abbr": "",
+   "name": "FLOUR BLUFF STORAGE BLDG."
+ },
+ {
+   "number": "B006",
+   "abbr": "",
+   "name": "Mobile Home 1"
+ },
+ {
+   "number": "B007",
+   "abbr": "",
+   "name": "Flour Bluff Feed Prep Lab"
+ },
+ {
+   "number": "B020",
+   "abbr": "",
+   "name": "PECOS ALGAE BARN"
+ },
+ {
+   "number": "B021",
+   "abbr": "",
+   "name": "CORPUS CHRISTI WOODEN STORAGE BLD - PUMP REPAIR"
+ },
+ {
+   "number": "B022",
+   "abbr": "",
+   "name": "FLOUR BLUFF SMALL GREENHOUSE"
+ },
+ {
+   "number": "B023",
+   "abbr": "",
+   "name": "FLOUR BLUFF GREENHOUSE-NEW RACEWAY"
+ },
+ {
+   "number": "B024",
+   "abbr": "GH1FG",
+   "name": "GREENHOUSE 1"
+ },
+ {
+   "number": "B025",
+   "abbr": "GH2FG",
+   "name": "GREENHOUSE 2"
+ },
+ {
+   "number": "B026",
+   "abbr": "GH3FG",
+   "name": "GREENHOUSE 3"
+ },
+ {
+   "number": "B027",
+   "abbr": "VITIFG",
+   "name": "VITICULTURE FREDERICKSBURG"
+ },
+ {
+   "number": "B028",
+   "abbr": "",
+   "name": "DELINTING LAB"
+ },
+ {
+   "number": "B050",
+   "abbr": "",
+   "name": "HONEY BEE RESEARCH LAB"
+ },
+ {
+   "number": "B051",
+   "abbr": "",
+   "name": "GREENHOUSE 1"
+ },
+ {
+   "number": "B052",
+   "abbr": "",
+   "name": "GREENHOUSE 2"
+ },
+ {
+   "number": "B053",
+   "abbr": "",
+   "name": "INTEGRATED FARMING (Mothballed in 2014)"
+ },
+ {
+   "number": "B054",
+   "abbr": "",
+   "name": "CROP QUALITY & FRUIT INSECTS (Mothballed in 2014)"
+ },
+ {
+   "number": "B055",
+   "abbr": "",
+   "name": "BENEFICIAL INSECTS (Mothballed in 2014)"
+ },
+ {
+   "number": "B056",
+   "abbr": "",
+   "name": "BENEFICIAL INSECTS"
+ },
+ {
+   "number": "B057",
+   "abbr": "",
+   "name": "HEADHOUSE"
+ },
+ {
+   "number": "B058",
+   "abbr": "",
+   "name": "GREENHOUSE"
+ },
+ {
+   "number": "B059",
+   "abbr": "",
+   "name": "GREENHOUSE"
+ },
+ {
+   "number": "B060",
+   "abbr": "",
+   "name": "GREENHOUSE (Mothballed in 2014)"
+ },
+ {
+   "number": "B061",
+   "abbr": "",
+   "name": "GREENHOUSE (Mothballed in 2014)"
+ },
+ {
+   "number": "B062",
+   "abbr": "",
+   "name": "INTEGRATED FARMING"
+ },
+ {
+   "number": "B063",
+   "abbr": "",
+   "name": "IMPLEMENT EQUIPMENT SHELTER (Mothballed in 2014)"
+ },
+ {
+   "number": "B064",
+   "abbr": "",
+   "name": "INTEGRATED FARMING"
+ },
+ {
+   "number": "B065",
+   "abbr": "",
+   "name": "REMOTE SENSING"
+ },
+ {
+   "number": "B066",
+   "abbr": "",
+   "name": "DRYING SHED"
+ },
+ {
+   "number": "B067",
+   "abbr": "",
+   "name": "ADMIN STORAGE BUILDING 1"
+ },
+ {
+   "number": "B068",
+   "abbr": "",
+   "name": "ADMIN STORAGE BUILDING 2"
+ },
+ {
+   "number": "B069",
+   "abbr": "",
+   "name": "ADMIN STORAGE BUIDLING 3"
+ },
+ {
+   "number": "B070",
+   "abbr": "",
+   "name": "EQUIPMENT STORAGE BUILDING"
+ },
+ {
+   "number": "B071",
+   "abbr": "",
+   "name": "RICE BREEDING LABORATORY"
+ },
+ {
+   "number": "B072",
+   "abbr": "",
+   "name": "BREEDING SHOP"
+ },
+ {
+   "number": "B073",
+   "abbr": "",
+   "name": "TAN STORAGE UNIT"
+ },
+ {
+   "number": "B074",
+   "abbr": "",
+   "name": "THRESHING SHED"
+ },
+ {
+   "number": "B075",
+   "abbr": "",
+   "name": "COLD STORAGE BLDG"
+ },
+ {
+   "number": "B076",
+   "abbr": "",
+   "name": "Austin Regional FRSF Office"
+ },
+ {
+   "number": "B077",
+   "abbr": "",
+   "name": "Storage Building"
+ },
+ {
+   "number": "B078",
+   "abbr": "",
+   "name": "Multipurpose Farm Implement"
+ },
+ {
+   "number": "B079",
+   "abbr": "",
+   "name": "Greenhouses (12) with Head House"
+ },
+ {
+   "number": "B080",
+   "abbr": "",
+   "name": "Yoakum Field Building"
+ },
+ {
+   "number": "B090",
+   "abbr": "",
+   "name": "Crop Stress Phys/Ento Greenhouse"
+ },
+ {
+   "number": "B100",
+   "abbr": "",
+   "name": "TEES Houston Regional Office"
+ },
+ {
+   "number": "B200",
+   "abbr": "",
+   "name": "Carrollton Office Tower"
+ },
+ {
+   "number": "B300",
+   "abbr": "",
+   "name": "Dallas AgriLife Center Building"
+ },
+ {
+   "number": "BL-1",
+   "abbr": "BL1",
+   "name": "Blinn1"
+ },
+ {
+   "number": "CR01",
+   "abbr": "",
+   "name": "SOLTIS CENTER BLDG. 1"
+ },
+ {
+   "number": "CR02",
+   "abbr": "",
+   "name": "SOLTIS CENTER BLDG. 2"
+ },
+ {
+   "number": "E001",
+   "abbr": "",
+   "name": "DS05 - ANDERSON COUNTY"
+ },
+ {
+   "number": "E003",
+   "abbr": "",
+   "name": "DS06 - ANDREWS COUNTY"
+ },
+ {
+   "number": "E005",
+   "abbr": "",
+   "name": "DS05 - ANGELINA COUNTY"
+ },
+ {
+   "number": "E007",
+   "abbr": "",
+   "name": "DS11 - ARANSAS COUNTY"
+ },
+ {
+   "number": "E009",
+   "abbr": "",
+   "name": "DS03 - ARCHER COUNTY"
+ },
+ {
+   "number": "E011",
+   "abbr": "",
+   "name": "DS01 - ARMSTRONG COUNTY EXTENSION"
+ },
+ {
+   "number": "E013",
+   "abbr": "",
+   "name": "DS12 - ATASCOSA COUNTY"
+ },
+ {
+   "number": "E015",
+   "abbr": "",
+   "name": "DS11 - AUSTIN COUNTY"
+ },
+ {
+   "number": "E017",
+   "abbr": "",
+   "name": "DS02 - BAILEY COUNTY"
+ },
+ {
+   "number": "E019",
+   "abbr": "",
+   "name": "DS10 - BANDERA COUNTY"
+ },
+ {
+   "number": "E021",
+   "abbr": "",
+   "name": "DS10 - BASTROP COUNTY"
+ },
+ {
+   "number": "E023",
+   "abbr": "",
+   "name": "DS03 - BAYLOR COUNTY"
+ },
+ {
+   "number": "E025",
+   "abbr": "",
+   "name": "DS11 - BEE COUNTY"
+ },
+ {
+   "number": "E027",
+   "abbr": "",
+   "name": "DS08 - BELL COUNTY"
+ },
+ {
+   "number": "E029",
+   "abbr": "",
+   "name": "DS10 - BEXAR COUNTY"
+ },
+ {
+   "number": "E031",
+   "abbr": "",
+   "name": "DS10 - BLANCO COUNTY"
+ },
+ {
+   "number": "E033",
+   "abbr": "",
+   "name": "DS02 - BORDEN COUNTY"
+ },
+ {
+   "number": "E035",
+   "abbr": "",
+   "name": "DS08 - BOSQUE COUNTY"
+ },
+ {
+   "number": "E037",
+   "abbr": "",
+   "name": "DS04 - BOWIE COUNTY"
+ },
+ {
+   "number": "E039",
+   "abbr": "",
+   "name": "DS09 - BRAZORIA COUNTY"
+ },
+ {
+   "number": "E041",
+   "abbr": "",
+   "name": "DS09 - BRAZOS COUNTY"
+ },
+ {
+   "number": "E043",
+   "abbr": "",
+   "name": "DS06 - BREWSTER COUNTY"
+ },
+ {
+   "number": "E045",
+   "abbr": "",
+   "name": "DS01 - BRISCOE COUNTY"
+ },
+ {
+   "number": "E047",
+   "abbr": "",
+   "name": "DS12 - BROOKS COUNTY"
+ },
+ {
+   "number": "E049",
+   "abbr": "",
+   "name": "DS07 - BROWN COUNTY"
+ },
+ {
+   "number": "E051",
+   "abbr": "",
+   "name": "DS09 - BURLESON COUNTY"
+ },
+ {
+   "number": "E053",
+   "abbr": "",
+   "name": "DS07 - BURNET COUNTY"
+ },
+ {
+   "number": "E055",
+   "abbr": "",
+   "name": "DS10 - CALDWELL COUNTY"
+ },
+ {
+   "number": "E057",
+   "abbr": "",
+   "name": "DS11 - CALHOUN COUNTY"
+ },
+ {
+   "number": "E059",
+   "abbr": "",
+   "name": "DS07 - CALLAHAN COUNTY"
+ },
+ {
+   "number": "E061",
+   "abbr": "",
+   "name": "DS12 - CAMERON COUNTY"
+ },
+ {
+   "number": "E063",
+   "abbr": "",
+   "name": "DS04 - CAMP COUNTY"
+ },
+ {
+   "number": "E065",
+   "abbr": "",
+   "name": "DS01 - CARSON COUNTY"
+ },
+ {
+   "number": "E067",
+   "abbr": "",
+   "name": "DS04 - CASS COUNTY"
+ },
+ {
+   "number": "E069",
+   "abbr": "",
+   "name": "DS02 - CASTRO COUNTY"
+ },
+ {
+   "number": "E071",
+   "abbr": "",
+   "name": "DS09 - CHAMBERS COUNTY"
+ },
+ {
+   "number": "E073",
+   "abbr": "",
+   "name": "DS05 - CHEROKEE COUNTY"
+ },
+ {
+   "number": "E075",
+   "abbr": "",
+   "name": "DS03 - CHILDRESS COUNTY"
+ },
+ {
+   "number": "E077",
+   "abbr": "",
+   "name": "DS03 - CLAY COUNTY"
+ },
+ {
+   "number": "E079",
+   "abbr": "",
+   "name": "DS02 - COCHRAN COUNTY"
+ },
+ {
+   "number": "E081",
+   "abbr": "",
+   "name": "DS07 - COKE COUNTY"
+ },
+ {
+   "number": "E083",
+   "abbr": "",
+   "name": "DS07 - COLEMAN COUNTY"
+ },
+ {
+   "number": "E085",
+   "abbr": "",
+   "name": "DS04 - COLLIN COUNTY"
+ },
+ {
+   "number": "E087",
+   "abbr": "",
+   "name": "DS01 - COLLINGSWORTH COUNTY"
+ },
+ {
+   "number": "E089",
+   "abbr": "",
+   "name": "DS11 - COLORADO COUNTY"
+ },
+ {
+   "number": "E091",
+   "abbr": "",
+   "name": "DS10 - COMAL COUNTY"
+ },
+ {
+   "number": "E093",
+   "abbr": "",
+   "name": "DS08 - COMANCHE COUNTY"
+ },
+ {
+   "number": "E095",
+   "abbr": "",
+   "name": "DS07 - CONCHO COUNTY"
+ },
+ {
+   "number": "E097",
+   "abbr": "",
+   "name": "DS04 - COOKE COUNTY"
+ },
+ {
+   "number": "E099",
+   "abbr": "",
+   "name": "DS08 - CORYELL COUNTY"
+ },
+ {
+   "number": "E101",
+   "abbr": "",
+   "name": "DS03 - COTTLE COUNTY"
+ },
+ {
+   "number": "E103",
+   "abbr": "",
+   "name": "DS06 - CRANE COUNTY"
+ },
+ {
+   "number": "E105",
+   "abbr": "",
+   "name": "DS06 - CROCKETT COUNTY"
+ },
+ {
+   "number": "E107",
+   "abbr": "",
+   "name": "DS02 - CROSBY COUNTY"
+ },
+ {
+   "number": "E109",
+   "abbr": "",
+   "name": "DS06 - CULBERSON COUNTY"
+ },
+ {
+   "number": "E111",
+   "abbr": "",
+   "name": "DS01 - DALLAM/HARTLEY COUNTY"
+ },
+ {
+   "number": "E113",
+   "abbr": "",
+   "name": "DS04 - DALLAS COUNTY"
+ },
+ {
+   "number": "E115",
+   "abbr": "",
+   "name": "DS02 - DAWSON COUNTY"
+ },
+ {
+   "number": "E117",
+   "abbr": "",
+   "name": "DS01 - DEAF SMITH COUNTY"
+ },
+ {
+   "number": "E119",
+   "abbr": "",
+   "name": "DS04 - DELTA COUNTY"
+ },
+ {
+   "number": "E121",
+   "abbr": "",
+   "name": "DS04 - DENTON COUNTY"
+ },
+ {
+   "number": "E123",
+   "abbr": "",
+   "name": "DS11 - DEWITT COUNTY"
+ },
+ {
+   "number": "E125",
+   "abbr": "",
+   "name": "DS03 - DICKENS COUNTY"
+ },
+ {
+   "number": "E127",
+   "abbr": "",
+   "name": "DS12 - DIMMIT COUNTY"
+ },
+ {
+   "number": "E129",
+   "abbr": "",
+   "name": "DS01 - DONLEY COUNTY"
+ },
+ {
+   "number": "E131",
+   "abbr": "",
+   "name": "DS12 - DUVAL COUNTY"
+ },
+ {
+   "number": "E133",
+   "abbr": "",
+   "name": "DS08 - EASTLAND COUNTY"
+ },
+ {
+   "number": "E135",
+   "abbr": "",
+   "name": "DS06 - ECTOR COUNTY"
+ },
+ {
+   "number": "E137",
+   "abbr": "",
+   "name": "DS10 - EDWARDS COUNTY"
+ },
+ {
+   "number": "E139",
+   "abbr": "",
+   "name": "DS08 - ELLIS COUNTY"
+ },
+ {
+   "number": "E141",
+   "abbr": "",
+   "name": "DS06 - EL PASO COUNTY"
+ },
+ {
+   "number": "E143",
+   "abbr": "",
+   "name": "DS08 - ERATH COUNTY"
+ },
+ {
+   "number": "E145",
+   "abbr": "",
+   "name": "DS08 - FALLS COUNTY"
+ },
+ {
+   "number": "E147",
+   "abbr": "",
+   "name": "DS04 - FANNIN COUNTY"
+ },
+ {
+   "number": "E149",
+   "abbr": "",
+   "name": "DS11 - FAYETTE COUNTY"
+ },
+ {
+   "number": "E151",
+   "abbr": "",
+   "name": "DS07 - FISHER COUNTY"
+ },
+ {
+   "number": "E153",
+   "abbr": "",
+   "name": "DS02 - FLOYD COUNTY"
+ },
+ {
+   "number": "E155",
+   "abbr": "",
+   "name": "DS03 - FOARD COUNTY"
+ },
+ {
+   "number": "E157",
+   "abbr": "",
+   "name": "DS09 - FORT BEND COUNTY"
+ },
+ {
+   "number": "E159",
+   "abbr": "",
+   "name": "DS04 - FRANKLIN COUNTY"
+ },
+ {
+   "number": "E161",
+   "abbr": "",
+   "name": "DS08 - FREESTONE COUNTY"
+ },
+ {
+   "number": "E163",
+   "abbr": "",
+   "name": "DS12 - FRIO COUNTY"
+ },
+ {
+   "number": "E165",
+   "abbr": "",
+   "name": "DS02 - GAINES COUNTY"
+ },
+ {
+   "number": "E167",
+   "abbr": "",
+   "name": "DS09 - GALVESTON COUNTY"
+ },
+ {
+   "number": "E169",
+   "abbr": "",
+   "name": "DS02 - GARZA COUNTY"
+ },
+ {
+   "number": "E171",
+   "abbr": "",
+   "name": "DS10 - GILLESPIE COUNTY"
+ },
+ {
+   "number": "E173",
+   "abbr": "",
+   "name": "DS06 - GLASSCOCK COUNTY"
+ },
+ {
+   "number": "E175",
+   "abbr": "",
+   "name": "DS11 - GOLIAD COUNTY"
+ },
+ {
+   "number": "E177",
+   "abbr": "",
+   "name": "DS10 - GONZALES COUNTY"
+ },
+ {
+   "number": "E179",
+   "abbr": "",
+   "name": "DS01 - GRAY COUNTY"
+ },
+ {
+   "number": "E181",
+   "abbr": "",
+   "name": "DS04 - GRAYSON COUNTY"
+ },
+ {
+   "number": "E183",
+   "abbr": "",
+   "name": "DS05 - GREGG COUNTY"
+ },
+ {
+   "number": "E185",
+   "abbr": "",
+   "name": "DS09 - GRIMES COUNTY"
+ },
+ {
+   "number": "E187",
+   "abbr": "",
+   "name": "DS10 - GUADALUPE COUNTY"
+ },
+ {
+   "number": "E189",
+   "abbr": "",
+   "name": "DS02 - HALE COUNTY"
+ },
+ {
+   "number": "E191",
+   "abbr": "",
+   "name": "DS01 - HALL COUNTY"
+ },
+ {
+   "number": "E193",
+   "abbr": "",
+   "name": "DS08 - HAMILTON COUNTY"
+ },
+ {
+   "number": "E195",
+   "abbr": "",
+   "name": "DS01 - HANSFORD COUNTY"
+ },
+ {
+   "number": "E197",
+   "abbr": "",
+   "name": "DS03 - HARDEMAN COUNTY"
+ },
+ {
+   "number": "E199",
+   "abbr": "",
+   "name": "DS09 - HARDIN COUNTY"
+ },
+ {
+   "number": "E201",
+   "abbr": "",
+   "name": "DS09 - HARRIS COUNTY"
+ },
+ {
+   "number": "E203",
+   "abbr": "",
+   "name": "DS05 - HARRISON COUNTY"
+ },
+ {
+   "number": "E205",
+   "abbr": "",
+   "name": "DS01 - HARTLEY COUNTY(CLOSED 2005)"
+ },
+ {
+   "number": "E207",
+   "abbr": "",
+   "name": "DS03 - HASKELL COUNTY"
+ },
+ {
+   "number": "E209",
+   "abbr": "",
+   "name": "DS10 - HAYS COUNTY"
+ },
+ {
+   "number": "E211",
+   "abbr": "",
+   "name": "DS01 - HEMPHILL COUNTY"
+ },
+ {
+   "number": "E213",
+   "abbr": "",
+   "name": "DS05 - HENDERSON COUNTY"
+ },
+ {
+   "number": "E215",
+   "abbr": "",
+   "name": "DS12 - HIDALGO COUNTY"
+ },
+ {
+   "number": "E217",
+   "abbr": "",
+   "name": "DS08 - HILL COUNTY"
+ },
+ {
+   "number": "E219",
+   "abbr": "",
+   "name": "DS02 - HOCKLEY COUNTY"
+ },
+ {
+   "number": "E221",
+   "abbr": "",
+   "name": "DS08 - HOOD COUNTY"
+ },
+ {
+   "number": "E223",
+   "abbr": "",
+   "name": "DS04 - HOPKINS COUNTY"
+ },
+ {
+   "number": "E225",
+   "abbr": "",
+   "name": "DS05 - HOUSTON COUNTY"
+ },
+ {
+   "number": "E227",
+   "abbr": "",
+   "name": "DS06 - HOWARD COUNTY"
+ },
+ {
+   "number": "E229",
+   "abbr": "",
+   "name": "DS06 - HUDSPETH COUNTY"
+ },
+ {
+   "number": "E231",
+   "abbr": "",
+   "name": "DS04 - HUNT COUNTY"
+ },
+ {
+   "number": "E233",
+   "abbr": "",
+   "name": "DS01 - HUTCHINSON COUNTY"
+ },
+ {
+   "number": "E235",
+   "abbr": "",
+   "name": "DS07 - IRION COUNTY"
+ },
+ {
+   "number": "E237",
+   "abbr": "",
+   "name": "DS03 - JACK COUNTY"
+ },
+ {
+   "number": "E239",
+   "abbr": "",
+   "name": "DS11 - JACKSON COUNTY"
+ },
+ {
+   "number": "E241",
+   "abbr": "",
+   "name": "DS05 - JASPER COUNTY"
+ },
+ {
+   "number": "E243",
+   "abbr": "",
+   "name": "DS06 - JEFF DAVIS COUNTY"
+ },
+ {
+   "number": "E245",
+   "abbr": "",
+   "name": "DS09 - JEFFERSON COUNTY"
+ },
+ {
+   "number": "E247",
+   "abbr": "",
+   "name": "DS12 - JIM HOGG COUNTY"
+ },
+ {
+   "number": "E249",
+   "abbr": "",
+   "name": "DS12 - JIM WELLS COUNTY"
+ },
+ {
+   "number": "E251",
+   "abbr": "",
+   "name": "DS08 - JOHNSON COUNTY"
+ },
+ {
+   "number": "E253",
+   "abbr": "",
+   "name": "DS07 - JONES COUNTY"
+ },
+ {
+   "number": "E255",
+   "abbr": "",
+   "name": "DS11 - KARNES COUNTY"
+ },
+ {
+   "number": "E257",
+   "abbr": "",
+   "name": "DS04 - KAUFMAN COUNTY"
+ },
+ {
+   "number": "E259",
+   "abbr": "",
+   "name": "DS10 - KENDALL COUNTY"
+ },
+ {
+   "number": "E261",
+   "abbr": "",
+   "name": "DS12 - KENEDY COUNTY"
+ },
+ {
+   "number": "E263",
+   "abbr": "",
+   "name": "DS03 - KENT COUNTY"
+ },
+ {
+   "number": "E265",
+   "abbr": "",
+   "name": "DS10 - KERR COUNTY"
+ },
+ {
+   "number": "E267",
+   "abbr": "",
+   "name": "DS10 - KIMBLE COUNTY"
+ },
+ {
+   "number": "E269",
+   "abbr": "",
+   "name": "DS03 - KING COUNTY"
+ },
+ {
+   "number": "E271",
+   "abbr": "",
+   "name": "DS10 - KINNEY COUNTY"
+ },
+ {
+   "number": "E273",
+   "abbr": "",
+   "name": "DS12 - KLEBERG COUNTY"
+ },
+ {
+   "number": "E275",
+   "abbr": "",
+   "name": "DS03 - KNOX COUNTY"
+ },
+ {
+   "number": "E277",
+   "abbr": "",
+   "name": "DS04 - LAMAR COUNTY"
+ },
+ {
+   "number": "E279",
+   "abbr": "",
+   "name": "DS02 - LAMB COUNTY"
+ },
+ {
+   "number": "E281",
+   "abbr": "",
+   "name": "DS07 - LAMPASAS COUNTY"
+ },
+ {
+   "number": "E283",
+   "abbr": "",
+   "name": "DS12 - LA SALLE COUNTY"
+ },
+ {
+   "number": "E285",
+   "abbr": "",
+   "name": "DS11 - LAVACA COUNTY"
+ },
+ {
+   "number": "E287",
+   "abbr": "",
+   "name": "DS09 - LEE COUNTY"
+ },
+ {
+   "number": "E289",
+   "abbr": "",
+   "name": "DS08 - LEON COUNTY"
+ },
+ {
+   "number": "E291",
+   "abbr": "",
+   "name": "DS09 - LIBERTY COUNTY"
+ },
+ {
+   "number": "E293",
+   "abbr": "",
+   "name": "DS08 - LIMESTONE COUNTY"
+ },
+ {
+   "number": "E295",
+   "abbr": "",
+   "name": "DS01 - LIPSCOMB COUNTY"
+ },
+ {
+   "number": "E297",
+   "abbr": "",
+   "name": "DS12 - LIVE OAK COUNTY"
+ },
+ {
+   "number": "E299",
+   "abbr": "",
+   "name": "DS07 - LLANO COUNTY"
+ },
+ {
+   "number": "E301",
+   "abbr": "",
+   "name": "DS06 - LOVING COUNTY"
+ },
+ {
+   "number": "E303",
+   "abbr": "",
+   "name": "DS02 - LUBBOCK COUNTY"
+ },
+ {
+   "number": "E305",
+   "abbr": "",
+   "name": "DS02 - LYNN COUNTY"
+ },
+ {
+   "number": "E307",
+   "abbr": "",
+   "name": "DS07 - MCCULLOCH COUNTY"
+ },
+ {
+   "number": "E309",
+   "abbr": "",
+   "name": "DS08 - MCLENNAN COUNTY"
+ },
+ {
+   "number": "E311",
+   "abbr": "",
+   "name": "DS12 - MCMULLEN COUNTY"
+ },
+ {
+   "number": "E313",
+   "abbr": "",
+   "name": "DS09 - MADISON COUNTY"
+ },
+ {
+   "number": "E315",
+   "abbr": "",
+   "name": "DS05 - MARION COUNTY"
+ },
+ {
+   "number": "E317",
+   "abbr": "",
+   "name": "DS06 - MARTIN COUNTY"
+ },
+ {
+   "number": "E319",
+   "abbr": "",
+   "name": "DS07 - MASON COUNTY"
+ },
+ {
+   "number": "E321",
+   "abbr": "",
+   "name": "DS11 - MATAGORDA COUNTY"
+ },
+ {
+   "number": "E323",
+   "abbr": "",
+   "name": "DS12 - MAVERICK COUNTY"
+ },
+ {
+   "number": "E325",
+   "abbr": "",
+   "name": "DS10 - MEDINA COUNTY"
+ },
+ {
+   "number": "E327",
+   "abbr": "",
+   "name": "DS07 - MENARD COUNTY"
+ },
+ {
+   "number": "E329",
+   "abbr": "",
+   "name": "DS06 - MIDLAND COUNTY"
+ },
+ {
+   "number": "E331",
+   "abbr": "",
+   "name": "DS08 - MILAM COUNTY"
+ },
+ {
+   "number": "E333",
+   "abbr": "",
+   "name": "DS07 - MILLS COUNTY"
+ },
+ {
+   "number": "E335",
+   "abbr": "",
+   "name": "DS02 - MITCHELL COUNTY"
+ },
+ {
+   "number": "E337",
+   "abbr": "",
+   "name": "DS03 - MONTAGUE COUNTY"
+ },
+ {
+   "number": "E339",
+   "abbr": "",
+   "name": "DS09 - MONTGOMERY COUNTY"
+ },
+ {
+   "number": "E341",
+   "abbr": "",
+   "name": "DS01 - MOORE COUNTY"
+ },
+ {
+   "number": "E343",
+   "abbr": "",
+   "name": "DS04 - MORRIS COUNTY"
+ },
+ {
+   "number": "E345",
+   "abbr": "",
+   "name": "DS03 - MOTLEY COUNTY"
+ },
+ {
+   "number": "E347",
+   "abbr": "",
+   "name": "DS05 - NACOGDOCHES COUNTY"
+ },
+ {
+   "number": "E349",
+   "abbr": "",
+   "name": "DS08 - NAVARRO COUNTY"
+ },
+ {
+   "number": "E351",
+   "abbr": "",
+   "name": "DS05 - NEWTON COUNTY"
+ },
+ {
+   "number": "E353",
+   "abbr": "",
+   "name": "DS07 - NOLAN COUNTY"
+ },
+ {
+   "number": "E355",
+   "abbr": "",
+   "name": "DS11 - NUECES COUNTY"
+ },
+ {
+   "number": "E357",
+   "abbr": "",
+   "name": "DS01 - OCHILTREE COUNTY"
+ },
+ {
+   "number": "E359",
+   "abbr": "",
+   "name": "DS01 - OLDHAM COUNTY"
+ },
+ {
+   "number": "E361",
+   "abbr": "",
+   "name": "DS09 - ORANGE COUNTY"
+ },
+ {
+   "number": "E363",
+   "abbr": "",
+   "name": "DS03 - PALO PINTO COUNTY"
+ },
+ {
+   "number": "E365",
+   "abbr": "",
+   "name": "DS05 - PANOLA COUNTY"
+ },
+ {
+   "number": "E367",
+   "abbr": "",
+   "name": "DS03 - PARKER COUNTY"
+ },
+ {
+   "number": "E369",
+   "abbr": "",
+   "name": "DS02 - PARMER COUNTY"
+ },
+ {
+   "number": "E371",
+   "abbr": "",
+   "name": "DS06 - PECOS COUNTY"
+ },
+ {
+   "number": "E373",
+   "abbr": "",
+   "name": "DS05 - POLK COUNTY"
+ },
+ {
+   "number": "E375",
+   "abbr": "",
+   "name": "DS01 - POTTER COUNTY"
+ },
+ {
+   "number": "E377",
+   "abbr": "",
+   "name": "DS06 - PRESIDIO COUNTY"
+ },
+ {
+   "number": "E379",
+   "abbr": "",
+   "name": "DS04 - RAINS COUNTY"
+ },
+ {
+   "number": "E381",
+   "abbr": "",
+   "name": "DS01 - RANDALL COUNTY"
+ },
+ {
+   "number": "E383",
+   "abbr": "",
+   "name": "DS06 - REAGAN COUNTY"
+ },
+ {
+   "number": "E385",
+   "abbr": "",
+   "name": "DS10 - REAL COUNTY"
+ },
+ {
+   "number": "E387",
+   "abbr": "",
+   "name": "DS04 - RED RIVER COUNTY"
+ },
+ {
+   "number": "E389",
+   "abbr": "",
+   "name": "DS06 - REEVES COUNTY"
+ },
+ {
+   "number": "E391",
+   "abbr": "",
+   "name": "DS11 - REFUGIO COUNTY"
+ },
+ {
+   "number": "E393",
+   "abbr": "",
+   "name": "DS01 - ROBERTS COUNTY"
+ },
+ {
+   "number": "E395",
+   "abbr": "",
+   "name": "DS08 - ROBERTSON COUNTY"
+ },
+ {
+   "number": "E397",
+   "abbr": "",
+   "name": "DS04 - ROCKWALL COUNTY"
+ },
+ {
+   "number": "E399",
+   "abbr": "",
+   "name": "DS07 - RUNNELS COUNTY"
+ },
+ {
+   "number": "E401",
+   "abbr": "",
+   "name": "DS05 - RUSK COUNTY"
+ },
+ {
+   "number": "E403",
+   "abbr": "",
+   "name": "DS05 - SABINE COUNTY"
+ },
+ {
+   "number": "E405",
+   "abbr": "",
+   "name": "DS05 - SAN AUGUSTINE COUNTY"
+ },
+ {
+   "number": "E407",
+   "abbr": "",
+   "name": "DS09 - SAN JACINTO COUNTY"
+ },
+ {
+   "number": "E409",
+   "abbr": "",
+   "name": "DS11 - SAN PATRICIO COUNTY"
+ },
+ {
+   "number": "E411",
+   "abbr": "",
+   "name": "DS07 - SAN SABA COUNTY"
+ },
+ {
+   "number": "E413",
+   "abbr": "",
+   "name": "DS07 - SCHLEICHER COUNTY"
+ },
+ {
+   "number": "E415",
+   "abbr": "",
+   "name": "DS02 - SCURRY COUNTY"
+ },
+ {
+   "number": "E417",
+   "abbr": "",
+   "name": "DS07 - SHACKELFORD COUNTY"
+ },
+ {
+   "number": "E419",
+   "abbr": "",
+   "name": "DS05 - SHELBY COUNTY"
+ },
+ {
+   "number": "E421",
+   "abbr": "",
+   "name": "DS01 - SHERMAN COUNTY"
+ },
+ {
+   "number": "E423",
+   "abbr": "",
+   "name": "DS05 - SMITH COUNTY"
+ },
+ {
+   "number": "E425",
+   "abbr": "",
+   "name": "DS08 - SOMERVELL COUNTY"
+ },
+ {
+   "number": "E427",
+   "abbr": "",
+   "name": "DS12 - STARR COUNTY"
+ },
+ {
+   "number": "E429",
+   "abbr": "",
+   "name": "DS03 - STEPHENS COUNTY"
+ },
+ {
+   "number": "E431",
+   "abbr": "",
+   "name": "DS07 - STERLING COUNTY"
+ },
+ {
+   "number": "E433",
+   "abbr": "",
+   "name": "DS03 - STONEWALL COUNTY"
+ },
+ {
+   "number": "E435",
+   "abbr": "",
+   "name": "DS10 - SUTTON COUNTY"
+ },
+ {
+   "number": "E437",
+   "abbr": "",
+   "name": "DS02 - SWISHER COUNTY"
+ },
+ {
+   "number": "E439",
+   "abbr": "",
+   "name": "DS04 - TARRANT COUNTY"
+ },
+ {
+   "number": "E441",
+   "abbr": "",
+   "name": "DS07 - TAYLOR COUNTY"
+ },
+ {
+   "number": "E443",
+   "abbr": "",
+   "name": "DS06 - TERRELL COUNTY"
+ },
+ {
+   "number": "E445",
+   "abbr": "",
+   "name": "DS02 - TERRY COUNTY"
+ },
+ {
+   "number": "E447",
+   "abbr": "",
+   "name": "DS03 - THROCKMORTON COUNTY"
+ },
+ {
+   "number": "E449",
+   "abbr": "",
+   "name": "DS04 - TITUS COUNTY"
+ },
+ {
+   "number": "E451",
+   "abbr": "",
+   "name": "DS07 - TOM GREEN COUNTY"
+ },
+ {
+   "number": "E453",
+   "abbr": "",
+   "name": "DS10 - TRAVIS COUNTY"
+ },
+ {
+   "number": "E455",
+   "abbr": "",
+   "name": "DS05 - TRINITY COUNTY"
+ },
+ {
+   "number": "E457",
+   "abbr": "",
+   "name": "DS05 - TYLER COUNTY"
+ },
+ {
+   "number": "E459",
+   "abbr": "",
+   "name": "DS05 - UPSHUR COUNTY"
+ },
+ {
+   "number": "E461",
+   "abbr": "",
+   "name": "DS06 - UPTON COUNTY"
+ },
+ {
+   "number": "E463",
+   "abbr": "",
+   "name": "DS10 - UVALDE COUNTY"
+ },
+ {
+   "number": "E465",
+   "abbr": "",
+   "name": "DS06 - VAL VERDE COUNTY"
+ },
+ {
+   "number": "E467",
+   "abbr": "",
+   "name": "DS04 - VAN ZANDT COUNTY"
+ },
+ {
+   "number": "E469",
+   "abbr": "",
+   "name": "DS11 - VICTORIA COUNTY"
+ },
+ {
+   "number": "E471",
+   "abbr": "",
+   "name": "DS09 - WALKER COUNTY"
+ },
+ {
+   "number": "E473",
+   "abbr": "",
+   "name": "DS09 - WALLER COUNTY"
+ },
+ {
+   "number": "E475",
+   "abbr": "",
+   "name": "DS06 - WARD COUNTY"
+ },
+ {
+   "number": "E477",
+   "abbr": "",
+   "name": "DS11 - WASHINGTON COUNTY"
+ },
+ {
+   "number": "E479",
+   "abbr": "",
+   "name": "DS12 - WEBB COUNTY"
+ },
+ {
+   "number": "E481",
+   "abbr": "",
+   "name": "DS11 - WHARTON COUNTY"
+ },
+ {
+   "number": "E483",
+   "abbr": "",
+   "name": "DS01 - WHEELER COUNTY"
+ },
+ {
+   "number": "E485",
+   "abbr": "",
+   "name": "DS03 - WICHITA COUNTY"
+ },
+ {
+   "number": "E487",
+   "abbr": "",
+   "name": "DS03 - WILBARGER COUNTY"
+ },
+ {
+   "number": "E489",
+   "abbr": "",
+   "name": "DS12 - WILLACY COUNTY"
+ },
+ {
+   "number": "E491",
+   "abbr": "",
+   "name": "DS08 - WILLIAMSON COUNTY"
+ },
+ {
+   "number": "E493",
+   "abbr": "",
+   "name": "DS10 - WILSON COUNTY"
+ },
+ {
+   "number": "E495",
+   "abbr": "",
+   "name": "DS06 - WINKLER COUNTY"
+ },
+ {
+   "number": "E497",
+   "abbr": "",
+   "name": "DS03 - WISE COUNTY"
+ },
+ {
+   "number": "E499",
+   "abbr": "",
+   "name": "DS05 - WOOD COUNTY"
+ },
+ {
+   "number": "E501",
+   "abbr": "",
+   "name": "DS02 - YOAKUM COUNTY"
+ },
+ {
+   "number": "E503",
+   "abbr": "",
+   "name": "DS03 - YOUNG COUNTY"
+ },
+ {
+   "number": "E505",
+   "abbr": "",
+   "name": "DS12 - ZAPATA COUNTY"
+ },
+ {
+   "number": "E507",
+   "abbr": "",
+   "name": "DS12 - ZAVALA COUNTY"
+ },
+ {
+   "number": "E509",
+   "abbr": "",
+   "name": "DS06 - MILITARY"
+ },
+ {
+   "number": "E511",
+   "abbr": "",
+   "name": "DS08 - MILITARY"
+ },
+ {
+   "number": "E512",
+   "abbr": "",
+   "name": "ENUT - Bexar County"
+ },
+ {
+   "number": "E513",
+   "abbr": "",
+   "name": "ENUT - Cameron County"
+ },
+ {
+   "number": "E514",
+   "abbr": "",
+   "name": "ENUT - Dallas County"
+ },
+ {
+   "number": "E515",
+   "abbr": "",
+   "name": "ENUT - El Paso County"
+ },
+ {
+   "number": "E516",
+   "abbr": "",
+   "name": "ENUT - Hidalgo County"
+ },
+ {
+   "number": "E517",
+   "abbr": "",
+   "name": "ENUT - Nueces County"
+ },
+ {
+   "number": "E518",
+   "abbr": "",
+   "name": "ENUT - Tarrant County"
+ },
+ {
+   "number": "E519",
+   "abbr": "",
+   "name": "ENUT - Travis County"
+ },
+ {
+   "number": "F001",
+   "abbr": "SYSFR",
+   "name": "TAMUS Federal Relations Office"
+ },
+ {
+   "number": "HS10",
+   "abbr": "MSB",
+   "name": "MEDICAL SCHOOL BLDG-HOUSTON (HSC )"
+ },
+ {
+   "number": "HSC1",
+   "abbr": "HPEB",
+   "name": "HEALTH PROFESSIONS EDUCATION BUILDING (HSC 001000)"
+ },
+ {
+   "number": "HSC2",
+   "abbr": "MREB",
+   "name": "MEDICAL RESEARCH EDUCATION BUILDING (HSC 001001)"
+ },
+ {
+   "number": "HSC3",
+   "abbr": "CB1",
+   "name": "CLINICAL BUILDING 1 (HSC 002000)"
+ },
+ {
+   "number": "HSC4",
+   "abbr": "HSCUP",
+   "name": "CUP - CENTRAL UTILITY PLANT (HSC 001002)"
+ },
+ {
+   "number": "HSC6",
+   "abbr": "",
+   "name": "HSC TELECOMMUNICATIONS BLDG (001003)"
+ },
+ {
+   "number": "HSC7",
+   "abbr": "BUMC",
+   "name": "BAYLOR UNIVERSTY MEDICAL CENTER (HSC)"
+ },
+ {
+   "number": "HSC8",
+   "abbr": "CHLD",
+   "name": "CHILDREN'S MEDICAL CENTER (HSC)"
+ },
+ {
+   "number": "HSC9",
+   "abbr": "IRM",
+   "name": "INSTITUTE FOR REGENERATIVE MEDICINE (HSC 09002)"
+ },
+ {
+   "number": "HSCA",
+   "abbr": "PHARM",
+   "name": "IRMA LERMA RANGEL PHARMACY BLDG (HSC 000513)"
+ },
+ {
+   "number": "HSCB",
+   "abbr": "RHODE",
+   "name": "RHODE HALL - TAMUK (HSC)"
+ },
+ {
+   "number": "HSCC",
+   "abbr": "SWEB",
+   "name": "Scott & White (S&W) Education Bldg (HSC)"
+ },
+ {
+   "number": "HSCE",
+   "abbr": "",
+   "name": "BORSKI BUILDING (HSC 009H07)"
+ },
+ {
+   "number": "HSCF",
+   "abbr": "",
+   "name": "Coastal Bend Health Education Center (HSC 000123)"
+ },
+ {
+   "number": "HSCG",
+   "abbr": "",
+   "name": "KLEBERG BLDG FOR AGRICULTURE (HSC 000517)"
+ },
+ {
+   "number": "HSCH",
+   "abbr": "",
+   "name": "COLLEGE OF PHARMACY VIVARIUM (HSC 009006)"
+ },
+ {
+   "number": "HSCI",
+   "abbr": "LRC",
+   "name": "LIBRARY RESOURCES CENTER (HSC)"
+ },
+ {
+   "number": "HSCK",
+   "abbr": "DSHS",
+   "name": "Department of Human Servcies (HSC)"
+ },
+ {
+   "number": "HSCL",
+   "abbr": "",
+   "name": "HEALTH PROFESSIONS EDUC BLDG - RR (HSC 010000)"
+ },
+ {
+   "number": "HSCM",
+   "abbr": "AVERY",
+   "name": "AVERY BUILDING"
+ },
+ {
+   "number": "M001",
+   "abbr": "MAENG",
+   "name": "McAllen Engineering Building"
+ },
+ {
+   "number": "PA01",
+   "abbr": "UC01",
+   "name": "U Centre #01"
+ },
+ {
+   "number": "PA02",
+   "abbr": "UC02",
+   "name": "U Centre #02"
+ },
+ {
+   "number": "PA03",
+   "abbr": "UC03",
+   "name": "U Centre #03"
+ },
+ {
+   "number": "PA04",
+   "abbr": "UC04",
+   "name": "U Centre #04"
+ },
+ {
+   "number": "PA05",
+   "abbr": "UC05",
+   "name": "U Centre #05"
+ },
+ {
+   "number": "PA06",
+   "abbr": "UC06",
+   "name": "U Centre #06"
+ },
+ {
+   "number": "PA07",
+   "abbr": "UC07",
+   "name": "U Centre #07"
+ },
+ {
+   "number": "PA08",
+   "abbr": "UC08",
+   "name": "U Centre #08"
+ },
+ {
+   "number": "PA09",
+   "abbr": "UC09",
+   "name": "U Centre #09"
+ },
+ {
+   "number": "PA10",
+   "abbr": "UC10",
+   "name": "U Centre #10"
+ },
+ {
+   "number": "PA11",
+   "abbr": "UC11",
+   "name": "U Centre #11"
+ },
+ {
+   "number": "PB01",
+   "abbr": "PWA",
+   "name": "Park West A"
+ },
+ {
+   "number": "PB02",
+   "abbr": "PWB",
+   "name": "Park West B"
+ },
+ {
+   "number": "PB03",
+   "abbr": "PWC",
+   "name": "Park West C"
+ },
+ {
+   "number": "PB04",
+   "abbr": "PWD",
+   "name": "Park West D"
+ },
+ {
+   "number": "PB05",
+   "abbr": "PWE",
+   "name": "Park West E"
+ },
+ {
+   "number": "PB06",
+   "abbr": "PWF",
+   "name": "Park West F"
+ },
+ {
+   "number": "PB07",
+   "abbr": "PWG",
+   "name": "Park West G"
+ },
+ {
+   "number": "PB08",
+   "abbr": "PWH",
+   "name": "Park West H"
+ },
+ {
+   "number": "PB09",
+   "abbr": "PWJ",
+   "name": "Park West J"
+ },
+ {
+   "number": "PB10",
+   "abbr": "PWK",
+   "name": "Park West K"
+ },
+ {
+   "number": "PB11",
+   "abbr": "PWL",
+   "name": "Park West L"
+ },
+ {
+   "number": "PB12",
+   "abbr": "PWM",
+   "name": "Park West M"
+ },
+ {
+   "number": "PB13",
+   "abbr": "PWN",
+   "name": "Park West N"
+ },
+ {
+   "number": "PB14",
+   "abbr": "PWP",
+   "name": "Park West P"
+ },
+ {
+   "number": "PB15",
+   "abbr": "PWQ",
+   "name": "Park West Q"
+ },
+ {
+   "number": "PC01",
+   "abbr": "CC01",
+   "name": "Calvary Court #01"
+ },
+ {
+   "number": "PC02",
+   "abbr": "CC03",
+   "name": "Calvary Court #03"
+ },
+ {
+   "number": "PC03",
+   "abbr": "CC04",
+   "name": "Calvary Court #04"
+ },
+ {
+   "number": "PC04",
+   "abbr": "CC02",
+   "name": "Calvary Court #02"
+ },
+ {
+   "number": "PC05",
+   "abbr": "CC05",
+   "name": "Calvary Court #05"
+ },
+ {
+   "number": "PC06",
+   "abbr": "CC06",
+   "name": "Calvary Court #06"
+ },
+ {
+   "number": "PC07",
+   "abbr": "CC07",
+   "name": "Calvary Court #07"
+ },
+ {
+   "number": "PC08",
+   "abbr": "CC08",
+   "name": "Calvary Court #08"
+ },
+ {
+   "number": "PC09",
+   "abbr": "CC09",
+   "name": "Calvary Court #09"
+ },
+ {
+   "number": "PC10",
+   "abbr": "GH01",
+   "name": "The George Hotel #01"
+ },
+ {
+   "number": "PC11",
+   "abbr": "GH02",
+   "name": "The George Hotel #02"
+ },
+ {
+   "number": "PC12",
+   "abbr": "PRK01",
+   "name": "100 Park"
+ },
+ {
+   "number": "PC13",
+   "abbr": "CS01",
+   "name": "Century Square #01"
+ },
+ {
+   "number": "PC14",
+   "abbr": "CS02",
+   "name": "Century Square #02"
+ },
+ {
+   "number": "PC15",
+   "abbr": "CS03",
+   "name": "Century Square #03"
+ },
+ {
+   "number": "PC16",
+   "abbr": "CS04",
+   "name": "Century Square #04"
+ },
+ {
+   "number": "PC17",
+   "abbr": "CS13",
+   "name": "Century Square #13"
+ },
+ {
+   "number": "PC18",
+   "abbr": "CS12",
+   "name": "Century Square #12"
+ },
+ {
+   "number": "PC19",
+   "abbr": "CS05",
+   "name": "Century Square #05"
+ },
+ {
+   "number": "PC20",
+   "abbr": "CS06",
+   "name": "Century Square #06"
+ },
+ {
+   "number": "PC21",
+   "abbr": "CS07",
+   "name": "Century Square #07"
+ },
+ {
+   "number": "PC22",
+   "abbr": "CS08",
+   "name": "Century Square #08"
+ },
+ {
+   "number": "PC23",
+   "abbr": "CS09",
+   "name": "Century Square #09"
+ },
+ {
+   "number": "PC24",
+   "abbr": "CS10",
+   "name": "Century Square #10"
+ },
+ {
+   "number": "PC25",
+   "abbr": "CS11",
+   "name": "Century Square #11"
+ },
+ {
+   "number": "Q001",
+   "abbr": "QENG",
+   "name": "TAMU-Qatar Engineering Building"
+ },
+ {
+   "number": "Q002",
+   "abbr": "QZAM",
+   "name": "TAMU-Qatar Zameen Building"
+ },
+ {
+   "number": "S001",
+   "abbr": "SGR",
+   "name": "Office of State Governmental Relations"
+ }
+]
