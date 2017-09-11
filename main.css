@@ -36,14 +36,6 @@ html, body {
   text-align: center;
 }
 
-#map {
-  border: none;
-  display: block;
-  margin: 0 auto;
-  height: 300px;
-  width: 400px;
-}
-
 #edit {
   bottom: 20px;
   position: absolute;
