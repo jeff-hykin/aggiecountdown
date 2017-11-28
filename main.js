@@ -28,7 +28,7 @@ $(() => {
   });
   $('.timepicker').pickatime();
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
-  if(!schedule.reduce((a, b) => a + b)) $('#scheduleEditor').modal('open');
+  if(!(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length)) $('#scheduleEditor').modal('open');
   refreshTimer();
   setInterval(refreshTimer, 1000);
 });
@@ -108,38 +108,38 @@ function importFromHowdy() {
   try {
     var raw = $('#howdyImport').val();
     var trySchedule = [[], [], [], [], [], [], []];
-    raw = raw.toLowerCase().substring(0, raw.lastIndexOf('\n\n'));
-    var titles = raw.match(/[a-z]{4}-[0-9]{3}-[0-9]{3}/g);
-    var sections = raw.split(/[a-z]{4}-[0-9]{3}-[0-9]{3}/g);
+    raw = raw.toUpperCase().substr(0, raw.toUpperCase().search(/\n\s{0,}[0-9]{1,}\s{0,}\n/g)).trim();
+    var titles = raw.match(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
+    var sections = raw.split(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
     sections.shift();
     for(var i = 0; i < titles.length; i++) {
-      var title = titles[i].trim().toUpperCase().replace(/-/g, ' ');
+      var title = titles[i].trim().replace(/-/gi, ' ');
       title = title.substring(0, title.length - 3);
       var classesText = sections[i].trim();
-      if(/[0-9]{2}:[0-9]{2} (p|a)m - [0-9]{2}:[0-9]{2} (p|a)m/.test(classesText)) {
+      if(/[0-9]{2}:[0-9]{2} (P|A)M - [0-9]{2}:[0-9]{2} (P|A)M/i.test(classesText)) {
         var classes = classesText.split('\n');
         classes.shift();
         for(var j = 0; j < classes.length / 3; j++) {
-          var time = classes[j * 3 + 1];
+          var time = classes[j * 3 + 1].replace(/\s{1,}/gi, ' ');
           var start = convertToSeconds(time.split(' - ')[0]);
           var end = convertToSeconds(time.split(' - ')[1]);
-          var other = classes[j * 3 + 2];
+          var other = classes[j * 3 + 2].replace(/\s{1,}/gi, ' ');
           var otherParts = other.split(' ');
           var day = otherParts[0];
           var days = [];
-          if(day.includes('mo')) days.push(1);
-          if(day.includes('tu')) days.push(2);
-          if(day.includes('we')) days.push(3);
-          if(day.includes('th')) days.push(4);
-          if(day.includes('fr')) days.push(5);
-          var type = otherParts[otherParts.length - 1].trim().toUpperCase();
-          var location = otherParts[otherParts.length - 4].trim().toUpperCase() + ' ' + otherParts[otherParts.length - 3].trim().toUpperCase();
+          if(day.includes('MO')) days.push(1);
+          if(day.includes('TU')) days.push(2);
+          if(day.includes('WE')) days.push(3);
+          if(day.includes('TH')) days.push(4);
+          if(day.includes('FR')) days.push(5);
+          var type = otherParts[otherParts.length - 1].trim();
+          var location = otherParts[otherParts.length - 4].trim() + ' ' + otherParts[otherParts.length - 3].trim();
           var name = title + ' (' + type + ')';
           if(type != 'EXAM') days.forEach(day => trySchedule[day].push(new activity(name, start, end, location)));
         }
       }
     }
-    if(trySchedule.reduce((a, b) => a + b)) {
+    if(trySchedule[0].length + trySchedule[1].length + trySchedule[2].length + trySchedule[3].length + trySchedule[4].length + trySchedule[5].length + trySchedule[6].length) {
       schedule = trySchedule;
       saveSchedule();
       $('#howdyImport').val('').trigger('autoresize');
