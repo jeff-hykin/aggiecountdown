@@ -1,4 +1,41 @@
 
+
+
+
+
+
+// I put all my text from howdy into a string 
+// then this code parses the string and ultimately creates an 
+// array called class_objects
+// class_objects is an array of Courses 
+
+
+// here is the Course class
+class Course
+    {
+        constructor()
+            {
+                // first line data
+                this.name    = ""
+                this.subject = ""
+                this.section = ""
+                this.course_num = null
+
+                // calendar info 
+                this.start_time = ""
+                this.end_time = ""
+                this.days_of_the_week = ""
+                
+                // other info
+                this.teacher = ""
+                this.credits = null
+                this.location = ""
+            }
+        
+    }
+
+
+
 global_regex_string = `
 Search   
  
@@ -88,29 +125,7 @@ class_strings.push(global_regex_string)
 
 
 
-// create a class for the data for the different courses
-class Course
-    {
-        constructor()
-            {
-                // first line data
-                this.name    = ""
-                this.subject = ""
-                this.section = ""
-                this.course_num = null
 
-                // calendar info 
-                this.start_time = ""
-                this.end_time = ""
-                this.days_of_the_week = ""
-                
-                // other info
-                this.teacher = ""
-                this.credits = null
-                this.location = ""
-            }
-        
-    }
 
 class_objects = []
 for (each in class_strings)
