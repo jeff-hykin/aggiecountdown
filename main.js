@@ -35,7 +35,7 @@ $(() => {
 
 function refreshTimer() {
   var output = timerOutput();
-  document.title = (output[1]) ? output[1] : 'Aggie Countdown';
+  document.title = (output[1]) ? output[1] : 'TamuClock';
   $('#timerText').text(output[0]);
   $('#timerNumber').text(output[1]);
   $('#timerLocation').text(output[2]);
