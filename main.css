@@ -98,3 +98,7 @@ html, body {
   text-transform: none;
   white-space: nowrap;
 }
+
+#howdyError {
+  margin-top: 0;
+}
