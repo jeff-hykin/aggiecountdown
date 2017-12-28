@@ -177,18 +177,16 @@ function renderSchedule() {
     earliestActivityTime = Math.floor(earliestActivityTime / 3600);
     latestActivityTime = Math.ceil(latestActivityTime / 3600);
     var timeLabelsHtml = '<td>';
-    for(var i = earliestActivityTime; i <= latestActivityTime; i++) {
-      timeLabelsHtml += '<p class=timeLabel>' + convertTo12hour(i * 3600) + '</p>';
-    }
+    for(var i = earliestActivityTime; i <= latestActivityTime; i++) timeLabelsHtml += '<p class=timeLabel>' + convertTo12hour(i * 3600) + '</p>';
     timeLabelsHtml += '</td>';
     var daysHtml = '';
-    for(var i = 0; i < schedule.length; i++) {
+    for(var i = 0; i < 7; i++) {
       daysHtml += '<td>';
+      for(var j = 0; j <= (latestActivityTime - earliestActivityTime) * 4; j++) daysHtml += '<span class="separator thin" style=top:' + (j * 13.5 + 26.5) + 'px></span>';
+      for(var j = 0; j <= (latestActivityTime - earliestActivityTime); j++) daysHtml += '<span class="separator thick" style=top:' + (j * 54 + 26) + 'px></span>';
       for(var j = 0; j < schedule[i].length; j++) {
         var randomSeed = 0;
-        for(var k = 0; k < schedule[i][j].name.length; k++) {
-          randomSeed += schedule[i][j].name.charCodeAt(k) / 2;
-        }
+        for(var k = 0; k < schedule[i][j].name.length; k++) randomSeed += schedule[i][j].name.charCodeAt(k) / 2;
         var color = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(10)) * colors.length)];
         var potentialHeight = (schedule[i][j].end - schedule[i][j].start) * .015;
         daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '"data-position=bottom onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j].start - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j].name + '</a>';

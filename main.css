@@ -78,6 +78,23 @@ html, body {
   white-space: nowrap;
 }
 
+.separator {
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.thick {
+  background: #ccc;
+  height: 2px;
+}
+
+.thin {
+  background: #eee;
+  height: 1px;
+}
+
 #schedule td {
   padding: 0;
   position: relative;
