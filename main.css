@@ -73,6 +73,8 @@ html, body {
   height: 54px;
   line-height: 54px;
   overflow: hidden;
+  padding-right: 20px;
+  text-align: right;
   text-overflow: ellipsis;
   text-transform: uppercase;
   white-space: nowrap;

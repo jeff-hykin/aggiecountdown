@@ -265,7 +265,7 @@ function convertTo12hour(t) {
     var p = 'AM';
   }
   else var p = 'AM';
-  return zero(h) + ':' + zero(m) + p;
+  return h + ':' + zero(m) + ' ' + p;
 }
 
 var zero = n => ('0' + n).slice(-2);
