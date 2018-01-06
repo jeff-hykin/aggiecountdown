@@ -39,6 +39,32 @@ function refreshTimer() {
   $('#timerText').text(output[0]);
   $('#timerNumber').text(output[1]);
   $('#timerLocation').text(output[2]);
+  if(output[2].length) {
+    if(tempMap != output[2]) {
+      tempMap = output[2];
+      var address = output[2];
+      var tryAbbr = output[2].split(' ')[0];
+      var foundAddr = false;
+      console.log(tryAbbr);
+      for(var i = 0; i < buildings.length; i++) {
+        if(buildings[i]['Abbr'] && buildings[i]['Abbr'].toUpperCase() == tryAbbr.toUpperCase() && buildings[i].Address) {
+          address = buildings[i]['Address'] + ', ' + buildings[i]['City'];
+          foundAddr = true;
+          break;
+        }
+      }
+      if(!foundAddr) {
+        for(var i = 0; i < buildings.length; i++) {
+          if(buildings[i]['Bldg Name'] && buildings[i]['Bldg Name'].toUpperCase().includes(tryAbbr.toUpperCase()) && buildings[i].Address) {
+            address = buildings[i]['Address'] + ', ' + buildings[i]['City'];
+            break;
+          }
+        }
+      }
+      $('iframe').show().prop('src', 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
+    }
+  }
+  else $('iframe').hide();
 }
 
 function timerOutput() {
