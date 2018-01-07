@@ -42,29 +42,27 @@ function refreshTimer() {
   if(output[2].length) {
     if(tempMap != output[2]) {
       tempMap = output[2];
-      var address = output[2];
-      var tryAbbr = output[2].split(' ')[0];
-      var foundAddr = false;
-      console.log(tryAbbr);
-      for(var i = 0; i < buildings.length; i++) {
-        if(buildings[i]['Abbr'] && buildings[i]['Abbr'].toUpperCase() == tryAbbr.toUpperCase() && buildings[i].Address) {
-          address = buildings[i]['Address'] + ', ' + buildings[i]['City'];
-          foundAddr = true;
-          break;
-        }
-      }
-      if(!foundAddr) {
-        for(var i = 0; i < buildings.length; i++) {
-          if(buildings[i]['Bldg Name'] && buildings[i]['Bldg Name'].toUpperCase().includes(tryAbbr.toUpperCase()) && buildings[i].Address) {
-            address = buildings[i]['Address'] + ', ' + buildings[i]['City'];
-            break;
-          }
-        }
-      }
-      $('iframe').show().prop('src', 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
+      var prevAddress = output[3].length ? translateAbbr(output[3]) : '';
+      console.log(output[3]);
+      var address = translateAbbr(output[2]);
+      $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
     }
   }
   else $('iframe').hide();
+}
+
+function translateAbbr(location) {
+  var tryAbbr = location.split(' ')[0];
+  var foundAddr = false;
+  for(var i = 0; i < buildings.length; i++) {
+    if(buildings[i]['Abbr'] && buildings[i]['Abbr'].toUpperCase() == tryAbbr.toUpperCase() && buildings[i].Address) return buildings[i]['Address'] + ', ' + buildings[i]['City'];
+  }
+  if(!foundAddr) {
+    for(var i = 0; i < buildings.length; i++) {
+      if(buildings[i]['Bldg Name'] && buildings[i]['Bldg Name'].toUpperCase().includes(tryAbbr.toUpperCase()) && buildings[i].Address) return buildings[i]['Address'] + ', ' + buildings[i]['City'];
+    }
+  }
+  return location;
 }
 
 function timerOutput() {
@@ -75,6 +73,7 @@ function timerOutput() {
     var activitiesLeft = false;
     var label = '';
     var location = '';
+    var prevLocation = '';
     var difference = 0;
     var inActivity = false;
     for(var i = 0; i < schedule[day].length; i++) {
@@ -86,6 +85,7 @@ function timerOutput() {
       }
       else if(i + 1 < schedule[day].length && c < schedule[day][i + 1].start && c >= schedule[day][i].end) {
         label = schedule[day][i + 1].name;
+        prevLocation = schedule[day][i].location;
         location = schedule[day][i + 1].location;
         difference = schedule[day][i + 1].start - c;
         activitiesLeft = true;
@@ -118,9 +118,9 @@ function timerOutput() {
       else t = h + ':' + zero(m) + ':' + zero(s);
     }
     else t = d + ':' + zero(h) + ':' + zero(m) + ':' + zero(s);
-    return [label + (inActivity ? ' ends in:' : ' starts in:'), t, location];
+    return [label + (inActivity ? ' ends in:' : ' starts in:'), t, location, prevLocation];
   }
-  return ['no schedule', '', ''];
+  return ['no schedule', '', '', ''];
 }
 
 function saveSchedule() {
