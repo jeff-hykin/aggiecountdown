@@ -43,7 +43,6 @@ function refreshTimer() {
     if(tempMap != output[2]) {
       tempMap = output[2];
       var prevAddress = output[3].length ? translateAbbr(output[3]) : '';
-      console.log(output[3]);
       var address = translateAbbr(output[2]);
       $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
     }
