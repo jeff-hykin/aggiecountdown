@@ -5,7 +5,7 @@
 
 When you first open TamuClock, you will be prompted to import your schedule from Howdy.  If you do not have a schedule or simply do not wish to use one, you can skip this step.  The schedule importer does not communicate with Howdy directly, but instead uses regular expressions to parse the text that is copied by the user.
 
-![](https://github.com/rsrickshaw/tamuclock/raw/master/images/keyboard.png)
+![](https://github.com/rsrickshaw/tamuclock/raw/master/images/howdy.png)
 
 # The Countdown
 
