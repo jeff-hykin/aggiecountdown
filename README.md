@@ -1,9 +1,9 @@
-# TamuClock
+# Overview
 [TamuClock](http://tamuclock.com) is a web application that displays a countdown timer reflecting the time remaining between items in a user-defined schedule.  Although it can be used for just about any purpose, it is specifically designed to help Texas A&M students keep track of their classes.  TamuClock runs entirely in the browser (except for the embeded Google map) and stores all user data using HTML5 Web Storage (window.localStorage).
 
 # Getting Started
 
-When you first open TamuClock, you will be prompted to import your schedule from Howdy.  If you do not have a schedule or simply do not wish to use one, you can skip this step.  The schedule importer does not communicate with Howdy directly, but instead uses regular expressions to parse the text that is copied by the user.
+When you first open TamuClock, you will be prompted to import your schedule from Howdy.  If you do not have a schedule or simply do not wish to use one, you can skip this step and [edit your schedule by hand](https://github.com/rsrickshaw/tamuclock#editing-the-schedule).  The schedule importer does not communicate with Howdy directly, but instead uses regular expressions to parse the text that is copied by the user.
 
 ![](https://github.com/rsrickshaw/tamuclock/raw/master/images/howdy.png)
 
@@ -15,7 +15,7 @@ Once configured, TamuClock will display the name and location of the current act
 
 # Editing the Schedule
 
-Clicking on the button in the lower right corner will show an overview of the current schedule.  Here you can edit activities, add new activities, or even import a new schedule from Howdy.
+Clicking on the pencil button in the lower right corner will show you an overview of the current schedule.  Here you can edit activities, add new activities, or even import a new schedule from Howdy.
 
 ![](https://github.com/rsrickshaw/tamuclock/raw/master/images/overview.png)
 
