@@ -19,6 +19,6 @@ Clicking on the pencil button in the lower right corner will show you an overvie
 
 ![](https://github.com/rsrickshaw/tamuclock/raw/master/images/overview.png)
 
-You can edit an activity by simply clicking on it or you can create a new activity by clicking the "+" button in the lower right corner.  This is useful for adding activities that are not listed in your Howdy schedule.  Here you can specify a name, location, time, and day of the week for.  You can also click "Delete" to delete the activity.  Note that whatever location is specified here is the one that will be shown on the map.
+You can edit an activity by simply clicking on it or you can create a new activity by clicking the "+" button in the lower right corner.  This is useful for adding activities that are not listed in your Howdy schedule.  Here you can specify a name, location, time, and day of the week for this activity or delete the activity.  Note that whatever location is specified here is the one that will be shown on the map.
 
 ![](https://github.com/rsrickshaw/tamuclock/raw/master/images/edit.png)
