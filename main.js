@@ -140,7 +140,7 @@ function importFromHowdy() {
       sections.shift();
       for(var i = 0; i < titles.length; i++) {
         var title = titles[i].trim().replace(/-/gi, ' ');
-        title = title.substring(0, title.length - 3);
+        title = title.substring(0, title.length - 3).trim();
         var classesText = sections[i].trim();
         if(/[0-9]{2}:[0-9]{2} (P|A)M - [0-9]{2}:[0-9]{2} (P|A)M/i.test(classesText)) {
           var classes = classesText.split('\n');
