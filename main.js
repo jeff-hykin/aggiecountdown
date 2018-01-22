@@ -1,5 +1,7 @@
 'use strict';
 
+var apple = /Mac|iPad|iPhone|iPod/.test(navigator.platform);
+
 class activity {
   constructor(name, start, end, location) {
     this.name = name;
@@ -29,6 +31,7 @@ $(() => {
   $('.timepicker').pickatime();
   if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
   if(!(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length)) $('#howdyImporter').modal('open');
+  $('#howdyImporter').html($('#howdyImporter').html().replace(/{modifer}/g, apple ? '⌘' : 'control'));
   refreshTimer();
   setInterval(refreshTimer, 1000);
 });
