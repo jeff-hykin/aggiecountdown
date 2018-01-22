@@ -130,6 +130,7 @@ function saveSchedule() {
     schedule[i].sort((a, b) => a.start > b.start);
   }
   localStorage.setItem('schedule', JSON.stringify(schedule));
+  renderSchedule();
 }
 
 function importFromHowdy() {
@@ -174,7 +175,6 @@ function importFromHowdy() {
         saveSchedule();
         $('#howdyImport').val('');
         $('#howdyImporter').modal('close');
-        renderSchedule();
       }
       else {
         console.log('empty schedule');
@@ -258,13 +258,11 @@ function saveActivity(day, activityNumber) {
   $('#activityStart').val('');
   $('#activityEnd').val('');
   saveSchedule();
-  renderSchedule();
 }
 
 function deleteActivity(day, activityNumber) {
   schedule[day].splice(activityNumber, 1);
   saveSchedule();
-  renderSchedule();
 }
 
 function convertToSeconds(t) {
