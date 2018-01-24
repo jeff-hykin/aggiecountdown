@@ -36,7 +36,7 @@ iframe {
   display: block;
   height: calc(100% - 300px);
   margin: 20px auto;
-  width: 50%;
+  width: 80%;
 }
 
 #edit {
