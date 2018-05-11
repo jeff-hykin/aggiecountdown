@@ -13,7 +13,6 @@ class activity {
 
 var schedule = [[], [], [], [], [], [], []];
 var buildings = [];
-var tempMap = '';
 
 const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'blue-grey'];
 
@@ -34,6 +33,8 @@ $(() => {
   $('#howdyImporter').html($('#howdyImporter').html().replace(/{modifer}/g, apple ? '⌘' : 'control'));
   refreshTimer();
   setInterval(refreshTimer, 1000);
+  refreshMap();
+  setInterval(refreshMap, 300000);
 });
 
 function refreshTimer() {
@@ -42,16 +43,27 @@ function refreshTimer() {
   $('#timerText').text(output[0]);
   $('#timerNumber').text(output[1]);
   $('#timerLocation').text(output[2]);
+}
+
+function refreshMap() {
+  console.log('DEBUG refresh map');
+  var output = timerOutput();
   if(output[2].length) {
-    if(tempMap != output[2]) {
-      tempMap = output[2];
+    var address = translateAbbr(output[2]);
+    if(navigator.geolocation.getCurrentPosition(location => {
+      console.log('DEBUG got location: ' + location.coords.latitude + ', ' + location.coords.longitude);
+      var prevAddress = location.coords.latitude + ',' + location.coords.longitude;
+      $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
+    })) {}
+    else {
+      console.log('DEBUG did not get location');
       var prevAddress = output[3].length ? translateAbbr(output[3]) : '';
-      var address = translateAbbr(output[2]);
       $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
     }
   }
   else $('iframe').hide();
 }
+
 
 function translateAbbr(location) {
   var tryAbbr = location.split(' ')[0];
