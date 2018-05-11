@@ -46,17 +46,14 @@ function refreshTimer() {
 }
 
 function refreshMap() {
-  console.log('DEBUG refresh map');
   var output = timerOutput();
   if(output[2].length) {
     var address = translateAbbr(output[2]);
     if(navigator.geolocation.getCurrentPosition(location => {
-      console.log('DEBUG got location: ' + location.coords.latitude + ', ' + location.coords.longitude);
       var prevAddress = location.coords.latitude + ',' + location.coords.longitude;
       $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
     })) {}
     else {
-      console.log('DEBUG did not get location');
       var prevAddress = output[3].length ? translateAbbr(output[3]) : '';
       $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
     }
