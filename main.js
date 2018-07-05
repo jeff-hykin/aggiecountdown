@@ -150,9 +150,7 @@ function importFromHowdy() {
       var titles = raw.match(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
       var sections = raw.split(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
       sections.shift();
-      for(var i = 0; i < sections.length; i++) if(sections[i].includes('SHOW ALL BUILDINGS ON MAP')) {
-        sections[i] = sections[i].substr(0, sections[i].search(/[0-9]{1,}\s*SHOW ALL BUILDINGS ON MAP/)).trim();
-      }
+      for(var i = 0; i < sections.length; i++) if(sections[i].includes('SHOW ALL BUILDINGS ON MAP')) sections[i] = sections[i].substr(0, sections[i].search(/[0-9]{1,}\s*SHOW ALL BUILDINGS ON MAP/)).trim();
       for(var i = 0; i < titles.length; i++) {
         var title = titles[i].trim().replace(/-/gi, ' ');
         title = title.substring(0, title.length - 3).trim();
@@ -188,13 +186,13 @@ function importFromHowdy() {
         $('#howdyImporter').modal('close');
       }
       else {
-        console.log('empty schedule');
+        //console.log('empty schedule');
         $('#howdyError').text('Invalid schedule.');
         $('#howdyError')[0].scrollIntoView();
       }
     }
     catch(e) {
-      console.log(e);
+      //console.log(e);
       $('#howdyError').text('Invalid schedule.');
       $('#howdyError')[0].scrollIntoView();
     }
