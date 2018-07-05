@@ -143,14 +143,14 @@ function saveSchedule() {
 }
 
 function importFromHowdy() {
-  var raw = $('#howdyImport').val();
+  var raw = $('#howdyImport').val().toUpperCase();
   if(raw.length) {
     try {
       var trySchedule = [[], [], [], [], [], [], []];
-      raw = raw.toUpperCase().substr(0, raw.toUpperCase().search(/\n\s{0,}[0-9]{1,}\s{0,}\n/g)).trim();
       var titles = raw.match(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
       var sections = raw.split(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
       sections.shift();
+      for(var i = 0; i < sections.length; i++) sections[i] = sections[i].substr(0, sections[i].search('SHOW ALL BUILDINGS ON MAP') - 2).trim();
       for(var i = 0; i < titles.length; i++) {
         var title = titles[i].trim().replace(/-/gi, ' ');
         title = title.substring(0, title.length - 3).trim();
