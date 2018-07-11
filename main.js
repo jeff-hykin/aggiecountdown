@@ -261,7 +261,7 @@ function editActivity(day, activityNumber) {
 
 function saveActivity(day, activityNumber) {
   if(day != undefined && activityNumber != undefined) schedule[day].splice(activityNumber, 1);
-  schedule[$('#activityDay').val()].push(new activity(($('#activityName').val() ? $('#activityName').val() : 'untitled'), convertToSeconds($('#activityStart').val()), convertToSeconds($('#activityEnd').val()), $('#activityLocation').val()));
+  $('#activityDay').val().forEach(day => schedule[day].push(new activity(($('#activityName').val() ? $('#activityName').val() : 'untitled'), convertToSeconds($('#activityStart').val()), convertToSeconds($('#activityEnd').val()), $('#activityLocation').val())));
   $('#activityName').val('');
   $('#activityLocation').val('');
   $('#activityStart').val('');
