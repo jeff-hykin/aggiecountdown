@@ -108,6 +108,12 @@ iframe {
   height: 1px;
 }
 
+.currentTime {
+  background: #f00;
+  height: 2px;
+  z-index: 2;
+}
+
 #schedule td {
   padding: 0;
   position: relative;

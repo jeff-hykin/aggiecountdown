@@ -228,6 +228,8 @@ function renderSchedule() {
         var potentialHeight = (schedule[i][j].end - schedule[i][j].start) * .015;
         daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '"data-position=bottom onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j].start - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j].name + '</a>';
       }
+      var timeSeconds = (new Date).getSeconds() + (new Date).getMinutes() * 60 + (new Date).getHours() * 3600;
+      if(i == (new Date).getDay() && (earliestActivityTime * 3600) <= timeSeconds && timeSeconds <= (latestActivityTime * 3600)) daysHtml += '<span class="separator currentTime" style=top:' + ((timeSeconds - earliestActivityTime * 3600) * .015 + 26) + 'px></span>';
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
