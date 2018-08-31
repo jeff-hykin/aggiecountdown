@@ -34,7 +34,7 @@ $(() => {
   refreshTimer();
   setInterval(refreshTimer, 1000);
   refreshMap();
-  setInterval(refreshMap, 300000);
+  setInterval(refreshMap, 1800000);
 });
 
 function refreshTimer() {
