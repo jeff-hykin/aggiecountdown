@@ -28,8 +28,10 @@ $(() => {
     ready: () => $('#howdyImport').val('').trigger('autoresize').focus()
   });
   $('.timepicker').pickatime();
-  if(localStorage.schedule) schedule = JSON.parse(localStorage.schedule);
-  if(!(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length)) $('#howdyImporter').modal('open');
+  if(localStorage.schedule)
+    schedule = JSON.parse(localStorage.schedule);
+  if(!(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length))
+    $('#howdyImporter').modal('open');
   $('#howdyImporter').html($('#howdyImporter').html().replace(/{modifer}/g, apple ? '⌘' : 'control'));
   refreshTimer();
   setInterval(refreshTimer, 1000);
@@ -58,7 +60,8 @@ function refreshMap() {
       $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
     }
   }
-  else $('iframe').hide();
+  else
+    $('iframe').hide();
 }
 
 
@@ -66,11 +69,13 @@ function translateAbbr(location) {
   var tryAbbr = location.split(' ')[0];
   var foundAddr = false;
   for(var i = 0; i < buildings.length; i++) {
-    if(buildings[i]['Abbr'] && buildings[i]['Abbr'].toUpperCase() == tryAbbr.toUpperCase() && buildings[i].Address) return buildings[i]['Address'] + ', ' + buildings[i]['City'];
+    if(buildings[i]['Abbr'] && buildings[i]['Abbr'].toUpperCase() == tryAbbr.toUpperCase() && buildings[i].Address)
+      return buildings[i]['Address'] + ', ' + buildings[i]['City'];
   }
   if(!foundAddr) {
     for(var i = 0; i < buildings.length; i++) {
-      if(buildings[i]['Bldg Name'] && buildings[i]['Bldg Name'].toUpperCase().includes(tryAbbr.toUpperCase()) && buildings[i].Address) return buildings[i]['Address'] + ', ' + buildings[i]['City'];
+      if(buildings[i]['Bldg Name'] && buildings[i]['Bldg Name'].toUpperCase().includes(tryAbbr.toUpperCase()) && buildings[i].Address)
+        return buildings[i]['Address'] + ', ' + buildings[i]['City'];
     }
   }
   return location;
@@ -111,7 +116,8 @@ function timerOutput() {
     }
     if(!activitiesLeft) {
       var i = 1;
-      while(!schedule[(day + i) % 7].length) i++;
+      while(!schedule[(day + i) % 7].length)
+        i++;
       label = schedule[(day + i) % 7][0].name;
       location = schedule[(day + i) % 7][0].location;
       difference = (86400 * i - c) + schedule[(day + i) % 7][0].start;
@@ -123,12 +129,16 @@ function timerOutput() {
     var t;
     if(!d) {
       if(!h) {
-        if(!m) t = s;
-        else t = m + ':' + zero(s);
+        if(!m)
+          t = s;
+        else
+          t = m + ':' + zero(s);
       }
-      else t = h + ':' + zero(m) + ':' + zero(s);
+      else
+        t = h + ':' + zero(m) + ':' + zero(s);
     }
-    else t = d + ':' + zero(h) + ':' + zero(m) + ':' + zero(s);
+    else
+      t = d + ':' + zero(h) + ':' + zero(m) + ':' + zero(s);
     return [label + (inActivity ? ' ends in:' : ' starts in:'), t, location, prevLocation];
   }
   return ['no schedule', '', '', ''];
@@ -150,7 +160,9 @@ function importFromHowdy() {
       var titles = raw.match(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
       var sections = raw.split(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
       sections.shift();
-      for(var i = 0; i < sections.length; i++) if(sections[i].includes('SHOW ALL BUILDINGS ON MAP')) sections[i] = sections[i].substr(0, sections[i].search(/[0-9]{1,}\s*SHOW ALL BUILDINGS ON MAP/)).trim();
+      for(var i = 0; i < sections.length; i++)
+        if(sections[i].includes('SHOW ALL BUILDINGS ON MAP'))
+          sections[i] = sections[i].substr(0, sections[i].search(/[0-9]{1,}\s*SHOW ALL BUILDINGS ON MAP/)).trim();
       for(var i = 0; i < titles.length; i++) {
         var title = titles[i].trim().replace(/-/gi, ' ');
         title = title.substring(0, title.length - 3).trim();
@@ -166,15 +178,21 @@ function importFromHowdy() {
             var otherParts = other.split(' ');
             var day = otherParts[0];
             var days = [];
-            if(day.includes('MO')) days.push(1);
-            if(day.includes('TU')) days.push(2);
-            if(day.includes('WE')) days.push(3);
-            if(day.includes('TH')) days.push(4);
-            if(day.includes('FR')) days.push(5);
+            if(day.includes('MO'))
+              days.push(1);
+            if(day.includes('TU'))
+              days.push(2);
+            if(day.includes('WE'))
+              days.push(3);
+            if(day.includes('TH'))
+              days.push(4);
+            if(day.includes('FR'))
+              days.push(5);
             var type = otherParts[otherParts.length - 1].trim();
             var location = otherParts[otherParts.length - 4].trim() + ' ' + otherParts[otherParts.length - 3].trim();
             var name = title + ' (' + type + ')';
-            if(type != 'EXAM') days.forEach(day => trySchedule[day].push(new activity(name, start, end, location)));
+            if(type != 'EXAM')
+              days.forEach(day => trySchedule[day].push(new activity(name, start, end, location)));
           }
         }
       }
@@ -197,7 +215,8 @@ function importFromHowdy() {
       $('#howdyError')[0].scrollIntoView();
     }
   }
-  else $('#howdyError').text('');
+  else
+    $('#howdyError').text('');
 }
 
 function renderSchedule() {
@@ -207,29 +226,36 @@ function renderSchedule() {
     var latestActivityTime = 0;
     for(var i = 0; i < schedule.length; i++) {
       for(var j = 0; j < schedule[i].length; j++) {
-        if(schedule[i][j].start < earliestActivityTime) earliestActivityTime = schedule[i][j].start;
-        if(schedule[i][j].end > latestActivityTime) latestActivityTime = schedule[i][j].end;
+        if(schedule[i][j].start < earliestActivityTime)
+          earliestActivityTime = schedule[i][j].start;
+        if(schedule[i][j].end > latestActivityTime)
+          latestActivityTime = schedule[i][j].end;
       }
     }
     earliestActivityTime = Math.floor(earliestActivityTime / 3600);
     latestActivityTime = Math.ceil(latestActivityTime / 3600);
     var timeLabelsHtml = '<td>';
-    for(var i = earliestActivityTime; i <= latestActivityTime; i++) timeLabelsHtml += '<p class=timeLabel>' + convertTo12hour(i * 3600) + '</p>';
+    for(var i = earliestActivityTime; i <= latestActivityTime; i++)
+      timeLabelsHtml += '<p class=timeLabel>' + convertTo12hour(i * 3600) + '</p>';
     timeLabelsHtml += '</td>';
     var daysHtml = '';
     for(var i = 0; i < 7; i++) {
       daysHtml += '<td>';
-      for(var j = 0; j <= (latestActivityTime - earliestActivityTime) * 4; j++) daysHtml += '<span class="separator thin" style=top:' + (j * 13.5 + 26.5) + 'px></span>';
-      for(var j = 0; j <= (latestActivityTime - earliestActivityTime); j++) daysHtml += '<span class="separator thick" style=top:' + (j * 54 + 26) + 'px></span>';
+      for(var j = 0; j <= (latestActivityTime - earliestActivityTime) * 4; j++)
+        daysHtml += '<span class="separator thin" style=top:' + (j * 13.5 + 26.5) + 'px></span>';
+      for(var j = 0; j <= (latestActivityTime - earliestActivityTime); j++)
+        daysHtml += '<span class="separator thick" style=top:' + (j * 54 + 26) + 'px></span>';
       for(var j = 0; j < schedule[i].length; j++) {
         var randomSeed = 0;
-        for(var k = 0; k < schedule[i][j].name.length; k++) randomSeed += schedule[i][j].name.charCodeAt(k) / 2;
+        for(var k = 0; k < schedule[i][j].name.length; k++)
+          randomSeed += schedule[i][j].name.charCodeAt(k) / 2;
         var color = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(10)) * colors.length)];
         var potentialHeight = (schedule[i][j].end - schedule[i][j].start) * .015;
         daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '"data-position=bottom onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j].start - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j].name + '</a>';
       }
       var timeSeconds = (new Date).getSeconds() + (new Date).getMinutes() * 60 + (new Date).getHours() * 3600;
-      if(i == (new Date).getDay() && (earliestActivityTime * 3600) <= timeSeconds && timeSeconds <= (latestActivityTime * 3600)) daysHtml += '<span class="separator currentTime" style=top:' + ((timeSeconds - earliestActivityTime * 3600) * .015 + 26) + 'px></span>';
+      if(i == (new Date).getDay() && (earliestActivityTime * 3600) <= timeSeconds && timeSeconds <= (latestActivityTime * 3600))
+        daysHtml += '<span class="separator currentTime" style=top:' + ((timeSeconds - earliestActivityTime * 3600) * .015 + 26) + 'px></span>';
       daysHtml += '</td>';
     }
     $('#schedule > tbody').append('<tr>' + timeLabelsHtml + daysHtml + '</tr>');
@@ -262,7 +288,8 @@ function editActivity(day, activityNumber) {
 }
 
 function saveActivity(day, activityNumber) {
-  if(day != undefined && activityNumber != undefined) schedule[day].splice(activityNumber, 1);
+  if(day != undefined && activityNumber != undefined)
+    schedule[day].splice(activityNumber, 1);
   $('#activityDay').val().forEach(day => schedule[day].push(new activity(($('#activityName').val() ? $('#activityName').val() : 'untitled'), convertToSeconds($('#activityStart').val()), convertToSeconds($('#activityEnd').val()), $('#activityLocation').val())));
   $('#activityName').val('');
   $('#activityLocation').val('');
@@ -277,15 +304,19 @@ function deleteActivity(day, activityNumber) {
 }
 
 function convertToSeconds(t) {
-  if(!t) return 0;
+  if(!t)
+    return 0;
   var a = /[aA]/.test(t);
   var p = /[pP]/.test(t);
   t = t.replace(/[^0-9:]/g, '').split(':');
   var h = t[0] * 1;
   var m = t[1] * 1;
-  if(a && h == 12) h = 0;
-  else if(p && h < 12) h += 12;
-  if(h == 24) h = 0;
+  if(a && h == 12)
+    h = 0;
+  else if(p && h < 12)
+    h += 12;
+  if(h == 24)
+    h = 0;
   return h * 3600 + m * 60;
 }
 
@@ -296,12 +327,14 @@ function convertTo12hour(t) {
     h -= 12;
     var p = 'PM';
   }
-  else if(h == 12) var p = 'PM';
+  else if(h == 12)
+    var p = 'PM';
   else if(h == 0) {
     h = 12;
     var p = 'AM';
   }
-  else var p = 'AM';
+  else
+    var p = 'AM';
   return h + ':' + zero(m) + ' ' + p;
 }
 
