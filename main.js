@@ -4,14 +4,14 @@ var apple = /Mac|iPad|iPhone|iPod/.test(navigator.platform);
 
 class activity {
   constructor(name, start, end, location) {
-    this.name = name;
-    this.start = start;
-    this.end = end;
+    this.name     = name;
+    this.start    = start;
+    this.end      = end;
     this.location = location;
   }
 }
 
-var schedule = [[], [], [], [], [], [], []];
+var schedule  = [[], [], [], [], [], [], []];
 var buildings = [];
 
 const colors = ['red', 'pink', 'purple', 'deep-purple', 'indigo', 'blue', 'cyan', 'teal', 'green', 'light-green', 'lime', 'amber', 'orange', 'deep-orange', 'brown', 'blue-grey'];
@@ -40,7 +40,7 @@ $(() => {
 });
 
 function refreshTimer() {
-  var output = timerOutput();
+  var output     = timerOutput();
   document.title = (output[1]) ? output[1] : 'TamuClock';
   $('#timerText').text(output[0]);
   $('#timerNumber').text(output[1]);
@@ -52,9 +52,9 @@ function refreshMap() {
   if(output[2].length) {
     var address = translateAbbr(output[2]);
     if(navigator.geolocation.getCurrentPosition(location => {
-      var prevAddress = location.coords.latitude + ',' + location.coords.longitude;
-      $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
-    })) {}
+         var prevAddress = location.coords.latitude + ',' + location.coords.longitude;
+         $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
+       })) {}
     else {
       var prevAddress = output[3].length ? translateAbbr(output[3]) : '';
       $('iframe').show().prop('src', prevAddress.length ? 'https://www.google.com/maps/embed/v1/directions?origin=' + prevAddress + '&destination=' + address + '&mode=walking&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8' : 'https://www.google.com/maps/embed/v1/place?q=' + address + '&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8');
@@ -64,9 +64,8 @@ function refreshMap() {
     $('iframe').hide();
 }
 
-
 function translateAbbr(location) {
-  var tryAbbr = location.split(' ')[0];
+  var tryAbbr   = location.split(' ')[0];
   var foundAddr = false;
   for(var i = 0; i < buildings.length; i++) {
     if(buildings[i]['Abbr'] && buildings[i]['Abbr'].toUpperCase() == tryAbbr.toUpperCase() && buildings[i].Address)
@@ -83,34 +82,34 @@ function translateAbbr(location) {
 
 function timerOutput() {
   if(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length) {
-    var date = new Date();
-    var day = date.getDay();
-    var c = date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds();
+    var date           = new Date();
+    var day            = date.getDay();
+    var c              = date.getHours() * 3600 + date.getMinutes() * 60 + date.getSeconds();
     var activitiesLeft = false;
-    var label = '';
-    var location = '';
-    var prevLocation = '';
-    var difference = 0;
-    var inActivity = false;
+    var label          = '';
+    var location       = '';
+    var prevLocation   = '';
+    var difference     = 0;
+    var inActivity     = false;
     for(var i = 0; i < schedule[day].length; i++) {
       if(i == 0 && c < schedule[day][i].start) {
-        label = schedule[day][i].name;
-        location = schedule[day][i].location;
-        difference = schedule[day][i].start - c;
+        label          = schedule[day][i].name;
+        location       = schedule[day][i].location;
+        difference     = schedule[day][i].start - c;
         activitiesLeft = true;
       }
       else if(i + 1 < schedule[day].length && c < schedule[day][i + 1].start && c >= schedule[day][i].end) {
-        label = schedule[day][i + 1].name;
-        prevLocation = schedule[day][i].location;
-        location = schedule[day][i + 1].location;
-        difference = schedule[day][i + 1].start - c;
+        label          = schedule[day][i + 1].name;
+        prevLocation   = schedule[day][i].location;
+        location       = schedule[day][i + 1].location;
+        difference     = schedule[day][i + 1].start - c;
         activitiesLeft = true;
       }
       else if(c < schedule[day][i].end && c >= schedule[day][i].start) {
-        label = schedule[day][i].name;
-        location = schedule[day][i].location;
-        difference = schedule[day][i].end - c;
-        inActivity = true;
+        label          = schedule[day][i].name;
+        location       = schedule[day][i].location;
+        difference     = schedule[day][i].end - c;
+        inActivity     = true;
         activitiesLeft = true;
       }
     }
@@ -118,8 +117,8 @@ function timerOutput() {
       var i = 1;
       while(!schedule[(day + i) % 7].length)
         i++;
-      label = schedule[(day + i) % 7][0].name;
-      location = schedule[(day + i) % 7][0].location;
+      label      = schedule[(day + i) % 7][0].name;
+      location   = schedule[(day + i) % 7][0].location;
       difference = (86400 * i - c) + schedule[(day + i) % 7][0].start;
     }
     var d = Math.floor(difference / 86400);
@@ -157,27 +156,27 @@ function importFromHowdy() {
   if(raw.length) {
     try {
       var trySchedule = [[], [], [], [], [], [], []];
-      var titles = raw.match(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
-      var sections = raw.split(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
+      var titles      = raw.match(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
+      var sections    = raw.split(/[A-Z]{4}-[0-9]{3}-[0-9]{3}/gi);
       sections.shift();
       for(var i = 0; i < sections.length; i++)
         if(sections[i].includes('SHOW ALL BUILDINGS ON MAP'))
           sections[i] = sections[i].substr(0, sections[i].search(/[0-9]{1,}\s*SHOW ALL BUILDINGS ON MAP/)).trim();
       for(var i = 0; i < titles.length; i++) {
-        var title = titles[i].trim().replace(/-/gi, ' ');
-        title = title.substring(0, title.length - 3).trim();
+        var title       = titles[i].trim().replace(/-/gi, ' ');
+        title           = title.substring(0, title.length - 3).trim();
         var classesText = sections[i].trim();
         if(/[0-9]{2}:[0-9]{2} (P|A)M - [0-9]{2}:[0-9]{2} (P|A)M/i.test(classesText)) {
           var classes = classesText.split('\n');
           classes.shift();
           for(var j = 0; j < classes.length / 3; j++) {
-            var time = classes[j * 3 + 1].replace(/\s{1,}/gi, ' ');
-            var start = convertToSeconds(time.split(' - ')[0]);
-            var end = convertToSeconds(time.split(' - ')[1]);
-            var other = classes[j * 3 + 2].replace(/\s{1,}/gi, ' ');
+            var time       = classes[j * 3 + 1].replace(/\s{1,}/gi, ' ');
+            var start      = convertToSeconds(time.split(' - ')[0]);
+            var end        = convertToSeconds(time.split(' - ')[1]);
+            var other      = classes[j * 3 + 2].replace(/\s{1,}/gi, ' ');
             var otherParts = other.split(' ');
-            var day = otherParts[0];
-            var days = [];
+            var day        = otherParts[0];
+            var days       = [];
             if(day.includes('MO'))
               days.push(1);
             if(day.includes('TU'))
@@ -188,9 +187,9 @@ function importFromHowdy() {
               days.push(4);
             if(day.includes('FR'))
               days.push(5);
-            var type = otherParts[otherParts.length - 1].trim();
+            var type     = otherParts[otherParts.length - 1].trim();
             var location = otherParts[otherParts.length - 4].trim() + ' ' + otherParts[otherParts.length - 3].trim();
-            var name = title + ' (' + type + ')';
+            var name     = title + ' (' + type + ')';
             if(type != 'EXAM')
               days.forEach(day => trySchedule[day].push(new activity(name, start, end, location)));
           }
@@ -206,13 +205,15 @@ function importFromHowdy() {
       else {
         //console.log('empty schedule');
         $('#howdyError').text('Invalid schedule.');
-        $('#howdyError')[0].scrollIntoView();
+        $('#howdyError')
+        [0].scrollIntoView();
       }
     }
     catch(e) {
       //console.log(e);
       $('#howdyError').text('Invalid schedule.');
-      $('#howdyError')[0].scrollIntoView();
+      $('#howdyError')
+      [0].scrollIntoView();
     }
   }
   else
@@ -223,7 +224,7 @@ function renderSchedule() {
   $('#schedule > tbody').empty();
   if(localStorage.schedule) {
     var earliestActivityTime = 86400;
-    var latestActivityTime = 0;
+    var latestActivityTime   = 0;
     for(var i = 0; i < schedule.length; i++) {
       for(var j = 0; j < schedule[i].length; j++) {
         if(schedule[i][j].start < earliestActivityTime)
@@ -233,8 +234,8 @@ function renderSchedule() {
       }
     }
     earliestActivityTime = Math.floor(earliestActivityTime / 3600);
-    latestActivityTime = Math.ceil(latestActivityTime / 3600);
-    var timeLabelsHtml = '<td>';
+    latestActivityTime   = Math.ceil(latestActivityTime / 3600);
+    var timeLabelsHtml   = '<td>';
     for(var i = earliestActivityTime; i <= latestActivityTime; i++)
       timeLabelsHtml += '<p class=timeLabel>' + convertTo12hour(i * 3600) + '</p>';
     timeLabelsHtml += '</td>';
@@ -249,7 +250,7 @@ function renderSchedule() {
         var randomSeed = 0;
         for(var k = 0; k < schedule[i][j].name.length; k++)
           randomSeed += schedule[i][j].name.charCodeAt(k) / 2;
-        var color = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(10)) * colors.length)];
+        var color           = colors[Math.floor(('0.' + Math.sin(randomSeed).toString().substr(10)) * colors.length)];
         var potentialHeight = (schedule[i][j].end - schedule[i][j].start) * .015;
         daysHtml += '<a href=#activityEditor id=activityButton' + i + '-' + j + ' class="activity btn waves-effect waves-light ' + color + '"data-position=bottom onclick=editActivity(' + i + ',' + j + ') style=height:' + ((potentialHeight < 36) ? 36 : potentialHeight) + 'px;top:' + (((schedule[i][j].start - earliestActivityTime * 3600) * .015) + 27) + 'px>' + schedule[i][j].name + '</a>';
       }
@@ -308,7 +309,7 @@ function convertToSeconds(t) {
     return 0;
   var a = /[aA]/.test(t);
   var p = /[pP]/.test(t);
-  t = t.replace(/[^0-9:]/g, '').split(':');
+  t     = t.replace(/[^0-9:]/g, '').split(':');
   var h = t[0] * 1;
   var m = t[1] * 1;
   if(a && h == 12)
@@ -330,7 +331,7 @@ function convertTo12hour(t) {
   else if(h == 12)
     var p = 'PM';
   else if(h == 0) {
-    h = 12;
+    h     = 12;
     var p = 'AM';
   }
   else
