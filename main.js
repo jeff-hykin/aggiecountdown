@@ -28,8 +28,13 @@ $(() => {
     ready: () => $('#howdyImport').val('').trigger('autoresize').focus()
   });
   $('.timepicker').pickatime();
-  if(localStorage.schedule)
+  if(localStorage.schedule) {
     schedule = JSON.parse(localStorage.schedule);
+    // sort each activity by start time (smallest first) so that timerOutput is correct
+    for (let eachDay in schedule) {
+      schedule[eachDay] = schedule[eachDay].sort((a,b) => a.start - b.start)
+    }
+  }
   if(!(schedule[0].length + schedule[1].length + schedule[2].length + schedule[3].length + schedule[4].length + schedule[5].length + schedule[6].length))
     $('#howdyImporter').modal('open');
   $('#howdyImporter').html($('#howdyImporter').html().replace(/{modifer}/g, apple ? '⌘' : 'control'));
